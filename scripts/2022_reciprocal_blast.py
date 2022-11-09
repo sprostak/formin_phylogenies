@@ -31,4 +31,10 @@ MBBH_file =
 
 ################################################################################
 
+# set up the commands to run forward blastp through python, using the blastp_cline object
+fblastp_cline = NcbiblastpCommandline(seg = "yes", query= query_f, db= db_f, evalue=0.001, word_size=3, 
+										outfmt=6, out= results_f)
+fblastp_cline 
 
+fblastp_cline()  # run the forward blastp
+print("Forward BLAST done!")
