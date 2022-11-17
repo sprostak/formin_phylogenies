@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "Rhdel_protdb",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Rhdel_protdb",
+  "number-of-letters": 5971044,
+  "number-of-sequences": 17459,
+  "last-updated": "2022-11-17T14:44:00",
+  "number-of-volumes": 1,
+  "bytes-total": 9731146,
+  "bytes-to-cache": 6128280,
+  "files": [
+    "Rhdel_protdb.pdb",
+    "Rhdel_protdb.phr",
+    "Rhdel_protdb.pin",
+    "Rhdel_protdb.pog",
+    "Rhdel_protdb.pos",
+    "Rhdel_protdb.pot",
+    "Rhdel_protdb.psq",
+    "Rhdel_protdb.ptf",
+    "Rhdel_protdb.pto"
+  ]
+}

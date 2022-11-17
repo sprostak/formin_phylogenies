@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "Licor_protdb",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Licor_protdb",
+  "number-of-letters": 5765388,
+  "number-of-sequences": 13404,
+  "last-updated": "2022-11-17T14:45:00",
+  "number-of-volumes": 1,
+  "bytes-total": 8739200,
+  "bytes-to-cache": 5886129,
+  "files": [
+    "Licor_protdb.pdb",
+    "Licor_protdb.phr",
+    "Licor_protdb.pin",
+    "Licor_protdb.pog",
+    "Licor_protdb.pos",
+    "Licor_protdb.pot",
+    "Licor_protdb.psq",
+    "Licor_protdb.ptf",
+    "Licor_protdb.pto"
+  ]
+}

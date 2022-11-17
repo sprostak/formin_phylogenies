@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "Lihya_protdb",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Lihya_protdb",
+  "number-of-letters": 5022601,
+  "number-of-sequences": 12055,
+  "last-updated": "2022-11-17T14:45:00",
+  "number-of-volumes": 1,
+  "bytes-total": 7839641,
+  "bytes-to-cache": 5131201,
+  "files": [
+    "Lihya_protdb.pdb",
+    "Lihya_protdb.phr",
+    "Lihya_protdb.pin",
+    "Lihya_protdb.pog",
+    "Lihya_protdb.pos",
+    "Lihya_protdb.pot",
+    "Lihya_protdb.psq",
+    "Lihya_protdb.ptf",
+    "Lihya_protdb.pto"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "Moelo_protdb",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Moelo_protdb",
+  "number-of-letters": 6740042,
+  "number-of-sequences": 14234,
+  "last-updated": "2022-11-17T14:43:00",
+  "number-of-volumes": 1,
+  "bytes-total": 9963262,
+  "bytes-to-cache": 6868253,
+  "files": [
+    "Moelo_protdb.pdb",
+    "Moelo_protdb.phr",
+    "Moelo_protdb.pin",
+    "Moelo_protdb.pog",
+    "Moelo_protdb.pos",
+    "Moelo_protdb.pot",
+    "Moelo_protdb.psq",
+    "Moelo_protdb.ptf",
+    "Moelo_protdb.pto"
+  ]
+}

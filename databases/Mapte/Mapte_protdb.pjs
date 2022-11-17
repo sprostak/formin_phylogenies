@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "Mapte_protdb",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Mapte_protdb",
+  "number-of-letters": 3392302,
+  "number-of-sequences": 8382,
+  "last-updated": "2022-11-17T14:44:00",
+  "number-of-volumes": 1,
+  "bytes-total": 5331528,
+  "bytes-to-cache": 3467845,
+  "files": [
+    "Mapte_protdb.pdb",
+    "Mapte_protdb.phr",
+    "Mapte_protdb.pin",
+    "Mapte_protdb.pog",
+    "Mapte_protdb.pos",
+    "Mapte_protdb.pot",
+    "Mapte_protdb.psq",
+    "Mapte_protdb.ptf",
+    "Mapte_protdb.pto"
+  ]
+}

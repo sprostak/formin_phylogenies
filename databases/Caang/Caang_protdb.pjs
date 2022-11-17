@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "Caang_protdb",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Caang_protdb",
+  "number-of-letters": 4957561,
+  "number-of-sequences": 12763,
+  "last-updated": "2022-11-17T14:43:00",
+  "number-of-volumes": 1,
+  "bytes-total": 7858970,
+  "bytes-to-cache": 5072533,
+  "files": [
+    "Caang_protdb.pdb",
+    "Caang_protdb.phr",
+    "Caang_protdb.pin",
+    "Caang_protdb.pog",
+    "Caang_protdb.pos",
+    "Caang_protdb.pot",
+    "Caang_protdb.psq",
+    "Caang_protdb.ptf",
+    "Caang_protdb.pto"
+  ]
+}

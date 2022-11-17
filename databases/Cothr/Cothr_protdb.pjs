@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "Cothr_protdb",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Cothr_protdb",
+  "number-of-letters": 3197067,
+  "number-of-sequences": 8866,
+  "last-updated": "2022-11-17T14:43:00",
+  "number-of-volumes": 1,
+  "bytes-total": 5319555,
+  "bytes-to-cache": 3276966,
+  "files": [
+    "Cothr_protdb.pdb",
+    "Cothr_protdb.phr",
+    "Cothr_protdb.pin",
+    "Cothr_protdb.pog",
+    "Cothr_protdb.pos",
+    "Cothr_protdb.pot",
+    "Cothr_protdb.psq",
+    "Cothr_protdb.ptf",
+    "Cothr_protdb.pto"
+  ]
+}

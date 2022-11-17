@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "Ampro_protdb",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Ampro_protdb",
+  "number-of-letters": 6256197,
+  "number-of-sequences": 13180,
+  "last-updated": "2022-11-17T14:43:00",
+  "number-of-volumes": 1,
+  "bytes-total": 9294535,
+  "bytes-to-cache": 6374922,
+  "files": [
+    "Ampro_protdb.pdb",
+    "Ampro_protdb.phr",
+    "Ampro_protdb.pin",
+    "Ampro_protdb.pog",
+    "Ampro_protdb.pos",
+    "Ampro_protdb.pot",
+    "Ampro_protdb.psq",
+    "Ampro_protdb.ptf",
+    "Ampro_protdb.pto"
+  ]
+}
