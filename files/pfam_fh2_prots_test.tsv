@@ -1,0 +1,50 @@
+Accession	Source Database	Name	Tax ID	Tax Name	Length	Entry Accession	Matches
+A0A010R5B3	unreviewed	Cytokinesis protein sepA	1445577	Colletotrichum fioriniae PJ7	1712	PF02181	1103..1493
+A0A015J602	unreviewed	Bni1p	1432141	Rhizophagus irregularis (strain DAOM 197198w)	1478	PF02181	992..1361
+A0A015J6I8	unreviewed	Bni1p	1432141	Rhizophagus irregularis (strain DAOM 197198w)	1486	PF02181	1044..1408
+A0A015L6A3	unreviewed	Bni1p	1432141	Rhizophagus irregularis (strain DAOM 197198w)	1522	PF02181	1036..1405
+A0A016SMC5	unreviewed	GBD/FH3 domain-containing protein	53326	Ancylostoma ceylanicum	972	PF02181	514..898
+A0A016SN97	unreviewed	GBD/FH3 domain-containing protein	53326	Ancylostoma ceylanicum	979	PF02181	521..905
+A0A016SND1	unreviewed	GBD/FH3 domain-containing protein	53326	Ancylostoma ceylanicum	997	PF02181	539..923
+A0A016SNF9	unreviewed	GBD/FH3 domain-containing protein	53326	Ancylostoma ceylanicum	990	PF02181	532..916
+A0A016SRY7	unreviewed	GBD/FH3 domain-containing protein	53326	Ancylostoma ceylanicum	1727	PF02181	1145..1513
+A0A016SSG0	unreviewed	GBD/FH3 domain-containing protein	53326	Ancylostoma ceylanicum	1742	PF02181	1140..1508
+A0A016SSY6	unreviewed	GBD/FH3 domain-containing protein	53326	Ancylostoma ceylanicum	1722	PF02181	1140..1508
+A0A016ST18	unreviewed	GBD/FH3 domain-containing protein	53326	Ancylostoma ceylanicum	1747	PF02181	1145..1513
+A0A016SYR6	unreviewed	FH2 domain-containing protein	53326	Ancylostoma ceylanicum	1051	PF02181	628..993
+A0A016SYW1	unreviewed	FH2 domain-containing protein	53326	Ancylostoma ceylanicum	1133	PF02181	710..1075
+A0A016UKW3	unreviewed	FH2 domain-containing protein	53326	Ancylostoma ceylanicum	1135	PF02181	304..665
+A0A016UMD3	unreviewed	FH2 domain-containing protein	53326	Ancylostoma ceylanicum	1181	PF02181	350..711
+A0A016UNF9	unreviewed	FH2 domain-containing protein	53326	Ancylostoma ceylanicum	1144	PF02181	313..674
+A0A016VRR2	unreviewed	GBD/FH3 domain-containing protein	53326	Ancylostoma ceylanicum	1187	PF02181	667..1042
+A0A016VS72	unreviewed	GBD/FH3 domain-containing protein	53326	Ancylostoma ceylanicum	1218	PF02181	667..1042
+A0A016VT87	unreviewed	GBD/FH3 domain-containing protein	53326	Ancylostoma ceylanicum	1230	PF02181	729..1104
+A0A016VU24	unreviewed	GBD/FH3 domain-containing protein	53326	Ancylostoma ceylanicum	1168	PF02181	667..1042
+A0A016VXT5	unreviewed	Formin-like protein	53326	Ancylostoma ceylanicum	2003	PF02181	1501..1880
+A0A016VYC8	unreviewed	FH2 domain-containing protein	53326	Ancylostoma ceylanicum	696	PF02181	194..573
+A0A016VYL3	unreviewed	FH2 domain-containing protein	53326	Ancylostoma ceylanicum	705	PF02181	203..582
+A0A016VZG6	unreviewed	FH2 domain-containing protein	53326	Ancylostoma ceylanicum	712	PF02181	194..573
+A0A016W074	unreviewed	FH2 domain-containing protein	53326	Ancylostoma ceylanicum	721	PF02181	203..582
+A0A016WMG7	unreviewed	FH2 domain-containing protein	53326	Ancylostoma ceylanicum	741	PF02181	423..728
+A0A016WNE2	unreviewed	FH2 domain-containing protein	53326	Ancylostoma ceylanicum	737	PF02181	419..724
+A0A017SKT4	unreviewed	Putative transferase CAF17, mitochondrial	1388766	Aspergillus ruber (strain CBS 135680)	2200	PF02181	1141..1536
+A0A022PN76	unreviewed	FH2 domain-containing protein	4155	Erythranthe guttata	138	PF02181	13..138
+A0A022PPK2	unreviewed	Formin-like protein	4155	Erythranthe guttata	271	PF02181	1..214
+A0A022PTS8	unreviewed	Formin-like protein	4155	Erythranthe guttata	873	PF02181	409..809
+A0A022Q453	unreviewed	Formin-like protein	4155	Erythranthe guttata	389	PF02181	47..195,204..365
+A0A022QK67	unreviewed	Formin-like protein	4155	Erythranthe guttata	820	PF02181	725..820
+A0A022QMD4	unreviewed	Formin-like protein	4155	Erythranthe guttata	295	PF02181	1..237
+A0A022QPX3	unreviewed	Formin-like protein	4155	Erythranthe guttata	510	PF02181	77..462
+A0A022QQ88	unreviewed	Formin-like protein	4155	Erythranthe guttata	808	PF02181	396..807
+A0A022QRX6	unreviewed	Formin-like protein	4155	Erythranthe guttata	624	PF02181	204..601
+A0A022R1W3	unreviewed	Formin-like protein	4155	Erythranthe guttata	698	PF02181	219..621
+A0A022R6C0	unreviewed	Formin-like protein	4155	Erythranthe guttata	407	PF02181	34..369
+A0A022R7T7	unreviewed	Formin-like protein	4155	Erythranthe guttata	621	PF02181	225..583
+A0A022RLM4	unreviewed	Formin-like protein	4155	Erythranthe guttata	1092	PF02181	668..1038
+A0A022RNV2	unreviewed	Formin-like protein	4155	Erythranthe guttata	695	PF02181	274..672
+A0A022RR79	unreviewed	Formin-like protein	4155	Erythranthe guttata	723	PF02181	276..665
+A0A022RRV5	unreviewed	Formin-like protein	4155	Erythranthe guttata	329	PF02181	3..286
+A0A022RVX9	unreviewed	Formin-like protein	4155	Erythranthe guttata	682	PF02181	211..619
+A0A022RXS2	unreviewed	Formin-like protein	4155	Erythranthe guttata	703	PF02181	272..663
+A0A022S167	unreviewed	Formin-like protein	4155	Erythranthe guttata	676	PF02181	235..638
+A0A022WB97	unreviewed	Cytokinesis protein	1215330	Trichophyton rubrum CBS 288.86	1702	PF02181	1073..1463
