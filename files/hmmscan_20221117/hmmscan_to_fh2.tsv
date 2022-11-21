@@ -1,0 +1,2525 @@
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             ../blasts_20221117/fh2_hit_seqs_20221117.fa
+# target HMM database:             ../../databases/pfam_hmms/FH2.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       KAI3643801.1  [L=1274]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    7.7e-82  261.9  17.0    7.7e-82  261.9  17.0    2.6  2  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.2   1.2     0.034     0.034      79     548 ..     170     184 ..      86     265 .. 0.51
+   2 !  261.9  17.0   7.7e-82   7.7e-82     105     544 ..     729    1193 ..     631    1267 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: -1.2 bits;  conditional E-value: 0.034
+                   ................................................XXXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHCTSHHHHHHHHTBS CS
+           FH2  79 kkkaakkkakkeskekekkekkeekeeekkkekkkekkkkkkekkkaapikpkkklKpLnWdklppnqvtgtvWaeldeesfekeldlselEelFsa 175
+                   +++++                                                                                            
+  KAI3643801.1 170 QQHHQ-------------------------------------------------------------------------------------------- 174
+                   00000............................................................................................ PP
+
+                   CECHHHHXXXXXHCSCCTTCCBSSS-HHHHHHHHHHHHHHTS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHHHCTCTSGTTB-HHHHHH CS
+           FH2 176 kakkkkekkskkksakkkpkevslLDpkraqNiaIlLrklklspeeikdailegDeevLdlellenLlkflPtkeEleklkeykgdlekLgeaEqFl 272
+                                                                                                                    
+  KAI3643801.1   - -------------------------------------------------------------------------------------------------   -
+                   ................................................................................................. PP
+
+                   HHHCTSTTHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-TTTTSBHHH CS
+           FH2 273 lelskiprleqRleallFklnFeeeveelkpslealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKstdgktTLLH 369
+                                                                                                                    
+  KAI3643801.1   - -------------------------------------------------------------------------------------------------   -
+                   ................................................................................................. PP
+
+                   HHHHHHHCCSGGGGGHHHHTTTHHHHHTS-HHHHHHHHHHHHHHHHHHHHHHHCCCTSSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+           FH2 370 ylveeveekypelldfpdeLehvekAakvsleelekdlskLekglkkvekeleasekeeesdkFkekmkeFlkdAeeelekLeellkeaeklfkell 466
+                                                                                                                    
+  KAI3643801.1   - -------------------------------------------------------------------------------------------------   -
+                   ................................................................................................. PP
+
+                   HHTT--TTTCHHHHHHHHHHHHHHHHH....................................................... CS
+           FH2 467 eYFgedpketspeefFgifreFlseflslsaekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakeekese 548
+                                                                                           k ++ +++++
+  KAI3643801.1 175 ------------------------------------------------------------------------KGQQIQQQQQ 184
+                   ........................................................................0000000000 PP
+
+  == domain 2  score: 261.9 bits;  conditional E-value: 7.7e-82
+                    ......................X..XXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHC.......TSHHHHHHHHTBSCECHHHHXX...... CS
+           FH2  105 eekkkekkkekkkkkkekkkaap..ikpkkklKpLnWdklppnqvtgtvWaeldeesfek.......eldlselEelFsakakkkkekk...... 184 
+                    ++ +++      + +  +k++++  ++ k+k+K+L+W+k+p++++ +t+W++ld+  + +       +  ++ lE  F++ + k+++        
+  KAI3643801.1  729 DALMSKVPPPPVAPPFVEKPPKKplYQSKMKMKQLQWQKVPAHELDQTLWSDLDSAGEDDicriltdNNLFQYLESEFAQVSGKSAQLVssdess 823 
+                    3333333333333333333333359********************************999*********************9999998899**** PP
+
+                    .......XXXHCSCCTTCCBSSS-HHHHHHHHHHHHHHTS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHHHCTCTS.GTTB-HHHHH CS
+           FH2  185 .......skkksakkkpkevslLDpkraqNiaIlLrklklspeeikdailegDeevLdlellenLlkflPtkeEleklkeykgd.lekLgeaEqF 271 
+                            + +s+  k   +s LDpk+++N+ IlL+++  ++  +  ai ++D+  +++  + ++l+flP+++E+ ++++ +   ++ L  a+qF
+  KAI3643801.1  824 lsqrqdpIDLESKLTKAPAKSMLDPKKSYNLTILLKRI-KDVGPLLLAIDKVDSAEISEVCVNQILQFLPSSDEIALISSVQLThIKSLPIADQF 917 
+                    **************************************.99999**********************************9999999********** PP
+
+                    HHHHCTSTTHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-T.TTTS CS
+           FH2  272 llelskiprleqRleallFklnFeeeveelkpslealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKst.dgkt 365 
+                    +++l+ i ++e +l++l +k + ee++ +++  le++++ ++e+++S++lk++L+lvL +GN mN +++rG+AyGFk+s L  L  t s   +  
+  KAI3643801.1  918 MVQLLGIQNYELKLRILQLKFSNEESLMDIQSGLEIVQSSMKEIKESQSLKQFLHLVLSIGNVMNVNSFRGGAYGFKISALQSLLHTQSIrSNDW 1012
+                    *********************************************************************************************** PP
+
+                    BHHHHHHHHHHCCSGGGGGHHHHTTTHHHHHTS-HHHHHHHHHHHHHHHHHHHHHHHCCCT.....SSTT-THHHHHHHHHHHHHHHHHHHHHHH CS
+           FH2  366 TLLHylveeveekypelldfpdeLehvekAakvsleelekdlskLekglkkvekeleasek.....eeesdkFkekmkeFlkdAeeelekLeell 455 
+                    T+LH++  ++ ++yp  l f   L ++ +A+++s+  ++++++++ + +  ++ ++++  +       ++d++ ++  +Fl+d e +l++++ ++
+  KAI3643801.1 1013 TMLHFILDIASRHYPSALEFLYHLDSLHEACRISVSVIAQNFKSMYQSVSMLQSQCSKLVNsnrldSGHDDEVLHQQLQFLSDIESQLSSIKPEY 1107
+                    ******************************************************************6666666666669**************** PP
+
+                    HHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH................................................... CS
+           FH2  456 keaeklfkelleYFgedpketspeefFgifreFlseflslsaekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakee 544 
+                    + +e++ +++l ++gedp++++ e + + +++F+    ++  ++ ++k++ ++ ++ ++s+++   ++  ++ ++   +e +++ ++ +
+  KAI3643801.1 1108 DSLEQSISQFLTWLGEDPRNCTWESVAKELSTFVLT-AKRVLQSVQDKQQLQQVQQLSASSDNGVDSA--TKYNRLGDEELSAQFSSLK 1193
+                    **********************************75.3333333333333333333333333322222..2222222222222222222 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1274 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.03u 0.01s 00:00:00.04 Elapsed: 00:00:00.03
+# Mc/sec: 25.05
+//
+Query:       KAI3645177.1  [L=1271]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    1.2e-82  264.5  17.4    1.2e-82  264.5  17.4    3.2  4  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.0   1.8     0.058     0.058      76     111 ..      60      95 ..      11     124 .. 0.37
+   2 ?   -4.5   5.6      0.33      0.33     514     552 ..     147     185 ..      83     264 .. 0.43
+   3 ?   -0.1   0.6     0.015     0.015     396     579 ..     628     647 ..     557     728 .. 0.40
+   4 !  264.5  17.4   1.2e-82   1.2e-82     119     545 ..     740    1191 ..     646    1262 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: -2.0 bits;  conditional E-value: 0.058
+                   .................................... CS
+           FH2  76 eaakkkaakkkakkeskekekkekkeekeeekkkek 111
+                   ++++ k+ +++++k+s +++++  k+++e+ k+++ 
+  KAI3645177.1  60 MMNRVKSLRRHRQKSSVDTQNSLVKSSSESVKSQSA 95 
+                   111111111111111111111111111111111111 PP
+
+  == domain 2  score: -4.5 bits;  conditional E-value: 0.33
+                   ....................................... CS
+           FH2 514 kskeeasveeeekaekkaelkeekkklakeekesekkkk 552
+                    ++++++v++++k +k   l+++++k ++ +++s+++++
+  KAI3645177.1 147 DQNHIKKVKAMSKDSKWLLLQQHHQKGQQIQQQSQQQQI 185
+                   111111111111111111111111111111111111111 PP
+
+  == domain 3  score: -0.1 bits;  conditional E-value: 0.015
+                   HTS-HHHHHHHHHHHHHHHHHHHHHHHCCCTSSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHH CS
+           FH2 396 akvsleelekdlskLekglkkvekeleasekeeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreFlsef 492
+                   ak+++e+lek+l+++++                                                                                
+  KAI3645177.1 628 AKLQIEQLEKNLCEIQS-------------------------------------------------------------------------------- 644
+                   11111111111111111................................................................................ PP
+
+                   H...................................................................................... CS
+           FH2 493 lslsaekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakeekesekkkklkkekkkklsskaeskklaseevekva 579
+                                                                                                         +
+  KAI3645177.1 645 ------------------------------------------------------------------------------------LLQ 647
+                   ....................................................................................111 PP
+
+  == domain 4  score: 264.5 bits;  conditional E-value: 1.2e-82
+                    ........X..XXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHC.......TSHHHHHHHHTBSCECHHHHXX.............XXXHCSC CS
+           FH2  119 kkekkkaap..ikpkkklKpLnWdklppnqvtgtvWaeldeesfek.......eldlselEelFsakakkkkekk.............skkksak 191 
+                    +  +k++++  ++ k+k+K+L+W+k+p++++ +t+W++ld+  + +       +  ++ lE  F++ + k+++               ++ +s+ 
+  KAI3645177.1  740 PFVQKPPKKplYQSKMKMKQLQWEKVPAHELDQTLWSDLDSAGEDSicriltdNNLFQYLESEFAQVSGKSAQLVtsdesslfqrqdsDDLESKV 834 
+                    33333333359******************************************99999999999999999999889999********99****** PP
+
+                    CTTCCBSSS-HHHHHHHHHHHHHHTS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHHHCTCTS.GTTB-HHHHHHHHHCTSTTHHHHH CS
+           FH2  192 kkpkevslLDpkraqNiaIlLrklklspeeikdailegDeevLdlellenLlkflPtkeEleklkeykgd.lekLgeaEqFllelskiprleqRl 285 
+                     k+  +s LDpk+++N+ IlL+++  +++ +  ai ++D+ v+++  + ++l+flP+++E+ ++++ +    + L  a+qF+++l+ i ++e +l
+  KAI3645177.1  835 TKSPAKSMLDPKKSYNLTILLKRI-KDVSPLLLAIDKVDSAVISEVCVNQILQFLPSSDEIALISSVQLThSNSLPIADQFMVQLLGIQNYELKL 928 
+                    ************************.9999***********************************77777777*********************** PP
+
+                    HHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-T.TTTSBHHHHHHHHHHCCS CS
+           FH2  286 eallFklnFeeeveelkpslealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKst.dgktTLLHylveeveeky 379 
+                    ++l +k + ee++ +++  le++++ ++e+++S++lk++L+lvL +GN mN +++rG+AyGFk+s L  L  t s   +  T+LH++  ++ ++y
+  KAI3645177.1  929 RILQLKFSNEESLMDIQSGLEIVQSSMKEIKESQSLKQFLQLVLSIGNVMNVNSFRGGAYGFKISALQSLIHTQSIrSNDWTMLHFILDIASRHY 1023
+                    *********************************************************************************************** PP
+
+                    GGGGGHHHHTTTHHHHHTS-HHHHHHHHHHHHHHHHHHHHHHHCCCT.....SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHT CS
+           FH2  380 pelldfpdeLehvekAakvsleelekdlskLekglkkvekeleasek.....eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYF 469 
+                    p  l f + L ++ +A+++s+  ++++++++ + +  ++ ++++  +       ++d++ +   +Fl+d e +l++++ +++ +e+  +++l ++
+  KAI3645177.1 1024 PSALEFLNHLDSLHEACRISVAVIAQNFKSMYQSVLMLQSQCSKLVNsnrldSGQDDEVLHPQLQFLSDIESQLSSIKPEYDSLEQTISQFLTWL 1118
+                    ****************************************************5555555555558****************************** PP
+
+                    T--TTTCHHHHHHHHHHHHHHHHH.................................................... CS
+           FH2  470 gedpketspeefFgifreFlseflslsaekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakeek 545 
+                    gedp++++ e + + +++F+     ++  ++ +++++ +  ++ ++++ + v+++ ++ ++   +e +++ ++ ++
+  KAI3645177.1 1119 GEDPRNCTWESVAKELSTFVLT--AKRVLQSVQDKQQLQLVQQLSASSDNGVDST-TKYNRLGDEELSAQFSSLKQ 1191
+                    *******************974..3333333333333333333333333322222.22222222222222222222 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1271 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 30.74
+//
+Query:       KAI3652879.1  [L=1156]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+     3e-123  398.7  27.7     3e-123  398.7  27.7    2.5  3  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -4.3   1.1      0.29      0.29     551     551 ..      64      64 ..       5     151 .. 0.40
+   2 ?   -1.9   5.4     0.055     0.055     418     619 ..     493     589 ..     446     626 .. 0.34
+   3 !  398.7  27.7    3e-123    3e-123     121     574 ..     687    1139 ..     677    1154 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: -4.3 bits;  conditional E-value: 0.29
+                   . CS
+           FH2 551 k 551
+                    
+  KAI3652879.1  64 I 64 
+                   0 PP
+
+  == domain 2  score: -1.9 bits;  conditional E-value: 0.055
+                   HHHHHCCCTSSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH..................... CS
+           FH2 418 ekeleasekeeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreFlseflslsaekkekkeekkkeeakek 514
+                   +                                                                                                
+  KAI3652879.1 493 Q------------------------------------------------------------------------------------------------ 493
+                   1................................................................................................ PP
+
+                   ................................................................................................. CS
+           FH2 515 skeeasveeeekaekkaelkeekkklakeekesekkkklkkekkkklsskaeskklaseevekvavsellksvdealrkvlesvavelaaktsssas 611
+                         +  +e   +++el+++k++l+++++++ k +   + +++k++ +a++ +  +++ +k+ v   + svde    +  +v+++l++  ++s++
+  KAI3652879.1 494 ------SLLIE---REQELTSTKEQLSSKQEQVIKLESDIMAQQHKMELQATKIQELRHDRNKNPVIGGKISVDEWKFPSQFDVSSDLKSFIQTSIN 581
+                   ......11111...11111111111111111111111111111111111111122222222222222222233333333333333333333333333 PP
+
+                   ........ CS
+           FH2 612 vlaeklka 619
+                     +e++ka
+  KAI3652879.1 582 NSIEHMKA 589
+                   33333333 PP
+
+  == domain 3  score: 398.7 bits;  conditional E-value: 3e-123
+                    ......X.XXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHC.TSHHHHHHHHTBSCECHHHHXXXXXHCSCCTTCCBSSS-HHHHHHHHHHHH CS
+           FH2  121 ekkkaap.ikpkkklKpLnWdklppnqvtgtvWaeldeesfek.eldlselEelFsakakkkkekkskkksakkkpkevslLDpkraqNiaIlLr 213 
+                    ++k++    +pk+k+++ +Wdkl +n +++t+W +l + ++++ +ld+se+E++F+   k   +kk   +s++k++k++ lLD+k+++N++I+L+
+  KAI3652879.1  687 QQKSR-LiAQPKSKMRQMQWDKLASNNLGSTFWQQLHDNEILQkQLDFSEIENTFGIVDKVVEKKK--DSSTEKEVKVINLLDAKKSYNMSIMLS 778 
+                    22222.2579******************************9999*****************99987..*************************** PP
+
+                    HHTS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHHHCTCTSGTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHHHHHHHHHHHH CS
+           FH2  214 klklspeeikdailegDeevLdlellenLlkflPtkeEleklkeykgdlekLgeaEqFllelskiprleqRleallFklnFeeeveelkpsleal 308 
+                    ++k++++ei+ ail + e+ L++ ++++Ll ++Pt+eE ++l e  + + +Lg++EqF++e++ki+r+eqRl++llFk+ F+++v+el+++l+++
+  KAI3652879.1  779 RIKMTYPEIRLAILGLSEDLLSESFIRQLLLYIPTQEEQTMLTENLDQYGRLGKPEQFYIEIMKISRYEQRLKSLLFKRHFSDRVAELTKQLQTI 873 
+                    *********************************************************************************************** PP
+
+                    HHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-TTTTSBHHHHHHHHHHCCSGGGGGHHHHTTTHHHHHTS-HHHH CS
+           FH2  309 eaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKstdgktTLLHylveeveekypelldfpdeLehvekAakvsleel 403 
+                     +A++e+ +S kl++lLe+vL +GN+mN+++++GnA+GFk+ ++ KL+d++++ gk T+L yl   + + + el +f deL++v+kA+k++l+ +
+  KAI3652879.1  874 LSASKEITDSPKLRRLLEIVLWIGNFMNSNSFKGNAFGFKVTTIGKLADIRTN-GKGTFLNYLDTLINKRFLELKNFADELSSVDKASKLQLQAV 967 
+                    ***************************************************87.888************************************** PP
+
+                    HHHHHHHHHHHHHHHHHHHCCCT.SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH.... CS
+           FH2  404 ekdlskLekglkkvekeleasek.eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreFlseflslsa 497 
+                     +++ +L++g++ +++e++ +++ ++++dkF ++mk Fl  +++++ +Le+l +++e ++k + +YFge   +t++e +F if++Fl++f + ++
+  KAI3652879.1  968 MAEFMDLKRGMESLKNEVDLHSDnDDQKDKFYSVMKTFLGISSAQYTALEKLKTDCEAAVKGVYDYFGEED-KTPIESIFLIFAQFLQSFDRARK 1061
+                    *********************************************************************77.8********************** PP
+
+                    .............................................................................. CS
+           FH2  498 ekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakeekesekkkkl.kkekkkklsskaeskklasee 574 
+                    e++ ++e ++k  + e +++++++e+++k ++++  ++++  ++    +s k+ ++ kk+++++++ k+es+ l++e+
+  KAI3652879.1 1062 ENERDEELARKALELEIMDKKRKEERQNKFKEQVLGDTNRRGVMDDLISSLKNGEVmKKNAADRREYKRESRLLKQEN 1139
+                    *****9999999999999888888888887777776666665555555444444430333334444444333333333 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1156 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 75.87
+//
+Query:       KAI3651607.1  [L=1156]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   9.2e-123  397.1  27.6   9.2e-123  397.1  27.6    2.5  3  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -4.3   1.1      0.29      0.29     551     551 ..      64      64 ..       5     151 .. 0.40
+   2 ?   -2.3   5.8     0.074     0.074     516     622 ..     489     592 ..     447     622 .. 0.36
+   3 !  397.1  27.6  9.2e-123  9.2e-123     121     574 ..     687    1139 ..     678    1154 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: -4.3 bits;  conditional E-value: 0.29
+                   . CS
+           FH2 551 k 551
+                    
+  KAI3651607.1  64 I 64 
+                   0 PP
+
+  == domain 2  score: -2.3 bits;  conditional E-value: 0.074
+                   ................................................................................................. CS
+           FH2 516 keeasveeeekaekkaelkeekkklakeekesekkkklkkekkkklsskaeskklaseevekvavsellksvdealrkvlesvavelaaktsssasv 612
+                    e+ ++      e+++el+++k++l+++++++ k +   + +++k++ +a++ +  +++ +k+ v   + svde    +  +v+++l++  ++s++ 
+  KAI3651607.1 489 METVQSLL---IEREQELTTSKEQLSTKQEQVIKLESDIMAQQHKMELQATKIQELRHDRNKNPVIGGKISVDEWKFPSQFDVSLDLKSFIQTSINN 582
+                   11111111...11111111111111111111111111111111222222222222222333333333333334333334444444444444444444 PP
+
+                   .......... CS
+           FH2 613 laeklkavyl 622
+                    +e++ka + 
+  KAI3651607.1 583 SIEQMKAQQQ 592
+                   4444444333 PP
+
+  == domain 3  score: 397.1 bits;  conditional E-value: 9.2e-123
+                    ......X.XXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHC.TSHHHHHHHHTBSCECHHHHXXXXXHCSCCTTCCBSSS-HHHHHHHHHHHH CS
+           FH2  121 ekkkaap.ikpkkklKpLnWdklppnqvtgtvWaeldeesfek.eldlselEelFsakakkkkekkskkksakkkpkevslLDpkraqNiaIlLr 213 
+                    ++k++    +pk+k+++ +Wdkl +n +++t+W +l + ++++ +ld+se+E++F+   k   +kk   +s++k++k++ lLD+k+++N++I+L+
+  KAI3651607.1  687 QQKSR-LiAQPKSKMRQMQWDKLASNNLGSTFWQQLHDNEILQkQLDFSEIENTFGIVDKVVEKKK--DSSTEKEVKVINLLDAKKSYNMSIMLS 778 
+                    22222.2579******************************9999*****************99987..*************************** PP
+
+                    HHTS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHHHCTCTSGTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHHHHHHHHHHHH CS
+           FH2  214 klklspeeikdailegDeevLdlellenLlkflPtkeEleklkeykgdlekLgeaEqFllelskiprleqRleallFklnFeeeveelkpsleal 308 
+                    ++k++++ei+ ail + e+ L++ ++++Ll ++Pt+eE ++l e  + + +Lg++EqF++e++ki+r+eqRl++ll+k+ F+++v+el+++l+++
+  KAI3651607.1  779 RIKMTYPEIRLAILGLSEDLLSESFIRQLLLYIPTQEEQTMLTENLDQYGRLGKPEQFYIEIMKISRYEQRLKSLLYKRHFSDRVAELTKQLQTI 873 
+                    *********************************************************************************************** PP
+
+                    HHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-TTTTSBHHHHHHHHHHCCSGGGGGHHHHTTTHHHHHTS-HHHH CS
+           FH2  309 eaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKstdgktTLLHylveeveekypelldfpdeLehvekAakvsleel 403 
+                     +A++e+ +S kl++lLe+vL +GN+mN+++++GnA+GFk+ ++ KL+d++++ gk T+L yl   + + + el +f deL++v+kA+k++l+ +
+  KAI3651607.1  874 LSASKEITDSPKLRRLLEIVLWIGNFMNSNSFKGNAFGFKVTTIGKLADIRTN-GKGTFLNYLDTLINKRFLELKNFADELSSVDKASKLQLQAV 967 
+                    ***************************************************87.888************************************** PP
+
+                    HHHHHHHHHHHHHHHHHHHCCCT.SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH.... CS
+           FH2  404 ekdlskLekglkkvekeleasek.eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreFlseflslsa 497 
+                     +++ +L++g++ +++e++ +++ ++++dkF ++mk Fl  +++++ +Le+l +++e ++k + +YFge   +t++e +F if++Fl++f + ++
+  KAI3651607.1  968 MAEFMDLKRGMESLRNEVDLHSDnDDQKDKFYSVMKTFLGISSAQYTALEKLKTDCEAAVKGVYDYFGEED-KTPIESIFLIFAQFLQSFDRARK 1061
+                    *********************************************************************77.8********************** PP
+
+                    .............................................................................. CS
+           FH2  498 ekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakeekesekkkkl.kkekkkklsskaeskklasee 574 
+                    e++ ++e ++k  + e +++++++e+++k ++++  ++++  ++    +s k+ ++ kk+++++++ k+es+ l++e+
+  KAI3651607.1 1062 ENERDEELARKALELEIMEKKRKEERQNKFKEQVLGDTNRRGVMDDLISSLKNGEVmKKNAADRREYKRESRLLKQEN 1139
+                    ******999999999999999888888888777776666666555555444444430333334444443333333333 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1156 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 90.35
+//
+Query:       KAI3647622.1  [L=1157]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   1.1e-123  400.1  10.0   1.1e-123  400.1  10.0    2.1  2  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    2.0   1.5    0.0036    0.0036      64     104 ..     445     485 ..     398     537 .. 0.40
+   2 !  400.1  10.0  1.1e-123  1.1e-123     130     528 ..     618    1028 ..     601    1049 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 2.0 bits;  conditional E-value: 0.0036
+                   ......................................... CS
+           FH2  64 aklkakskaakleaakkkaakkkakkeskekekkekkeeke 104
+                   +k+k++s +a++++++ +++k++ +ke +++e++ k+++k+
+  KAI3647622.1 445 DKMKKQSDRANKAVKEVESQKETFMKELSKAEDTVKAKTKR 485
+                   11111111111111111111111111111111111110000 PP
+
+  == domain 2  score: 400.1 bits;  conditional E-value: 1.1e-123
+                    XSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHCTSHHHHHHHHTBSCECHHHHXX.........XXXHCSCCTTCCBSSS-HHHHHHHHHHHHHH CS
+           FH2  130 pkkklKpLnWdklppnqvtgtvWaeldeesfekeldlselEelFsakakkkkekk.........skkksakkkpkevslLDpkraqNiaIlLrkl 215 
+                     +k+lKpL+W+k++++++ +tvW +ld+  ++k+ +++ +E lFsa +kk  ++           ++     +  ++++LD+kr+qN++IlL++l
+  KAI3647622.1  618 SQKPLKPLQWTKVNNAEIADTVWKQLDDAPVHKKMNYDAFESLFSAFQKKDVDRAeskanlssaLSSDNVAAEAPKITVLDSKRSQNVNILLKSL 712 
+                    3699************************************************999*******99999999999********************** PP
+
+                    TS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHHHCTCTSGTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHHHHHHHHHHHHHH CS
+           FH2  216 klspeeikdailegDeevLdlellenLlkflPtkeEleklkeykgdlekLgeaEqFllelskiprleqRleallFklnFeeeveelkpslealea 310 
+                    kl  e+i++ i ++D++ L++ l+  Llk++Pt +E+++l+ +++d+ +++ +E+F+ els+i r+  R++al+ ++ ++e +e+ k+ +++   
+  KAI3647622.1  713 KLQSEDIRRGIFNVDSKLLPPSLITELLKIVPTADEVQMLQPFENDVQNMAAPEKFFWELSRINRYGDRIKALYVRGMYDEWCEDAKRMIKSWVM 807 
+                    *********************************************************************************************** PP
+
+                    HHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-T..TTTSBHHHHHHHHHHCCSGGGGGHHHHTTTHHHHHTS-HHHH CS
+           FH2  311 AceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKst..dgktTLLHylveeveekypelldfpdeLehvekAakvsleel 403 
+                    +++eL++Skk+++lL+++LalGNymN+G+ +G+AyG kL+sLlKL d++st  ++++TLLHylv  v +++ +  +  deL++ve A kv l  l
+  KAI3647622.1  808 GSKELQTSKKFRELLQIILALGNYMNSGQ-KGGAYGYKLESLLKLGDVRSTmeNRRHTLLHYLVDLVDQNLTDAKGWQDELKSVELAVKVELPVL 901 
+                    *****************************.5**************************************************************** PP
+
+                    HHHHHHHHHHHHHHHHHHHCCCT..SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH... CS
+           FH2  404 ekdlskLekglkkvekeleasek..eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreFlseflsls 496 
+                    ++ l++L++g+k++   l++++k   ++ dkF+++m+e +k A+++ e+L++ +k+a+ ++ ++++ F+ed k++ p+efFg +  F+ ++ +++
+  KAI3647622.1  902 RQTLAQLKNGIKDISVLLDNIAKdpRDPTDKFSSVMSEWVKGAQKKQEQLDSAFKDADAAYISVCKLFCEDGKTAVPSEFFGKVQAFIAAYNQSK 996 
+                    *********************************************************************************************** PP
+
+                    ................................ CS
+           FH2  497 aekkekkeekkkeeakekskeeasveeeekae 528 
+                    a++++  +++ + e+kek+k e++++++ k+ 
+  KAI3647622.1  997 ADNEAFIQRQLELEKKEKEKFERNKMMTLKKG 1028
+                    *******9999999999988887776665554 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1157 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 104.12
+//
+Query:       KAI3642370.1  [L=1154]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   2.6e-124  402.2   7.3   2.6e-124  402.2   7.3    2.1  2  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    2.5   1.4    0.0026    0.0026      64     104 ..     445     485 ..     398     540 .. 0.41
+   2 !  402.2   7.3  2.6e-124  2.6e-124     130     532 ..     618    1032 ..     601    1081 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 2.5 bits;  conditional E-value: 0.0026
+                   ......................................... CS
+           FH2  64 aklkakskaakleaakkkaakkkakkeskekekkekkeeke 104
+                   +k+k++s +a++++++ +++k++ +ke +++e++ k+++k+
+  KAI3642370.1 445 DKMKKQSDRANKAVKEVESQKETFMKELSKAEETVKAKTKR 485
+                   11111111111111111111111111111111111100000 PP
+
+  == domain 2  score: 402.2 bits;  conditional E-value: 2.6e-124
+                    XSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHCTSHHHHHHHHTBSCECHHHHXX.........XXXHCSCCTTCCBSSS-HHHHHHHHHHHHHH CS
+           FH2  130 pkkklKpLnWdklppnqvtgtvWaeldeesfekeldlselEelFsakakkkkekk.........skkksakkkpkevslLDpkraqNiaIlLrkl 215 
+                     +k+lKpL+W+k++++++ +tvW +ld+  ++k  +++ +E lFsa +kk  ++           ++     +  ++++LD+kr+qN++IlL++l
+  KAI3642370.1  618 SQKPLKPLQWTKVNNAEIADTVWKQLDDAPVHKRMNYDTFESLFSAFQKKDVDRAeskanlssaLSSDNVAAEAPKITVLDSKRSQNVNILLKSL 712 
+                    3699************************************************999*******99999999999********************** PP
+
+                    TS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHHHCTCTSGTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHHHHHHHHHHHHHH CS
+           FH2  216 klspeeikdailegDeevLdlellenLlkflPtkeEleklkeykgdlekLgeaEqFllelskiprleqRleallFklnFeeeveelkpslealea 310 
+                    kl  e+i++ i ++D++ L++ l+  Llk++Pt +E+++l+ +++d+ +++ +E+F+ els+i r+  R++al+ ++ ++e +e+ k+ +++   
+  KAI3642370.1  713 KLQSEDIRRGIFNVDSKLLPPSLITELLKIVPTADEVQMLQPFENDVQNMAAPEKFFWELSRINRYGDRIKALYVRGMYDEWCEDAKRMIKSWVM 807 
+                    *********************************************************************************************** PP
+
+                    HHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-T..TTTSBHHHHHHHHHHCCSGGGGGHHHHTTTHHHHHTS-HHHH CS
+           FH2  311 AceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKst..dgktTLLHylveeveekypelldfpdeLehvekAakvsleel 403 
+                    +++eL++Skk+++lL++vLalGNymN+G+ +G+AyG kL+sLlKL d++st  ++++TLLHylv  v +++ +  +  deL++ve A kv l  l
+  KAI3642370.1  808 GSKELQTSKKFRELLQIVLALGNYMNSGQ-KGGAYGYKLESLLKLGDVRSTmeNRRHTLLHYLVDLVDQNLTDAKGWQDELKSVELAVKVELPVL 901 
+                    *****************************.5**************************************************************** PP
+
+                    HHHHHHHHHHHHHHHHHHHCCCT..SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH... CS
+           FH2  404 ekdlskLekglkkvekeleasek..eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreFlseflsls 496 
+                    ++ l++L++g+k++   l++++k   ++ dkF+++m++ +k A+++ e+L++ +k+a+ ++ ++++ F+ed k++ p+efFg +  F+ ++ +++
+  KAI3642370.1  902 RQTLAQLKNGIKDISVLLDNIAKdpRDPTDKFSSVMSDWVKGAQKKQEQLDSAFKDADAAYISVCKLFCEDGKTAVPSEFFGKVQAFIAAYNQSK 996 
+                    *********************************************************************************************** PP
+
+                    .................................... CS
+           FH2  497 aekkekkeekkkeeakekskeeasveeeekaekkae 532 
+                    a++++  +++ + e+kek+k+e++++++ k+ +++ 
+  KAI3642370.1  997 ADNEAFIQRQLELEKKEKEKMERNKMMTLKKGAQSG 1032
+                    *******99999999999888877776665555444 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1154 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 121.10
+//
+Query:       KAI9183600.1  [L=1467]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+     1e-126  410.2   0.7   3.2e-126  408.5   0.1    1.8  2  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.7   0.1     0.023     0.023     573     599 ..     653     679 ..     563     750 .. 0.40
+   2 !  408.5   0.1  3.2e-126  3.2e-126     126     535 ..     895    1317 ..     885    1348 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: -0.7 bits;  conditional E-value: 0.023
+                   ........................... CS
+           FH2 573 eevekvavsellksvdealrkvlesva 599
+                   +++++++++ell +  +     +++++
+  KAI9183600.1 653 MAAHEAEIAELLAAIRDDTDDRIKAIT 679
+                   111111111111111111111111111 PP
+
+  == domain 2  score: 408.5 bits;  conditional E-value: 3.2e-126
+                    .X.XXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHC............TSHHHHHHHHTBSCECHHHHXXXXXHCSCCTTCCBSSS-HHHHHH CS
+           FH2  126 ap.ikpkkklKpLnWdklppnqvtgtvWaeldeesfek............eldlselEelFsakakkkkekkskkksakkkpkevslLDpkraqN 207 
+                     + + pk+ lK+L+Wdklp  + ++t+Wa   e+ +              e+ ++ l   F a++++ +++    ++a   +ke+s+L++kra+N
+  KAI9183600.1  895 VRkYSPKVTLKQLQWDKLPDVKARQTIWATTIEQLERGedpdekwakvlgEDLFANLQDVFPARQPAVAAAV---EVAATVKKEISVLESKRAYN 986 
+                    23699***********************987777444477889***************************98...******************** PP
+
+                    HHHHHHHHTS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHHHCTCTSGTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHHHHHH CS
+           FH2  208 iaIlLrklklspeeikdailegDeevLdlellenLlkflPtkeEleklkeykgdlekLgeaEqFllelskiprleqRleallFklnFeeeveelk 302 
+                    i+I+L++ k s+ +i++ il++D + ++   + + lk++Pt eE+ kl+++++dl++L+++++Fl+e++k++r+eqRl+a+ + l F+e+ +e  
+  KAI9183600.1  987 INIMLGRMKQSFGDIRRSILALDFDLMTRPVVTQFLKYVPTAEEIGKLAAFSDDLSELAKPDRFLVEMIKVERYEQRLKAMDYYLRFNERTTEQS 1081
+                    *********************************************************************************************** PP
+
+                    HHHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-TTTTSBHHHHHHHHHHCCSGGGGGHHHHTTTHHHHHT CS
+           FH2  303 pslealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKstdgktTLLHylveeveekypelldfpdeLehvekAak 397 
+                     +++a+++A     +S+ ++ lL+l+L +GNymN G  rGnA GF++ s++KL+dtKs+d+k TLLH+lv +v  k+p ll+f+d+L++   A++
+  KAI9183600.1 1082 GDIRAITKAAVGMHTSEAFRDLLQLILTMGNYMNTGF-RGNATGFRIGSINKLVDTKSADNKRTLLHFLVDTVSLKLPKLLKFTDDLKDTAVACR 1175
+                    ***********************************99.6******************************************************** PP
+
+                    S-HHHHHHHHHHHHHHHHHHHHHHHCCCT....SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHH CS
+           FH2  398 vsleelekdlskLekglkkvekeleasek....eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreF 488 
+                    vs+e+++++++ L+ gl+++ +ele + +    +++ d+Fk +m eF ++A ++l++L++++  ++ ++++ ++ Fgedp+++  +efFgi+ +F
+  KAI9183600.1 1176 VSFESMTAEMNTLNAGLRDIDNELERFYSgadvHDSLDRFKIVMAEFSDRANAKLADLRAEYAAMKVEYEKSVLMFGEDPSKMGADEFFGIVQTF 1270
+                    *********************************************************************************************** PP
+
+                    HHHHH.......................................... CS
+           FH2  489 lseflslsaekkekkeekkkeeakekskeeasveeeekaekkaelke 535 
+                    l++f++  ++  +++e+++k e+++++++++ v+ +++++ +++ ++
+  KAI9183600.1 1271 LTSFQRVHKDILKQRENAEKLERRRRQAQSMIVTGADDKAPSRSSSA 1317
+                    ************99999999999888888777766655544443333 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1467 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 133.34
+//
+Query:       KAI9183601.1  [L=1389]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   4.3e-115  371.8   0.0   1.6e-114  369.9   0.0    1.7  2  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.3   0.0     0.036     0.036      52      92 ..     509     550 ..     476     595 .. 0.36
+   2 !  369.9   0.0  1.6e-114  1.6e-114     130     533 ..     801    1224 ..     786    1241 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: -1.3 bits;  conditional E-value: 0.036
+                   .......................................... CS
+           FH2  52 kllaleaaaaaaaklkakskaakleaakkk.aakkkakkesk 92 
+                   ++++le a+ + + +k+++k+++++ +++k +a+  +kk++ 
+  KAI9183601.1 509 QQAQLEIAELKDRLAKEEAKHKDHDDETAKlRAEIGQKKREV 550
+                   111111111111111111111111111111011111111111 PP
+
+  == domain 2  score: 369.9 bits;  conditional E-value: 1.6e-114
+                    XSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHCTSHHHHHHHHTBSCECHHHHXX.............XXXHCSCCTTCCBSSS-HHHHHHHHHH CS
+           FH2  130 pkkklKpLnWdklppnqvtgtvWaeldeesfekeldlselEelFsakakkkkekk.............skkksakkkpkevslLDpkraqNiaIl 211 
+                     +k+l+ LnW+klp+++   t+W  ld+ +++ +ld++ +E lF+a+++k+k +              +  k++  ++  +s+ D+k++qN++Il
+  KAI9183601.1  801 SSKPLRGLNWSKLPQPKAAATIWKALDDAEVHAKLDTAAFEDLFAAATAKPKGAIapaadgagmgstgTLGKAPVASSALISVVDAKKSQNLSIL 895 
+                    4799**************************************************9**************************************** PP
+
+                    HHHHTS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHHHCTCTSGTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHHHHHHHHHH CS
+           FH2  212 LrklklspeeikdailegDeevLdlellenLlkflPtkeEleklkeykgdlekLgeaEqFllelskiprleqRleallFklnFeeeveelkpsle 306 
+                    L+++k +++ i +ai++ D+e L++e l  + k+ P++ +  +l+  + +++kL+ a++Fl+e ++ipr+e Rl+a++F++nF+e++ +lk s++
+  KAI9183601.1  896 LKRVKADVDAILAAIRRADTELLPVEVLTEMNKLKPDDNDAIALAPVAAEPAKLAMADRFLFEAARIPRFEHRLNAMIFRGNFDETLGDLKHSVR 990 
+                    *********************************************************************************************** PP
+
+                    HHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-T....TTTSBHHHHHHHHHHC.CSGG.GGGHHHHTTTHHHH CS
+           FH2  307 aleaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKst....dgktTLLHylveevee.kype.lldfpdeLehvekA 395 
+                    a++ A++++  S k+++lL+lvL lGNy+N+G  rG+AyGFkL+ L KL+d+Ks+     +k+TLLHyl+e +e   + + + +f ++L++ve A
+  KAI9183601.1  991 AVRLASDQVTGSPKFRELLRLVLGLGNYLNAGA-RGGAYGFKLDALSKLADVKSNananGRKHTLLHYLCELAESpRFADaIGGFAEQLSAVEPA 1084
+                    ********************************9.6*******************95333479************9966653789*********** PP
+
+                    HTS-HHHHHHHHHHHHHHHHHHHHHHHCCCT..SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHH CS
+           FH2  396 akvsleelekdlskLekglkkvekeleasek..eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreF 488 
+                    +kv + ++++ l  ++k+++ +   +e+++k   + + +F++ mk+F  +Ae+e+++L+e  k ae++f++++  + edpk ++ eefFg f++F
+  KAI9183601.1 1085 SKVTITTVRSALGTMKKEINTLGGLIESMAKdaNPANAEFVTAMKPFHATAETEYKQLDEAWKAAETAFEAAVNAYAEDPKVITAEEFFGQFHQF 1179
+                    *********************************************************************************************** PP
+
+                    HHHHH........................................ CS
+           FH2  489 lseflslsaekkekkeekkkeeakekskeeasveeeekaekkael 533 
+                    + +f    ae+ +  ++++++++ke++k++++ e++++++kk++ 
+  KAI9183601.1 1180 VAAFNTAHAENVAWVQKEAENAKKEAEKKKKEDEAAARKAKKSND 1224
+                    **********99999998888888877777766665555544433 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1389 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 138.67
+//
+Query:       ORZ35123.1  [L=1503]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   1.3e-126  409.8   0.0   1.3e-126  409.8   0.0    2.2  2  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.0   4.4     0.058     0.058     403     469 ..     627     695 ..     613     771 .. 0.62
+   2 !  409.8   0.0  1.3e-126  1.3e-126     125     522 ..     921    1334 ..     911    1362 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: -2.0 bits;  conditional E-value: 0.058
+                 HHHHHHHHHHHHHHHHHHHHCCCT..SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHT CS
+         FH2 403 lekdlskLekglkkvekeleasek..eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYF 469
+                 le+ l k+ ++  ++e el   ++    +     + ++e l+ +e+ l  L+++l+ea+ ++++++e  
+  ORZ35123.1 627 LEEQLLKMARDKHRLELELAEGSEaqRAQFMAQIHALNELLNMSERNLGTLQKHLREAQGKYQAAMEVH 695
+                 56666666666666666666666644444444456788999999999************9999999744 PP
+
+  == domain 2  score: 409.8 bits;  conditional E-value: 1.3e-126
+                  ..X.XXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHC............TSHHHHHHHHTBSCECHHHHXXXXXHCSCCTTCCBSSS-HHHHHHH CS
+         FH2  125 aap.ikpkkklKpLnWdklppnqvtgtvWaeldeesfek............eldlselEelFsakakkkkekkskkksakkkpkevslLDpkraqNi 208 
+                  +++ + pk+ lK+L+Wdk+p  qv++t+Wa+  e  +              ++ ++ l   F a+++  +++k     a   ++e+s+LD kr++Ni
+  ORZ35123.1  921 RPRkYVPKVTLKQLQWDKIPDMQVRKTIWASTVELLERGedpdekwaktlgDDLFQSLQSVFPARQPVAAAAK--AVEAVAVKQEISVLDNKRSYNI 1015
+                  344689*************************99885444889999**************************97..********************** PP
+
+                  HHHHHHHTS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHHHCTCTSGTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHHHHHHHHH CS
+         FH2  209 aIlLrklklspeeikdailegDeevLdlellenLlkflPtkeEleklkeykgdlekLgeaEqFllelskiprleqRleallFklnFeeeveelkpsl 305 
+                   I+L+++k s+ +i++ail +D +v++   + + lk++Pt eE+ kl +yk+d + L++a+ F++e++ki+r+e Rl+a+ + l F+e+++e + ++
+  ORZ35123.1 1016 TIMLGRIKASFGDIRRAILGLDFDVMTRPVITQFLKYVPTAEEIGKLTQYKDDTAGLHKADAFFVEMIKIERYEHRLKAMDYYLRFNERIAEQRADI 1112
+                  ************************************************************************************************* PP
+
+                  HHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-TTTTSBHHHHHHHHHHCCSGGGGGHHHHTTTHHHHHTS-HHH CS
+         FH2  306 ealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKstdgktTLLHylveeveekypelldfpdeLehvekAakvslee 402 
+                  +a+++A   +++S+++++lL+l+L lGNymN G  rGnA GF+L s++KL+dtKs+d+k TLLH+lv +v  k p+ll f ++L++ + A++vs+e 
+  ORZ35123.1 1113 KAVTSAAVAVKESQNFHELLQLILTLGNYMNTGF-RGNATGFRLGSINKLVDTKSADNKRTLLHFLVDTVSAKCPQLLEFANDLKDTTTACRVSFEP 1208
+                  ********************************99.6************************************************************* PP
+
+                  HHHHHHHHHHHHHHHHHHHHCCCT......SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH CS
+         FH2  403 lekdlskLekglkkvekeleasek......eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreFlsefl 493 
+                  l+++++ L+ g++ + +el+++ k       ++ d+F+ + ++F ++A ++l+ L++++ e++ ++++++  Fgedp+++  +efFgi+ +Fl++f 
+  ORZ35123.1 1209 LTAEMNLLNAGMRLIDNELDQFYKdeqdpaRDPIDRFRIVFRDFSETANAKLATLQSEYAEMKVAYEAAVVAFGEDPSKMGADEFFGIVQTFLTSFD 1305
+                  ************************************************************************************************* PP
+
+                  ............................. CS
+         FH2  494 slsaekkekkeekkkeeakekskeeasve 522 
+                  +  ++  +++e k+k e+++k+++ +s++
+  ORZ35123.1 1306 RVHKDIIKEREVKEKAERRKKAQSLMSSA 1334
+                  ***99999999888888887777666554 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1503 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 138.90
+//
+Query:       ORZ35120.1  [L=1300]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   8.7e-127  410.4   9.1   1.7e-126  409.4   9.1    1.4  1  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  409.4   9.1  1.7e-126  1.7e-126     124     543 ..     728    1156 ..     714    1200 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 409.4 bits;  conditional E-value: 1.7e-126
+                  ...XXXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHCTSHHHHHHHHTBSCECHHHHXX........XXXHCSCCTTCCBSSS-HHHHHHHHHHH CS
+         FH2  124 kaapikpkkklKpLnWdklppnqvtgtvWaeldeesfekeldlselEelFsakakkkkekk........skkksakkkpkevslLDpkraqNiaIlL 212 
+                  k+     +k+l+ LnW+klp++   +t+W  +d+  ++  ld + +E lF+a+++k+k++            ++++ kp+ +s++Dpk+aqN++IlL
+  ORZ35120.1  728 KT--NMSSKPLRGLNWSKLPAPAAASTIWKAIDDAPVHARLDSAAFEDLFAAAQAKPKAAAaaagstgnLAEEKKDAKPTAISVIDPKKAQNCNILL 822 
+                  22..33699**************************************************************************************** PP
+
+                  HHHTS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHHHCTCTSGTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHHHHHHHHHHHHH CS
+         FH2  213 rklklspeeikdailegDeevLdlellenLlkflPtkeEleklkeykgdlekLgeaEqFllelskiprleqRleallFklnFeeeveelkpsleale 309 
+                  +klkl + +i++a+ + + ++++l+++  Llk++P+ +E+  l+e+++++ekL+ +++F  e s++p++e Rl+++l+k++ ee+v ++k  ++a++
+  ORZ35120.1  823 KKLKLEYTDIIKAVSAANMDTIPLDTIPELLKYMPQADEIASLQEFAKEVEKLAVPDRFIWEASRVPMFEDRLKCMLLKSSVEESVGDIKHAVRAVR 919 
+                  ************************************************************************************************* PP
+
+                  HHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-TTT....TSBHHHHHHHHHHCCSGGGGGHHHHTTTHHHHHTS-HHH CS
+         FH2  310 aAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKstdg....ktTLLHylveeveekypelldfpdeLehvekAakvslee 402 
+                   A+e++++S+k+k++L++vLalGNymN G+ rG+AyGFkL++L KL d+Ks+ +    k+TLLHyl+e +e k+p+ ++f + L++ve A+kvs  e
+  ORZ35120.1  920 LASEQVLESTKFKEVLRVVLALGNYMNTGN-RGGAYGFKLDTLSKLGDVKSNSNangrKHTLLHYLIELLEAKFPDTAGFLETLSAVEPASKVSQAE 1015
+                  ******************************.6*******************95433349************************************** PP
+
+                  HHHHHHHHHHHHHHHHHHHHCCCT.SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH..... CS
+         FH2  403 lekdlskLekglkkvekeleasek.eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreFlseflslsae 498 
+                  ++k+ls+L+  +k v k lea +k  e++  F ++m++F ++ ++++e+L+++ k+ae++f++++  + ed+ + + e+fFg+f+ F+  ++  ++e
+  ORZ35120.1 1016 VRKNLSELKMSVKLVNKVLEALKKnAEKEKLFITVMQPFYDQVTKDIEELDASWKQAEEAFEKAVVSYAEDK-SSKTEDFFGMFHVFAVQYKIAQEE 1111
+                  **********************************************************************98.79********************** PP
+
+                  ............................................. CS
+         FH2  499 kkekkeekkkeeakekskeeasveeeekaekkaelkeekkklake 543 
+                  +k+  ++  + e+ke++k+++++e++++++k++e+ ++  ++a++
+  ORZ35120.1 1112 NKAWYAKVIEMEKKEAEKKRKEEEAASRKKKSTEALNQPDSAAAS 1156
+                  *99999888888877777776666655555554443333332222 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1300 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.01s 00:00:00.02 Elapsed: 00:00:00.00
+# Mc/sec: 143.13
+//
+Query:       ORZ31703.1  [L=1074]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   4.5e-120  388.2   0.0   4.5e-120  388.2   0.0    2.1  2  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -4.0   9.7      0.23      0.23     449     597 ..     395     475 ..     367     547 .. 0.31
+   2 !  388.2   0.0  4.5e-120  4.5e-120     121     516 ..     586     986 ..     552    1002 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: -4.0 bits;  conditional E-value: 0.23
+                 HHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH...................................................... CS
+         FH2 449 ekLeellkeaeklfkelleYFgedpketspeefFgifreFlseflslsaekkekkeekkkeeakekskeeasveeeekaekkaelke.ekkklakeeke 546
+                 +kLe +l+ ++ + k                               ++a++k+++++ +++    +++++ +v++ +++ + a+l++ +  +++++e+e
+  ORZ31703.1 395 SKLEVDLQATQAKLK------------------------------AEEARTKSTEAQLNDKLVALEKNHSVTVAMLQNKLEAAKLEQeQALSAIRKEAE 463
+                 222222222222111..............................011111111111111111111111111111111111111111011111111111 PP
+
+                 ................................................... CS
+         FH2 547 sekkkklkkekkkklsskaeskklaseevekvavsellksvdealrkvles 597
+                 +++++                                       l  ++++
+  ORZ31703.1 464 VKSQA---------------------------------------LAATIKN 475
+                 11111.......................................1111111 PP
+
+  == domain 2  score: 388.2 bits;  conditional E-value: 4.5e-120
+                 ......X.XXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHCTSHHHHHHHHTBSCECHHHHXX.......XXXHCSCCTTCCBSSS-HHHHHHHHHH CS
+         FH2 121 ekkkaap.ikpkkklKpLnWdklppnqvtgtvWaeldeesfekeldlselEelFsakakkkkekk.......skkksakkkpkevslLDpkraqNiaIl 211
+                 ++++++p  kp++k + L W+k++++     vW +l+   +  +ldl+elE +F+ +a++++ k           ks+  +  ++sl+D+kra+N++I+
+  ORZ31703.1 586 PPPPKKPeAKPSVKVRNLAWSKVNATAPAA-VWKSLEAAPDV-KLDLKELESMFAVAATAPSPKAsgagetgAAAKSNAAAIAKISLIDSKRAYNLSIM 682
+                 3333333689**************999998.********866.******************************************************** PP
+
+                 HHHHTS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHHHCTCTS....GTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHHHHHHHHHH CS
+         FH2 212 LrklklspeeikdailegDeevLdlellenLlkflPtkeEleklkeykgd....lekLgeaEqFllelskiprleqRleallFklnFeeeveelkpsle 306
+                 L++lkls+ +i+da++++ e++Ldl l+ ++  ++Pt++++++l+ey +     l++L++++qFl++++++prl +Rl+++lFk++F e+veel p  +
+  ORZ31703.1 683 LGRLKLSFNDIRDALIAMQETKLDLQLVTSIKANCPTSDDEQALAEYLHAspekLAELDRPDQFLVAMISVPRLPTRLDCWLFKAKFGERVEELSPMAK 781
+                 *************************************************************************************************** PP
+
+                 HHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-T.TTTSBHHHHHHHHHHCCSGGGGGHHHHTTTHHHHHTS-HHHHH CS
+         FH2 307 aleaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKst.dgktTLLHylveeveekypelldfpdeLehvekAakvsleele 404
+                 ++ +Ac+ Lr+S+ lkk L+++L +GN+ N+G++rGnA+GF ++ L KL+d+K +  +k++L Hy++ ++++   ++  + ++++ +++Aa+vsl +l+
+  ORZ31703.1 782 SIASACKVLRESEALKKSLKVILTVGNFINAGSFRGNAQGFSIDLLGKLADVKLNgPNKQNLFHYIATVLKD---DVGRLEKDFSPLDAAARVSLMTLQ 877
+                 *********************************************************************997...9*********************** PP
+
+                 HHHHHHHHHHHHHHHHHHCCCTSSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH.......... CS
+         FH2 405 kdlskLekglkkvekeleasekeeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreFlseflslsaekkekk 503
+                 +++++L  g  kv+ ele +e+   s +F+++m+ F++++++ +++L ++ + a + fk+ +e Fgedp +++pe fF+if++F++++ +  +e+ + +
+  ORZ31703.1 878 QEVKELAVGFGKVRSELEHHEP---STPFHSVMSHFVSTNTAAIDALGADSDAAGSDFKSSVEAFGEDPTTATPETFFTIFKTFATSLARAHKENLDRE 973
+                 *******************999...**************************************************************999988888888 PP
+
+                 ............. CS
+         FH2 504 eekkkeeakeksk 516
+                  +++k +++++++
+  ORZ31703.1 974 LKAAKAAKTAATA 986
+                 7777776665554 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1074 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 52.44
+//
+Query:       KXN68160.1  [L=1619]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   3.1e-119  385.4   7.1   3.1e-119  385.4   7.1    2.9  3  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.1   0.3     0.031     0.031     429     461 ..     396     428 ..     374     510 .. 0.57
+   2 ?   -3.4   3.4      0.15      0.15     550     566 ..     930     946 ..     836    1030 .. 0.40
+   3 !  385.4   7.1  3.1e-119  3.1e-119     124     513 ..    1151    1548 ..    1137    1582 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: -1.1 bits;  conditional E-value: 0.031
+                 TT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+         FH2 429 esdkFkekmkeFlkdAeeelekLeellkeaekl 461
+                  +d ++ekm eF  + + el++  e+ k+++++
+  KXN68160.1 396 IKDSVREKMMEFTPEKKLELIEQNEMVKKMKSS 428
+                 344445555555555555555555555544443 PP
+
+  == domain 2  score: -3.4 bits;  conditional E-value: 0.15
+                 ................. CS
+         FH2 550 kkklkkekkkklsskae 566
+                  +kl +++k+ ++ +++
+  KXN68160.1 930 VQKLVAKEKEITQLTNQ 946
+                 11111111111111111 PP
+
+  == domain 3  score: 385.4 bits;  conditional E-value: 3.1e-119
+                  ...X.XXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHCTSHHHHHHHHTBSCECHHHHXXXXXHCSCCTTCCBSSS-HHHHHHHHHHHHHHTS-H CS
+         FH2  124 kaap.ikpkkklKpLnWdklppnqvtgtvWaeldeesfekeldlselEelFsakakkkkekkskkksakkkpkevslLDpkraqNiaIlLrklklsp 219 
+                  ++++ +kpk ++Kp++W+klp+ +v++t+W+ +++e+ + +l+l+e+E lF++k   k+ k   + +++k ++ v lL+ +r+qNi I L+k+k+++
+  KXN68160.1 1151 RKKQgPKPKGPMKPIFWTKLPSKSVPNTIWELIESEKALPNLNLEEVEDLFGKKIIHKSFKR-GTGPKTKTKQLVNLLELNRSQNICISLAKIKIPF 1246
+                  2233689****************************************************998.********************************** PP
+
+                  HHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHHHCTCTSGTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHH CS
+         FH2  220 eeikdailegDeevLdlellenLlkflPtkeEleklkeykgdlekLgeaEqFllelskiprleqRleallFklnFeeeveelkpslealeaAceeLr 316 
+                  + i+ aile+D+++L+++ l++L  ++P++eE++++++y+g++e+Lg+aE++ ++++ iprleqR+++++F++ Fe evee++p l  l++   e++
+  KXN68160.1 1247 SAIRMAILELDDSRLSVDNLRSLQSCCPSSEEIKLISNYQGSIEELGNAEKYIYQVMHIPRLEQRIKSMIFRRRFEMEVEEIRPELTLLNQSISEVK 1343
+                  ************************************************************************************************* PP
+
+                  H-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-T.TTTS......BHHHHHHHHHHCCSG.GGGGHHHHTTTHHHHHTS-HHHHHH CS
+         FH2  317 sSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKst.dgkt......TLLHylveeveekyp.elldfpdeLehvekAakvsleelek 405 
+                  +S+kl +lLe+vLa+GN+mN++t+rGnA GFkL  L+ L+++++t d  t      TLLHyl+ ++ +k    l d+  +L+h+e+Aa+vs+ +l +
+  KXN68160.1 1344 QSQKLINLLETVLAIGNFMNYSTPRGNALGFKLGNLTLLKEVRATiDE-TnpnnipTLLHYLAWIAPDKTWfTLDDLKADLPHLEAAARVSISNLLS 1439
+                  *********************************************763.32333459*********997752566899******************* PP
+
+                  HHHHHHHHHHHHHHHHHCCCT...SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH...... CS
+         FH2  406 dlskLekglkkvekeleasek...eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreFlseflslsaek 499 
+                  ++++L++g++ v  e++ ++k   ++e+d+F+  m++F++ A+e +e++ee+ + +e++ +ell+YF ed    ++e++F i+  F++++ s++ae+
+  KXN68160.1 1440 SINSLSQGVQSVMSEIKIQSKlpnKSENDRFVLYMENFITIASEIVESIEESREALESNLSELLKYFAEDN--SQLEDIFNILIHFIKSYDSSKAEN 1534
+                  *********************************************************************98..6*********************** PP
+
+                  .............. CS
+         FH2  500 kekkeekkkeeake 513 
+                  +++k++ +k +a+ 
+  KXN68160.1 1535 EKSKKKLEKAQATP 1548
+                  **999998887765 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1619 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 86.86
+//
+Query:       KXN64633.1  [L=333]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    8.4e-86  275.0   5.2    9.6e-86  274.8   5.2    1.0  1  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  274.8   5.2   9.6e-86   9.6e-86     275     554 ..       1     281 [.       1     331 [. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 274.8 bits;  conditional E-value: 9.6e-86
+                 HCTSTTHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-TTTTSBHHHHHHH CS
+         FH2 275 lskiprleqRleallFklnFeeeveelkpslealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKstdgktTLLHylve 373
+                 +++i+++e Rlea++Fkl+F+e  ++l  s++++++A+  +r+S++l +lLelvL +GNymNg ++rG+AyGFk+ sL+KL dtK++d+ktTL Hy++ 
+  KXN64633.1   1 MLTIDYYEVRLEAIYFKLTFNEAFTDLDISINSIIEASSAVRNSQSLSELLELVLVIGNYMNGTGFRGGAYGFKIHSLTKLIDTKAADNKTTLVHYIAD 99 
+                 899************************************************************************************************ PP
+
+                 HHHCCSGGGGGHHHHTTTHHHHHTS-HHHHHHHHHHHHHHHHHHHHHHHCCCT.SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT- CS
+         FH2 374 eveekypelldfpdeLehvekAakvsleelekdlskLekglkkvekeleasek.eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFge 471
+                 +v +++p++l+f +e++++e+A++vs+ ++ ++ ++++k++k++ ++++ + +   e+d+F+  mkeF++ A+e++ +L+ +++ + +++  ++  +ge
+  KXN64633.1 100 VVTRHFPHILKFIQEISSIEAACRVSYNDMVSEYNEMNKKIKAINESIDDCFPlPKEDDPFRAIMKEFMSLASERYGRLQIQFEIMNTEYATTVTDMGE 198
+                 *************************************************************************************************** PP
+
+                 -TTTCHHHHHHHHHHHHHHHHH............................................................. CS
+         FH2 472 dpketspeefFgifreFlseflslsaekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakeekesekkkklk 554
+                 d+ +tspeefF  f+ F++ f++ +++++  +e++ k e+k+ + e++++++ ek++++ +++ +++  ++ +++++++    
+  KXN64633.1 199 DATTTSPEEFFNFFKLFITNFKKAQRDNALIEEQRLKAEKKRLEIEAREKAALEKKQQRISASGQENGGSSGDQSEQNEDSIG 281
+                 *****************************999999998888877777777766666666666555555444444333333322 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (333 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 66.86
+//
+Query:       CDH58867.1  [L=595]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   5.5e-104  335.1  19.7   7.2e-104  334.7  19.7    1.0  1  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  334.7  19.7  7.2e-104  7.2e-104     128     567 ..      91     550 ..      71     593 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 334.7 bits;  conditional E-value: 7.2e-104
+                 XXXSSXBXXXXXXBESSGGCTTSCT..CSTCCHHHHC....TSHHHHHHHHTBSCECHHHHXXXXXHCSCCTTCCBSSS-HHHHHHHHHH.HHHH.TS- CS
+         FH2 128 ikpkkklKpLnWdklppnqvtgtvW..aeldeesfek....eldlselEelFsakakkkkekkskkksakkkpkevslLDpkraqNiaIl.Lrkl.kls 218
+                   p +klK L+W+kl++  v +t+W  + +de   e+     + +s+lE lF ak++   e+k  k++ + +++ v++L+  ++ Ni+   L k+ +++
+  CDH58867.1  91 HYPNTKLKNLQWQKLDARGVDKTIWvlETVDENGLEDaldeAGVFSKLEDLFPAKVNLFFERK-LKAKIEERKDAVKFLSKEKSRNINLAiLPKIkNMT 188
+                 5799*******************99556788888888************************99.************************95499999*** PP
+
+                 HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHH.HCTCTS....GTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHH CS
+         FH2 219 peeikdailegDeevLdlellenLlkflPtkeElekl.keykgd....lekLgeaEqFllelskiprleqRleallFklnFeeeveelkpslealeaAc 312
+                 ++e ++ +l++De+ +++ ++ nL+ +lP+k++ ++  ++y ++     ++L+ +EqF +e+++i r+e+Rl+ +l++++F e++e l++++  + +++
+  CDH58867.1 189 FKEARRQLLQLDEQLCTETFISNLIAYLPSKDDDTRTmEKYMKEsdekRAELDYPEQFTVEMASIYRYEPRLRFMLLRIQFWERYEQLHKNMSLVLDVS 287
+                 ********************************9776665555555667*************************************************** PP
+
+                 HHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-T.TTTSBHHHHHHHHHHCCSGGGGGHHHHTTTHHHHHTS..-HHHHHHHHH CS
+         FH2 313 eeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKst.dgktTLLHylveeveekypelldfpdeLehvekAakv..sleelekdls 408
+                 e+Lr+S+++++lL+l+L++GN+mN+ + +G+A+G ++ss++KL+dtK++  ++ TLLH l+ + ++++p+ll f  +L++  +Aa++  s+ +l +   
+  CDH58867.1 288 ESLRNSESFRELLSLILLVGNFMNAQSLQGGAFGMRISSINKLADTKASnVSSLTLLHVLAGVTRRQFPHLLEFLHDLKDTGQAARImvSINDLVQQYT 386
+                 *************************************************9***********************************9666********** PP
+
+                 HHHHHHHHHHHHHHCCCT.....SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH......... CS
+         FH2 409 kLekglkkvekeleasek.....eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreFlseflslsaekkek 502
+                 ++++glk++  el ++ +      ee+d F+++m+eF ++A+ ++e+L++++ +++ ++k+++ Y+ge+pk + p++fFg+f++F+s+++    +++++
+  CDH58867.1 387 EMRQGLKELTLELGTQWQpedttLEEGDCFRDVMTEFRDEASNKFEDLQTVYINMDAKWKDVMVYYGENPKVMRPDDFFGVFARFVSSWKDAAIAEEKH 485
+                 *********************************************************************************************999999 PP
+
+                 ................................................................. CS
+         FH2 503 keekkkeeakekskeeasveeeekaekkaelkeekkklakeekesekkkklkkekkkklsskaes 567
+                 + + ++ee+++k++e ++++ e+k++k ae+++++k++ +e+   +++ + +++ +k++ +  ++
+  CDH58867.1 486 TLKLEREEKRRKEEELRKQRLEAKRQKLAEKEAAEKERRTEDVDLSEEGTGTEDDRKMMDNLLAK 550
+                 99999999999888888888887777777777776666666665555544443333333322222 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (595 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 93.87
+//
+Query:       CDH49539.1  [L=1374]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   7.7e-103  331.3  22.3   1.7e-102  330.2  22.3    1.5  1  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  330.2  22.3  1.7e-102  1.7e-102     127     563 ..     856    1316 ..     832    1371 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 330.2 bits;  conditional E-value: 1.7e-102
+                  X...XXXSSXBXXXXXXBESSGGCTTSCT..CSTCCHHHHC....TSHHHHHHHHTBSCECHHHHXXXXXHCSCCTTCCBSSS-HHHHHHHHH.HHH CS
+         FH2  127 p...ikpkkklKpLnWdklppnqvtgtvW..aeldeesfek....eldlselEelFsakakkkkekkskkksakkkpkevslLDpkraqNiaI.lLr 213 
+                  +     p +klK ++W+kl  ++v++tvW  + ++e +fe+     +++++lE +F ak+++  e+k  k++ + +++ v++L+  ++ N++I +L 
+  CDH49539.1  856 KelgHYPAVKLKNFQWQKLEGHKVENTVWtmNGINEKEFEEvlhrTGEFEKLESTFPAKVNTLFERK-LKAKMEERRDAVKFLSKEKSRNLNIaVLP 951 
+                  13456799*********************444699999999*************************9.*************************5599 PP
+
+                  HHT..S-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHH....HHHHHCTCTS.GTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHHHHHHH CS
+         FH2  214 klk..lspeeikdailegDeevLdlellenLlkflPtkeE....leklkeykgd.lekLgeaEqFllelskiprleqRleallFklnFeeeveelkp 303 
+                  klk   s+ ++++ il++D+e +++ +l nL+ ++Ptk++    +ek+ e +++ ++kL+ +EqF +e++k  r+e+Rl+ +lF+++F e+++ l +
+  CDH49539.1  952 KLKqySSFAQVRERILAVDDELCTETFLSNLILYAPTKDDdlrtMEKYMEASDEeKAKLDIPEQFTIEMMKMYRYESRLQFMLFRMQFWEKYDQLIK 1048
+                  995226********************************99777778886666668****************************************** PP
+
+                  HHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-T.TTTSBHHHHHHHHHHCCSGGGGGHHHHTTTHHHHHTS. CS
+         FH2  304 slealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKst.dgktTLLHylveeveekypelldfpdeLehvekAakv. 398 
+                  ++  + +++++Lr+S+++k+lL ++L lGNymNg +++G+A+G ++ss++KL+dtK++  ++ +LLH lv + ++++p++  f  +L +v  A ++ 
+  CDH49539.1 1049 NMTVVVEVSDSLRHSESFKELLCIILMLGNYMNGMSFQGGAFGMRVSSINKLADTKASnTSSVSLLHVLVGITRRQFPHVQRFLHDLRNVNSATRIm 1145
+                  **********************************************************89999*********************************9 PP
+
+                  .-HHHHHHHHHHHHHHHHHHHHHHHCCCT...SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHH CS
+         FH2  399 .sleelekdlskLekglkkvekeleasek...eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreFlse 491 
+                   s+ ++ +   ++++ lkk+ +ele++ +    +++d+F ++m++  + A+e++e+Le+l+ +++ ++k+++ ++ge+pk + p++fF+if+ F+  
+  CDH49539.1 1146 aSVNDMVEQYTEMRQHLKKLDTELETQWQdakLDPNDRFFQVMTKHRNAATERFEELETLYINMDAKWKDVMSFYGENPKVMRPDDFFSIFSKFVVN 1242
+                  9***********************************************************************************************9 PP
+
+                  HH........................................................................ CS
+         FH2  492 flslsaekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklake..ekesekkkklkkekkkklss 563 
+                  ++    +++++ ++k++ee++++++e+++++ ++ +++++++ + ++++ ++   + +++++ +  +  +kl+s
+  CDH49539.1 1243 WKDAALAEEKQMKKKEREEKRKREEEARKARLQALRKQQQQMLDLDEEEPASpgGTLVKDDRCMMDNLLDKLRS 1316
+                  99999999988888888877777777666666655555544433333322220022222222222222222222 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1374 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 143.37
+//
+Query:       CDH56507.1  [L=1704]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+     4e-123  398.3   7.2     4e-123  398.3   7.2    2.7  3  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.3   0.7      0.14      0.14     407     455 ..     572     618 ..     569     632 .. 0.52
+   2 ?    0.2   0.2     0.013     0.013      37     127 ..     958    1047 ..     924    1059 .. 0.27
+   3 !  398.3   7.2    4e-123    4e-123     128     595 ..    1158    1641 ..    1113    1674 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: -3.3 bits;  conditional E-value: 0.14
+                 HHHHHHHHHHHHHHHHCCCTSSTT-THHHHHHHHHHHHHHHHHHHHHHH CS
+         FH2 407 lskLekglkkvekeleasekeeesdkFkekmkeFlkdAeeelekLeell 455
+                 l +L+ +   +e+ l++s +      +++k+++  ++ e++le ++++l
+  CDH56507.1 572 LTQLREKTASLEDLLRMSRH--TISTLQQKLRDLQTNYEKDLEGMQNQL 618
+                 55555555555555555555..444444444444444444444444444 PP
+
+  == domain 2  score: 0.2 bits;  conditional E-value: 0.013
+                  ...........................................................................................X CS
+         FH2   37 aaaaaaaskkkkkalkllaleaaaaaaaklkakskaakleaakkkaakkkak.keskekekkekkeekeeekkkekkkekkkkkkekkkaap 127 
+                  + +++a+s++++++      ++ +++ ++++ +s +a++e+ ++++ +++ + +e+ e+e+++ ++++++++++e++++  +++++ ++++p
+  CDH56507.1  958 SMESTAKSRRETQTSIG--SSVGSRRDTQISLESLSAHTESWSTRKPRRQPSiSETPEEESMHLDDHSTTQSSAEDSTQIIDTSTAIPPPPP 1047
+                  11111222221111111..1111222222222222222222222222111110111111111111222222222222222222222222222 PP
+
+  == domain 3  score: 398.3 bits;  conditional E-value: 4e-123
+                  XXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHC.......TSHHHHHHHHTBSCECHHHHXXXXXHCSCCTTCCBSSS-HHHHHHHHHH.HHHH. CS
+         FH2  128 ikpkkklKpLnWdklppnqvtgtvWaeldeesfek.......eldlselEelFsakakkkkekkskkksakkkpkevslLDpkraqNiaIl.Lrkl. 215 
+                    p++k++ L+W+k++ +++++tvW+   +e ++        e+ ++ +Ee+F++k+ + k k      +k +++e+ +LD+++a+Ni+I  L+kl 
+  CDH56507.1 1158 HLPSVKTRALQWQKINMDKLKSTVWSAYTDENDAAlenrldmEGIFAMMEETFAQKVINRKIK-----DKKERKQEICILDSRKAYNINIAiLAKLk 1249
+                  459****************************99999***********************9995.....5*********************55***** PP
+
+                  TS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHH.....HCTCTSGTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHHHHHHHHHHH CS
+         FH2  216 klspeeikdailegDeevLdlellenLlkflPtkeElekl.....keykgdlekLgeaEqFllelskiprleqRleallFklnFeeeveelkpslea 307 
+                  +++++e+k++il+ D+  +++ ll+nLl ++Pt++E+ kl      + ++d+ +L++++ F+ e+++ipr+++R++ +lF+++F e+v+ l +++ +
+  CDH56507.1 1250 HIPFPEVKNKILAIDDRFCTEVLLKNLLVNAPTPDEMGKLsvfmkTAPEEDIQNLSKPDAFCAEIMTIPRFKERIDNMLFRSTFTERVTQLGKNMAN 1346
+                  ****************************************88887788888********************************************** PP
+
+                  HHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-TTTTSBHHHHHHHHHHCCSGGGGGHH.HHTTTHHHHHTS-HHHH CS
+         FH2  308 leaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKstdgktTLLHylveeveekypelldfp.deLehvekAakvsleel 403 
+                  + +A+ +L++S+ +k +L lvL lGN++Ng +++G+A+G ++ s++K++dtKs+ + +TLLH+lv+++eek+p ++    d+L+ + +A++v +++l
+  CDH56507.1 1347 VMDASTSLKDSTAFKDFLNLVLMLGNFLNGTNFQGGAFGIRIASINKIVDTKSSSNESTLLHFLVKMIEEKFPNISQALlDDLKLCGEACRVTIQDL 1443
+                  ***************************************************************************97555***************** PP
+
+                  HHHHHHHHHHHHHHHHHHHCCCT.......SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH CS
+         FH2  404 ekdlskLekglkkvekeleasek.......eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreFlsefl 493 
+                   kd ++L+ gl+k+  el+ +            +d+F+e+m++F + A e++++Le  ++ ++ ++k+++ YFge+p++++p+efFgif++F s+++
+  CDH56507.1 1444 IKDYNELRVGLQKLTHELNRHYTedndqeeIAANDRFVEVMTSFRDYAIEKFDQLEVRYTSMDVAYKDVVTYFGENPRDMKPDEFFGIFKTFTSSWE 1540
+                  ****************************99999**************************************************************** PP
+
+                  ................................................................................................. CS
+         FH2  494 slsaekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakeekesekkkklkkekkkklsskaeskklaseevekvavsellksvdea 590 
+                  + +a+  +++++ ++ e+ ++ +e++++++++++++ ael+ e  ++a+e+k  +++   +k ++ +lss a++++l++++++++a +e  ++++e+
+  CDH56507.1 1541 RARADLIAQRKKMEQLERARQFEEQRKAHAKRARKEAAELSGEGGNEAQEAKDIMDNLL-QKLRSGELSSAAKRRSLSQRRMSMAARRERRRTRSES 1636
+                  99999999999999998888888887777777776666666555544444444333333.3333333334444444444444444444444444444 PP
+
+                  ..... CS
+         FH2  591 lrkvl 595 
+                  +  + 
+  CDH56507.1 1637 VAIKA 1641
+                  33333 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1704 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 120.68
+//
+Query:       CDH61520.1  [L=1581]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   5.8e-124  401.1   9.5   5.8e-124  401.1   9.5    2.8  4  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.1   2.7      0.12      0.12     541     572 ..     567     598 ..     515     660 .. 0.33
+   2 ?   -3.9   2.8      0.21      0.21     543     561 ..     759     777 ..     713     873 .. 0.35
+   3 ?   -2.8   1.1       0.1       0.1      63      63 ..     869     869 ..     800     943 .. 0.35
+   4 !  401.1   9.5  5.8e-124  5.8e-124     123     569 ..    1083    1542 ..    1071    1574 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: -3.1 bits;  conditional E-value: 0.12
+                 ................................ CS
+         FH2 541 akeekesekkkklkkekkkklsskaeskklas 572
+                 + +ek+++ +  l++++++  + +++ k l++
+  CDH61520.1 567 QLREKTNSLEDLLRMSRHTISTLQRKIKDLQQ 598
+                 11111111111111111111111111111111 PP
+
+  == domain 2  score: -3.9 bits;  conditional E-value: 0.21
+                 ................... CS
+         FH2 543 eekesekkkklkkekkkkl 561
+                 + +++++++ ++++k  ++
+  CDH61520.1 759 NVQRHDARALASNDKPISA 777
+                 1111111111111111111 PP
+
+  == domain 3  score: -2.8 bits;  conditional E-value: 0.1
+                 . CS
+         FH2  63 a 63 
+                 +
+  CDH61520.1 869 N 869
+                 0 PP
+
+  == domain 4  score: 401.1 bits;  conditional E-value: 5.8e-124
+                  ....X.XXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHC......TSHHHHHHHHTBSCECHHHHXXXXXHCSCCTTCCBSSS-HHHHHHHHHH. CS
+         FH2  123 kkaap.ikpkkklKpLnWdklppnqvtgtvWaeldeesfek......eldlselEelFsakakkkkekkskkksakkkpkevslLDpkraqNiaIl. 211 
+                  +k+ + ++p +k++ L+W+k  +++v++t+W   d ++ +        + +s +E+lF++k+ + k+++     +++k++e+++LDp++aqNi+I  
+  CDH61520.1 1083 RKR-MrYQPDVKTRALQWTKMHNQMVGKTIWGTEDIDEMALedelqsLGVFSSIENLFAQKVIQRKKRD-----QQPKKQEIRILDPNKAQNINIAi 1173
+                  333.36*************************8766666666669999*****************99865.....*********************55 PP
+
+                  HHHH.TS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHH.....HCTCTSGTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHHHHHH CS
+         FH2  212 Lrkl.klspeeikdailegDeevLdlellenLlkflPtkeElekl.....keykgdlekLgeaEqFllelskiprleqRleallFklnFeeeveelk 302 
+                  L++l  ++ e +++++l++D++ + ++ll+++ +f+Pt++E  kl     ++ ++dle+L++++ F++e++ki+r+++R++ +lF+ +F+e+ + l 
+  CDH61520.1 1174 LSRLkYVPIETVVAKLLAVDDSLFKENLLKSMQEFAPTPDETGKLnvfvkSASEEDLERLSKPDTFCYEVMKIDRYKERVDNMLFRVTFNEKHQQLS 1270
+                  9***668**************************************88884444555***************************************** PP
+
+                  HHHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-TTTT.SBHHHHHHHHHHCCSGGGGGHHHHTTTHHHHHTS CS
+         FH2  303 pslealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKstdgk.tTLLHylveeveekypelldfpdeLehvekAakv 398 
+                  +++ ++ +A+  +++Sk++k+lL+l+L lGNymNg+t++G+A+G ++ s++KL+dtK tdg+ tTLLH+lv ++eek+p l +f d+L+   +A++v
+  CDH61520.1 1271 QNMASVLDASIAVKESKSFKELLKLILTLGNYMNGSTFQGGAFGIRIASINKLVDTKCTDGSsTTLLHFLVDTIEEKFPRLHGFLDDLKETGQACRV 1367
+                  ***********************************************************876378******************************** PP
+
+                  -HHHHHHHHHHHHHHHHHHHHHHHCCCT....SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHH CS
+         FH2  399 sleelekdlskLekglkkvekeleasek....eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreFlse 491 
+                   l+++ k+ ++L++gl+k+ +el+a+       e++d+F ++m eF ++A e++e+Le  ++ ++ ++k+++ ++ge+++e++p+efFgif++F s+
+  CDH61520.1 1368 TLQDVVKEYNELRSGLQKLIDELDAHYGddykPEQGDNFAKTMAEFRDKALEKFEELEVRYTSMDVAYKDAVSFYGENANEMKPDEFFGIFKTFTSS 1464
+                  ************************************************************************************************* PP
+
+                  HH............................................................................ CS
+         FH2  492 flslsaekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakeekesekkkklkkekkkklsskaeskk 569 
+                  +++ ++++k+++++ ++ e+ ++++ee++++ ++++++ + ++e++ ++ +ee+++  ++ l++ ++  l + +++++
+  CDH61520.1 1465 WERAMSDNKNARKKLEQMERARRMDEERRERIKAQRQRGVDTSEDNGSTGSEEEKNLMDNLLDRLRAGDLDTGNKRAR 1542
+                  **********99999999999998888888877777777666666655555555444444444444333333333333 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1581 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 87.31
+//
+Query:       CDH49882.1  [L=1482]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+     2e-120  389.4  12.3   2.9e-120  388.8   1.0    2.4  2  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    4.8   4.4   0.00049   0.00049     405     584 ..     589     749 ..     549     807 .. 0.64
+   2 !  388.8   1.0  2.9e-120  2.9e-120     125     570 ..     886    1343 ..     864    1407 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 4.8 bits;  conditional E-value: 0.00049
+                 HHHHHHHHHHHHHHHHHHCCCTSSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHT..T--TTTCHHHHHHHHHHHHHHHHH........ CS
+         FH2 405 kdlskLekglkkvekeleasekeeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYF..gedpketspeefFgifreFlseflslsaekke 501
+                 +d+++L+ +++++e+ l+  ++   +  +++++++   + ++ +e ++++ k++ + +++l+eY   +e+                    + +++++k 
+  CDH49882.1 589 TDVNELKAKIDQLERMLRVADQ--ANTLLQQQLSDLEMEYQQTVEVMDSQNKRLYDTVRQLTEYGspCEKR-------------------RVHRNSRKY 666
+                 689****************999..99999999999999999999999999999999999999999888877...................555555555 PP
+
+                 ................................................................................... CS
+         FH2 502 kkeekkkeeakekskeeasveeeekaekkaelkeekkklakeekesekkkklkkekkkklsskaeskklaseevekvavsell 584
+                  ++++  ++ +++++++++ +++e+ ++ + + ++++ +++  +++++ +k+++++   l+++ e+++ +se+ + ++ ++ +
+  CDH49882.1 667 RNDDSDIKSWEAQTARQNKLQSAENGMEDSPVPTKQSLRSRLGSRVTSFMKRASQQDVFLRKMIEHMSDTSENGDDKSPTTPA 749
+                 55555555555555555555555555544444444444444433333333333333333333322222222222222222222 PP
+
+  == domain 2  score: 388.8 bits;  conditional E-value: 2.9e-120
+                  ..X.XXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHC................TSHHHHHHHHTBSCECHHHHXXXXXHCSCCTTCCBSSS-HHH CS
+         FH2  125 aap.ikpkkklKpLnWdklppnqvtgtvWaeldeesfek................eldlselEelFsakakkkkekkskkksakkkpkevslLDpkr 204 
+                  + + ++p++klK + W+k ++n +++t+W+++d++ +                   + ++++E+ F++++++         + k+ ++ v++LD+++
+  CDH49882.1  886 E-SaFQPRRKLKFIEWEKMNANNIPQTIWSQIDKSLDTRpqqdgsdhsieyqlarVGIFDDIEKIFEQRPAAEL-------KVKNNKERVHVLDSRK 974 
+                  2.2699*****************************8777********************************965.......578************* PP
+
+                  HHHHHHHHHHH..TS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHHHCTCTS..GTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHH CS
+         FH2  205 aqNiaIlLrkl..klspeeikdailegDeevLdlellenLlkflPtkeEleklkeykgd..lekLgeaEqFllelskiprleqRleallFklnFeee 297 
+                  a+N++I+++++  k+++ +i+  i  +D    d+  l nL++f+Pt eE+eklk y g+    +L+ ++qF+++l++i+r+++R e++lF+ +F ++
+  CDH49882.1  975 AYNLNIFITSIarKIPFNDIVPRIKYMDAFFDDEQILNNLIRFAPTTEEVEKLKPYVGSeqRFELSIPDQFCVQLVDIKRFKERAECMLFRTTFRDR 1071
+                  ************************************************************************************************* PP
+
+                  HHHHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-T..TTTSBHHHHHHHHHHCCSGGGGGHHHHTTTH CS
+         FH2  298 veelkpslealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKst..dgktTLLHylveeveekypelldfpdeLehv 392 
+                  +  l++++ a+ +A+ +L + k + +lL+l+L+lGNy+Ng+t+rG+A+G ++ s++KL+dtK++    ++T+LH+lv +ve+ +p++l+f +eLe +
+  CDH49882.1 1072 YHQLHKQMTAVFDASLSLHNAKEFTQLLHLILLLGNYLNGNTYRGGAFGIRIASINKLVDTKGAptSAGSTFLHFLVDTVERYFPDMLNFLEELEEC 1168
+                  ***************************************************************99999***************************** PP
+
+                  HHHHTS-HHHHHHHHHHHHHHHHHHHHHHHCCCTSSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHH CS
+         FH2  393 ekAakvsleelekdlskLekglkkvekeleasekeeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreFl 489 
+                   +A+kv   e+ +++++Le  l+kve+e++ +e+    d+F+ +m+eF ++A  e+++L  l +++ + ++++++Y+gedp +++p+efFgif++F 
+  CDH49882.1 1169 GEACKVAKNEMVNEFRSLEASLNKVEEEIKHHEE---TDRFVCVMREFHTQAYSEFKRLFLLRNKMNEWYDKVVRYYGEDPTKMHPDEFFGIFKRFT 1262
+                  ********************************99...************************************************************ PP
+
+                  HHHH............................................................................. CS
+         FH2  490 seflslsaekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakeekesekkkklkkekkkklsskaeskkl 570 
+                  s+++++ a+ k ++++k++ e+++k ++e+++++++ +++++ ++ ++ +++ e++ ++  +k+ +  ++  +++++++++
+  CDH49882.1 1263 SSWERCAADVKLARQKKERLEKQKKREQERRTRARSGSSVRKGVDINNFNENGENAIMDGLMKKLRLVTTGGNRRRNRQRS 1343
+                  ******************999999999999999888888888888777776665555544443333333333333222222 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1482 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 126.27
+//
+Query:       CDH53494.1  [L=1509]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   1.4e-119  386.5   8.9   1.4e-119  386.5   8.9    2.9  4  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.4   0.7      0.15      0.15      94     103 ..     163     172 ..     126     244 .. 0.47
+   2 ?   -1.5   1.1     0.041     0.041      54     592 ..     577     612 ..     507     662 .. 0.33
+   3 ?   -1.4   0.2     0.038     0.038      67     135 ..     713     782 ..     667     783 .. 0.36
+   4 !  386.5   8.9  1.4e-119  1.4e-119     125     579 ..     872    1375 ..     855    1438 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: -3.4 bits;  conditional E-value: 0.15
+                 .......... CS
+         FH2  94 kekkekkeek 103
+                 ++++++++++
+  CDH53494.1 163 STTHHSNNHT 172
+                 1111111111 PP
+
+  == domain 2  score: -1.5 bits;  conditional E-value: 0.041
+                 .........................................................................XXXXSSXBXXXXXXBESSGGCTTSCT CS
+         FH2  54 laleaaaaaaaklkakskaakleaakkkaakkkakkeskekekkekkeekeeekkkekkkekkkkkkekkkaapikpkkklKpLnWdklppnqvtgtvW 152
+                 ++l++a++++++l+++    ++e+++                                                                         
+  CDH53494.1 577 RMLRVANQTNSVLQQRLGDLEVEHQH------------------------------------------------------------------------- 602
+                 01111111111111111111111111......................................................................... PP
+
+                 CSTCCHHHHCTSHHHHHHHHTBSCECHHHHXXXXXHCSCCTTCCBSSS-HHHHHHHHHHHHHHTS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHH CS
+         FH2 153 aeldeesfekeldlselEelFsakakkkkekkskkksakkkpkevslLDpkraqNiaIlLrklklspeeikdailegDeevLdlellenLlkflPtkeE 251
+                                                                                                                    
+  CDH53494.1   - ---------------------------------------------------------------------------------------------------   -
+                 ................................................................................................... PP
+
+                 HHHHHCTCTSGTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GG CS
+         FH2 252 leklkeykgdlekLgeaEqFllelskiprleqRleallFklnFeeeveelkpslealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLs 350
+                                                                                                                    
+  CDH53494.1   - ---------------------------------------------------------------------------------------------------   -
+                 ................................................................................................... PP
+
+                 GGGGCSSSB-TTTTSBHHHHHHHHHHCCSGGGGGHHHHTTTHHHHHTS-HHHHHHHHHHHHHHHHHHHHHHHCCCTSSTT-THHHHHHHHHHHHHHHHH CS
+         FH2 351 sLlKLsdtKstdgktTLLHylveeveekypelldfpdeLehvekAakvsleelekdlskLekglkkvekeleasekeeesdkFkekmkeFlkdAeeele 449
+                                                                                                                    
+  CDH53494.1   - ---------------------------------------------------------------------------------------------------   -
+                 ................................................................................................... PP
+
+                 HHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH....................................................... CS
+         FH2 450 kLeellkeaeklfkelleYFgedpketspeefFgifreFlseflslsaekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakeekese 548
+                                                                                                                    
+  CDH53494.1   - ---------------------------------------------------------------------------------------------------   -
+                 ................................................................................................... PP
+
+                 ............................................ CS
+         FH2 549 kkkklkkekkkklsskaeskklaseevekvavsellksvdealr 592
+                                                   +l+++d +++
+  CDH53494.1 603 ----------------------------------TLEAMDAQIK 612
+                 ..................................1111111111 PP
+
+  == domain 3  score: -1.4 bits;  conditional E-value: 0.038
+                 ............................................................X.XXXSSXBX CS
+         FH2  67 kakskaakleaakkkaakkkakkeskekekkekkeekeeekkkekkkekkkkkkekkkaap.ikpkkklK 135
+                 +++s ++  ++++ k  ++   ++ +++e+  ++++++ +++++ ++ ++ ++ ++++++p ++p ++++
+  CDH53494.1 713 RVSSLRSLRKQSSIKDDSNIDGSKPAKEEEVIQDNTSAVSSNQSINQPASISPVTTAPPPPpPPPPPPMP 782
+                 1111111111111111122222222222222222222222222333333333333333333566777775 PP
+
+  == domain 4  score: 386.5 bits;  conditional E-value: 1.4e-119
+                  ..X..XXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHC.........................TSHHHHHHHHTBSCECHHHHXXXXXHCSCCTT CS
+         FH2  125 aap..ikpkkklKpLnWdklppnqvtgtvWaeldeesfek.........................eldlselEelFsakakkkkekkskkksakkkp 194 
+                  + p  ++pk +lK   W+k + + +++tvW+ +++++                             + ++++E+lF++k+++ k       ++++ +
+  CDH53494.1  872 K-PcaFQPKQRLKFVEWEKMNLTNISQTVWSHMEKDDATTaatgtttdhgssssfeqsieyqlaeAGVFKDIERLFAQKTPTAK-------KPQQPK 960 
+                  2.2469******************************9999******************************************65.......578*** PP
+
+                  CCBSSS-HHHHHHHHHHHHHH..TS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHHHCTCTS....GTTB-HHHHHHHHHCTSTTHHHHH CS
+         FH2  195 kevslLDpkraqNiaIlLrkl..klspeeikdailegDeevLdlellenLlkflPtkeEleklkeykgd....lekLgeaEqFllelskiprleqRl 285 
+                    v+++D+k+a+N+ I+L+ +   ++++eik  i+++D    d+  l +Llk++Pt eE+ klk y +     l+ L+ +++F l+ ++ipr++qRl
+  CDH53494.1  961 GPVQIIDAKKAKNMYIVLKNIekAIPFPEIKPRIINMDPYFDDEQILSTLLKNAPTMEEIGKLKPYLDAsdteLSTLSMPDRFALQTLEIPRFQQRL 1057
+                  *********************9999**************************************9998888899************************ PP
+
+                  HHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-TTTTSBHHHHHHHHHHCCSGGG CS
+         FH2  286 eallFklnFeeeveelkpslealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKstdgktTLLHylveeveekypel 382 
+                  e++lFk+ F e++++l  +l a+++A+e++++ k++k+lL+l+L++GN++Ng+t+rG+A+G ++ s++KL+dtK+  g +TLLH+lve+ ++ +p +
+  CDH53494.1 1058 ECMLFKSVFWEKYQNLNSQLTAVSDASESVKHAKHFKQLLQLILLIGNFLNGNTFRGGAFGIRIASINKLVDTKGIAGTMTLLHFLVETTQKVFPSI 1154
+                  ************************************************************************************************* PP
+
+                  GGHHHHTTTHHHHHTS-HHHHHHHHHHHHHHHHHHHHHHHCCCT.......................SSTT-THHHHHHHHHHHHHHHHHHHHHHHH CS
+         FH2  383 ldfpdeLehvekAakvsleelekdlskLekglkkvekeleasek.......................eeesdkFkekmkeFlkdAeeelekLeellk 456 
+                  ++f  eL+++e A+kvs  e+++++++L++g   +ekel+++                         +e++d F+++++eF k+A++++++Le l +
+  CDH53494.1 1155 TGFLGELKACEDACKVSKAEVQSEFQELKTGFSLIEKELKTQGVdtdallnekqveedeeddaqqvdDEDNDTFRTVISEFYKEATRRFKRLELLRQ 1251
+                  ************************************************************************************************* PP
+
+                  HHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH............................................................ CS
+         FH2  457 eaeklfkelleYFgedpketspeefFgifreFlseflslsaekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakeeke.sekkkk 552 
+                  e +++++++++Y+gedp + +p+ fFgif+eF++++++++a+ +e+++++++ e+++k++e++++ +++  e+  +++e ++ la+ +++ +++k  
+  CDH53494.1 1252 ESMSAYEAVVKYYGEDPGKLHPDAFFGIFKEFVTSWEKCQANIDEERQKQEHVEKQKKMREMRKKGTRSGVEMGPNRDEMEHLLAQLKNRpVSAKPL 1348
+                  ******************************************9999999999888888887777766666655555544444444333330333333 PP
+
+                  ........................... CS
+         FH2  553 lkkekkkklsskaeskklaseevekva 579 
+                  ++k++++++  +++++++  ++  + +
+  CDH53494.1 1349 RRKRASARHDINTNARSIYGTDSVMLQ 1375
+                  333333333333333333333333333 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1509 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 115.96
+//
+Query:       CDH51440.1  [L=1551]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   5.9e-126  407.7   1.2   5.9e-126  407.7   1.2    3.6  3  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.3  11.1     0.035     0.035      44     133 ..     156     249 ..     113     253 .. 0.30
+   2 ?   -1.2   3.3     0.033     0.033     397     458 ..     799     854 ..     795     882 .. 0.69
+   3 !  407.7   1.2  5.9e-126  5.9e-126     119     534 ..     996    1452 ..     926    1480 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: -1.3 bits;  conditional E-value: 0.035
+                 .......................................................................................XXXXSSX CS
+         FH2  44 skkkkkalkllaleaaaaaaaklkaks....kaakleaakkkaakkkakkeskekekkekkeekeeekkkekkkekkkkkkekkkaapikpkkk 133
+                  + ++k +++++l++    ++++  ++    ++++++++ +++ k++a+++s ++++++k++e+ ++ +++ k+++++++++kk+++ ++p++k
+  CDH51440.1 156 DDLDMKGMQRNKLRELPPDQKMYLLAQnqhlTNSTSNQSLSARLKSSASTTSLRSNSQQKEKEQPSSPSSSAKQNQQQQQQQKKPSKVPQPSTK 249
+                 2222222222222222222222221110000111122222222222222222223333333333333333333333333333333333444443 PP
+
+  == domain 2  score: -1.2 bits;  conditional E-value: 0.033
+                 TS-HHHHHHHHHHHHHHHHHHHHHHHCCCTSSTT-THHHHHHHHHHHHHHHHHHHHHHHHHH CS
+         FH2 397 kvsleelekdlskLekglkkvekeleasekeeesdkFkekmkeFlkdAeeelekLeellkea 458
+                   +le l++ + +L++gl ++e+ ++++    e+ ++  km    ++A++el++ ee  +e+
+  CDH51440.1 799 DTDLEGLRNMVDELKDGLAQSEDTITKIRR--EKNELMMKM----SKAQAELKEREERITEL 854
+                 568999999999999999999999999999..333333333....33333333333333333 PP
+
+  == domain 3  score: 407.7 bits;  conditional E-value: 5.9e-126
+                  ........X...XXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHC...................................TSHHHHHHHHTBSCE CS
+         FH2  119 kkekkkaap...ikpkkklKpLnWdklppnqvtgtvWaeldeesfek...................................eldlselEelFsaka 177 
+                               + +  +K+++W+klp++ +++tvW+e+ +++f++                                   +ld+ elE+lF++  
+  CDH51440.1  996 LI------DawaKPHQITMKQFFWSKLPAERIQHTVWNEIHSPDFNNaldsplmsscseteeedgewsaapqrskrpsennvQLDTGELERLFKKSR 1086
+                  22......1233344679******************************************************************************* PP
+
+                  CHHHHXX.XXXHCSCCTTCCBSSS-HHHHHHHHHHHHHHTS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHHHCTCTSGTTB-HHHHHHH CS
+         FH2  178 kkkkekk.skkksakkkpkevslLDpkraqNiaIlLrklklspeeikdailegDeevLdlellenLlkflPtkeEleklkeykgdlekLgeaEqFll 273 
+                  k++ ++  +   + + k+k ++lL+ +ra+NiaI+L+++kl+++ei+dai + D+ +L+++ l ++ +++P keE+e  k ++gd++ Lg+aE+++ 
+  CDH51440.1 1087 KATGNNApNAPNPVETKRKAITLLEFNRANNIAIMLARIKLTYPEIRDAIWNIDDHRLSVDNLMAIRQYIPNKEEIEIVKDFEGDVDALGDAERYFR 1183
+                  *****99****************************************************************************************** PP
+
+                  HHCTSTTHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-T...TTTS.B CS
+         FH2  274 elskiprleqRleallFklnFeeeveelkpslealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKst...dgkt.T 366 
+                  +++ iprl  R+++++F++ F  e+ee+ p+l+ l++A  eL++S+++k++L++vLa+GNy+Ng t rGnAyGF+L+ LlK++dt++     +++ T
+  CDH51440.1 1184 AIMYIPRLADRVSCMIFRRRFKQELEEIIPQLDVLQDAICELKESTRFKQVLKTVLAIGNYLNGQTIRGNAYGFRLDALLKMRDTRAEgegVSNMpT 1280
+                  **************************************************************************************98645444469 PP
+
+                  HHHHHHHHHHCCSGGGGGHHHHTTTHHHHHTS-HHHHHHHHHHHHHHHHHHHHHHHCCCT....SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+         FH2  367 LLHylveeveekypelldfpdeLehvekAakvsleelekdlskLekglkkvekeleasek....eeesdkFkekmkeFlkdAeeelekLeellkeae 459 
+                  LLHylv+ +++   e+ +f +++ h+e+Aak+s   + +++++L+ ++  +++el+ +       ++ d+F e m eFl +Ae+ ++ L+++ ++++
+  CDH51440.1 1281 LLHYLVHFLAKSGDEVVNFREDIVHLEQAAKMSPPIIFASVNALNANISHIKEELSLHRRrrtsVHQIDRFAEAMDEFLIEAEPIVDNLKQMTRDID 1377
+                  ************************************************************************************************* PP
+
+                  HHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH......................................... CS
+         FH2  460 klfkelleYFgedpketspeefFgifreFlseflslsaekkekkeekkkeeakekskeeasveeeekaekkaelk 534 
+                  ++ k+l+ Y+gedp++++ eefF i+ +F  +f + + e +e++e++ +++++++++ +++ + +++ +++ +++
+  CDH51440.1 1378 DKLKDLITYYGEDPATIKSEEFFDIIQSFSASFAKAQVEIHEARERALRRQKQQEMQLKRRPHVSSSCSSRDSQS 1452
+                  *******************************************99999999998888877766655554444433 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1551 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 64.84
+//
+Query:       KAI7885518.1  [L=1400]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   3.3e-104  335.8  21.0   6.4e-104  334.8  21.0    1.4  1  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  334.8  21.0  6.4e-104  6.4e-104     128     577 ..     897    1367 ..     877    1399 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 334.8 bits;  conditional E-value: 6.4e-104
+                    XXXSSXBXXXXXXBESSGGCTTSCT..CSTCCHHHHC....TSHHHHHHHHTBSCECHHHHXXXXXHCSCCTTCCBSSS-HHHHHHHHH.HHHHH CS
+           FH2  128 ikpkkklKpLnWdklppnqvtgtvW..aeldeesfek....eldlselEelFsakakkkkekkskkksakkkpkevslLDpkraqNiaI.lLrkl 215 
+                      p +klK L+W+kl++  v +t+W  + +de   e+     + +s+lE lF ak++   ekk  k++ + +++ v++L+  ++ Ni+  +L k+
+  KAI7885518.1  897 HYPNTKLKNLQWQKLDARGVDKTIWvlETVDENGMEDtldeAGVFSKLEDLFPAKVNLFFEKK-LKAKIEERKDAVKFLSKEKSRNINLaVLPKI 990 
+                    5799*******************995567888888889999*********************9.************************966**** PP
+
+                    .TS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHH.HHHHHCTCTS....GTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHHHHHHHH CS
+           FH2  216 .klspeeikdailegDeevLdlellenLlkflPtkeE.leklkeykgd....lekLgeaEqFllelskiprleqRleallFklnFeeeveelkps 304 
+                     +++ ++ ++ +l++De+ +++ ++ nL+ flP+k++ +   ++y ++     ++L+ +EqF +e+++i r+e+Rl+ +l++++F e++e l+++
+  KAI7885518.1  991 kNMTIKDARRQLLQMDEQLCTETFISNLIAFLPSKDDdMRTMEKYMKEsdekRAELDYPEQFTVEMATIYRYEPRLRFMLLRIQFWERYEQLHKN 1085
+                    **********************************975466667777777778******************************************* PP
+
+                    HHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-T.TTTSBHHHHHHHHHHCCSGGGGGHHHHTTTHHHHHTS CS
+           FH2  305 lealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKst.dgktTLLHylveeveekypelldfpdeLehvekAakv 398 
+                    +  + +++e Lr+S+++++lL+l+L++GN+mN+++ +G+A+G ++ss++KL+dtK++  ++ TLLH l+ + ++++p+lldf  +L++  +Aa++
+  KAI7885518.1 1086 MSLVLDVSETLRNSDSFRELLSLILLVGNFMNASSLQGGAFGMRISSINKLADTKASnVSSLTLLHVLAGVTRRQFPHLLDFLHDLKDTGQAARI 1180
+                    *********************************************************9***********************************96 PP
+
+                    ..-HHHHHHHHHHHHHHHHHHHHHHHCCCT.....SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHH CS
+           FH2  399 ..sleelekdlskLekglkkvekeleasek.....eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifr 486 
+                      s+ +l +   ++++glk++  el ++ +      ee+d F++km+eF ++A+ ++e+L++++ +++ ++k+++ Y+ge+pk + p++fFg+f+
+  KAI7885518.1 1181 mvSINDLVQQYTEMRQGLKQLDLELGTQWQpedttLEEGDCFRDKMTEFRDEASNKFEDLQTVYINMDAKWKDVMVYYGENPKVMRPDDFFGVFA 1275
+                    66********************************************************************************************* PP
+
+                    HHHHHHH..................................................................................... CS
+           FH2  487 eFlseflslsaekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakeekesekkkklkkekkkklsskaes.kklaseevek 577 
+                    +F+s+++    ++++++ + ++ee+++k++e ++++ e+k++k ae+++++k++ +e+   +++ + +++ +k++ +  ++ +++ +e + +
+  KAI7885518.1 1276 RFVSSWKDAAIAEEKHTLKLEREEKRRKEEELRKQRLEAKRQKLAEKEAAEKERRTEDVDLSEEGTGTEDDRKMMDNLLAKlRSADAEPTVT 1367
+                    **********9999999999999999888888888888777777777776666666666555554444333333332222202222222222 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1400 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 145.40
+//
+Query:       KAI7877521.1  [L=1367]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   7.9e-102  327.9  21.8   1.8e-101  326.8  21.8    1.5  1  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  326.8  21.8  1.8e-101  1.8e-101     123     602 ..     846    1346 ..     825    1365 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 326.8 bits;  conditional E-value: 1.8e-101
+                    ....X...XXXSSXBXXXXXXBESSGGCTTSCT..CSTCCHHHHC....TSHHHHHHHHTBSCECHHHHXXXXXHCSCCTTCCBSSS-HHHHHHH CS
+           FH2  123 kkaap...ikpkkklKpLnWdklppnqvtgtvW..aeldeesfek....eldlselEelFsakakkkkekkskkksakkkpkevslLDpkraqNi 208 
+                    k+  +     p +klK ++W+kl  ++v++tvW  + ++e +fe+     +++++lE +F ak+++  e+k  k++ + +++ v++L+  ++ N+
+  KAI7877521.1  846 KR--KelgHYPAVKLKNFQWQKLEGHKVENTVWtmDGINEKEFEEvlhrTGEFEKLETTFPAKVNTLFERK-LKAKMEERRDAVKFLSKEKSRNL 937 
+                    22..13356799*********************444699999999*************************9.*********************** PP
+
+                    HH.HHHHHTS..-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHH.HHHHHCTCTS....GTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHH CS
+           FH2  209 aI.lLrklkl..speeikdailegDeevLdlellenLlkflPtkeE.leklkeykgd....lekLgeaEqFllelskiprleqRleallFklnFe 295 
+                    +I +L k+k   s+ ++++ il++D+e +++ +l nL+ ++Ptk++ l  l++y +     ++kL+ +EqF +e++k  r+e+Rl+ +lF+++F 
+  KAI7877521.1  938 NIaVLPKVKQynSFAQVRERILAVDDELCTETFLSNLIMYAPTKDDdLRTLEKYVDAsdeeKAKLDIPEQFTIEMVKMYRYESRLQFMLFRMQFW 1032
+                    **6699**7556*******************************965377778887777788********************************** PP
+
+                    HHHHHHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-T.TTTSBHHHHHHHHHHCCSGGGGGHHHHT CS
+           FH2  296 eeveelkpslealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKst.dgktTLLHylveeveekypelldfpdeL 389 
+                    e+++ l +++  + +++++Lr+S+++k+lL ++L lGNymNg++++G+A+G ++ss++KL+dtK++  ++ +LLH lv + ++++p++  f  +L
+  KAI7877521.1 1033 EKYDQLIKNMTVVVEVSDSLRHSESFKELLCIILMLGNYMNGSSFQGGAFGMRVSSINKLADTKASnTSSVSLLHVLVGITRRQFPHVQRFLHDL 1127
+                    ******************************************************************89999************************ PP
+
+                    TTHHHHHTS..-HHHHHHHHHHHHHHHHHHHHHHHCCCT...SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHH CS
+           FH2  390 ehvekAakv..sleelekdlskLekglkkvekeleasek...eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspe 479 
+                     +v  A ++  s+ ++ +   ++++ lkk+ +ele+  +    +++d+F ++m++  + A e++e+Le+l+ +++ ++k+++ ++ge+pk + p+
+  KAI7877521.1 1128 RNVNSATRImaSVNDMVEQYTEMRQHLKKLDTELETEWQdaeLDPNDRFLQVMTKHRNAANERFEELETLYINMDAKWKDVMSFYGENPKVMRPD 1222
+                    *********99************************************************************************************ PP
+
+                    HHHHHHHHHHHHHH................................................................................. CS
+           FH2  480 efFgifreFlseflslsaekkekkeekkkeeakekskeeasveeeekaekkaelkeekkkl.akeekesekkkklkkekkkklsskaeskklase 573 
+                    +fF if+ F+  ++    +++++ +++++ee++++++e+++++ ++ +++++++ + ++++ a+   +  k+ +  +++   + ++ e+++ +++
+  KAI7877521.1 1223 DFFNIFSKFVINWKDAALAEEKQMKKREREEKRKREEEARKARLQALRKQQQQMLDLDEEEpASPGGTLVKDDRCMMDNLLDKLRSGETENRQRR 1317
+                    ************99999999999888888887777777766666665555554443333330222233333333333333333334444444444 PP
+
+                    ............................. CS
+           FH2  574 evekvavsellksvdealrkvlesvavel 602 
+                    e ++  ++++++  d+++  + ++  +++
+  KAI7877521.1 1318 ERRQRRLQQQQRDGDQPMSPTETTDELKI 1346
+                    55555555555666666555544444444 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1367 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 142.90
+//
+Query:       KAI7884419.1  [L=1711]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   1.1e-123  400.1   7.5   1.1e-123  400.1   7.5    3.2  3  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.3   3.5      0.15      0.15     407     440 ..     594     629 ..     569     805 .. 0.69
+   2 ?    0.1   0.2     0.013     0.013      32     123 ..     957    1053 ..     912    1065 .. 0.33
+   3 !  400.1   7.5  1.1e-123  1.1e-123     128     595 ..    1162    1645 ..    1122    1677 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: -3.3 bits;  conditional E-value: 0.15
+                   HHHHHHHHHHHHHHHHCCCT..SSTT-THHHHHHHH CS
+           FH2 407 lskLekglkkvekeleasek..eeesdkFkekmkeF 440
+                   +s L+++l+++++ +e+  +  +++ d F++ + eF
+  KAI7884419.1 594 ISTLQQKLRDLQTNYEKDLEgmQNQLDMFHKIVAEF 629
+                   344444444444444444444444555555444444 PP
+
+  == domain 2  score: 0.1 bits;  conditional E-value: 0.013
+                    ............................................................................................... CS
+           FH2   32 kakekaaaaaaaskkkkkalkllal..eaaaaaaaklkakskaaklea...akkkaakkkakkeskekekkekkeekeeekkkekkkekkkkkke 121 
+                    ++ ++ ++++++s+ k+++ +++++  ++ +++ ++++ +s +a++e+    k +++ + +++ +++ ++ ++++ +++++++++  +++++++ 
+  KAI7884419.1  957 SSSRRGSQMSVESTAKSRRETQTSIesSVGSRRDTQISLESLSAHTESwstRKPRRQPSISETPEEDPMHLNDHSITQSSAEDSTPLDNNPSTAI 1051
+                    11111122222221111111111110011111222222222222222200022222222222222222222222222222222222222222222 PP
+
+                    .. CS
+           FH2  122 kk 123 
+                    ++
+  KAI7884419.1 1052 PP 1053
+                    22 PP
+
+  == domain 3  score: 400.1 bits;  conditional E-value: 1.1e-123
+                    XXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHC.......TSHHHHHHHHTBSCECHHHHXXXXXHCSCCTTCCBSSS-HHHHHHHHHH.HHH CS
+           FH2  128 ikpkkklKpLnWdklppnqvtgtvWaeldeesfek.......eldlselEelFsakakkkkekkskkksakkkpkevslLDpkraqNiaIl.Lrk 214 
+                      p++k++ L+W+k++ +++++tvW+   +e ++        e+ ++ +Ee+F++k+ + k+k      +k +++e+ +LD+++a+Ni+I  L+k
+  KAI7884419.1 1162 HLPSVKTRALQWQKINMDKLKSTVWSAYTDENDAAlenrldvEGIFAMMEETFAQKVVNRKNK-----DKKERKQEICILDSRKAYNINIAiLAK 1251
+                    459****************************99999***********************9985.....5*********************55*** PP
+
+                    H.TS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHH.....HCTCTSGTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHHHHHHH CS
+           FH2  215 l.klspeeikdailegDeevLdlellenLlkflPtkeElekl.....keykgdlekLgeaEqFllelskiprleqRleallFklnFeeeveelkp 303 
+                    l +++++e+k++il+ D+  +++ ll+nLl ++Pt++E+ kl      + ++d+ +L++++ F+ e+++ipr+++R++ +lF+++F e+v+ l +
+  KAI7884419.1 1252 LkHIPFPEVKNKILSIDDRFCTEVLLKNLLVNAPTPDEMGKLsvfmkTAPEEDIQNLSKPDAFCAEIMTIPRFKERIDNMLFRSTFTERVTQLGK 1346
+                    ******************************************88887788888****************************************** PP
+
+                    HHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-TTTTSBHHHHHHHHHHCCSGGGGGHH.HHTTTHHHHHT CS
+           FH2  304 slealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKstdgktTLLHylveeveekypelldfp.deLehvekAak 397 
+                    ++ ++ +A+ +L++S+ +k +L lvL lGN++Ng +++G+A+G ++ s++K++dtKs+ + +TLLH+lv+++eek+p+++    d+L+ + +A++
+  KAI7884419.1 1347 NMANVMDASTSLKDSTAFKDFLNLVLMLGNFLNGTNFQGGAFGIRIASINKIVDTKSSSNESTLLHFLVKMIEEKFPDISQALlDDLKLCGEACR 1441
+                    *******************************************************************************97555*********** PP
+
+                    S-HHHHHHHHHHHHHHHHHHHHHHHCCCT.......SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHH CS
+           FH2  398 vsleelekdlskLekglkkvekeleasek.......eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgif 485 
+                    v +++l kd ++L+ gl+k+  el+ +          + +d+F ++m++F + A e++++Le  ++ ++ ++k+++ YFge+p++++p+efFgif
+  KAI7884419.1 1442 VTIQDLIKDYNELRVGLQKLTHELDRHYTeedndeeISANDRFIQVMTSFRDYAIEKFDQLEVRYTSMDVAYKDVVTYFGENPRDMKPDEFFGIF 1536
+                    **********************************9999********************************************************* PP
+
+                    HHHHHHHH....................................................................................... CS
+           FH2  486 reFlseflslsaekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakeekesekkkklkkekkkklsskaeskklaseevekvav 580 
+                    ++F s++++ +a+  +++++ ++ e+ ++ +e++++++++++++ ael+ e  ++a+e+k  +++   +k ++ +lss a++++l++++++++a 
+  KAI7884419.1 1537 KTFTSSWERARADLIAQRKKMEQLERARQFEEQRKAHAKRARKEAAELSGEGGNEAQEAKDIMDNLL-QKLRSGELSSAAKRRSLSQRRMSMAAR 1630
+                    ********99999999999999998888888887777777776666666555554444444433333.333333344444444444444444444 PP
+
+                    ............... CS
+           FH2  581 sellksvdealrkvl 595 
+                    +e  ++++e++  + 
+  KAI7884419.1 1631 RERRRTRSESVAIKA 1645
+                    444444444433333 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1711 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 88.40
+//
+Query:       KAI7886931.1  [L=1547]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   3.4e-123  398.5   8.1   3.4e-123  398.5   8.1    2.9  3  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.6   2.4      0.09      0.09     532     577 ..     525     569 ..     481     626 .. 0.33
+   2 ?   -3.9   4.0      0.22      0.22     531     579 ..     709     757 ..     680     850 .. 0.41
+   3 !  398.5   8.1  3.4e-123  3.4e-123     122     569 ..    1048    1508 ..    1037    1540 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: -2.6 bits;  conditional E-value: 0.09
+                   .............................................. CS
+           FH2 532 elkeekkklakeekesekkkklkkekkkklsskaeskklaseevek 577
+                   +l+ +    + +ek+++ +  l++++++  + +++ k l+ +e ++
+  KAI7886931.1 525 NLQGDGLVGQLREKTNSLEDLLRMSRHTISTLQRKIKDLQ-QEYDR 569
+                   1111111111111111111111111111111111111111.11111 PP
+
+  == domain 2  score: -3.9 bits;  conditional E-value: 0.22
+                   ................................................. CS
+           FH2 531 aelkeekkklakeekesekkkklkkekkkklsskaeskklaseevekva 579
+                   + ++++++++a++ +++++k+ ++++k  ++++ + +++l+ +++++++
+  KAI7886931.1 709 EIQNQAQHTMATNIQRHDAKQLTSTDKPISARAAELEERLKPKTIDSAD 757
+                   1111111111111111111111111111111111111111111111111 PP
+
+  == domain 3  score: 398.5 bits;  conditional E-value: 3.4e-123
+                    .....X.XXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHC......TSHHHHHHHHTBSCECHHHHXXXXXHCSCCTTCCBSSS-HHHHHHHH CS
+           FH2  122 kkkaap.ikpkkklKpLnWdklppnqvtgtvWaeldeesfek......eldlselEelFsakakkkkekkskkksakkkpkevslLDpkraqNia 209 
+                    ++k+ + ++p +k++ L+W+k  +++v++t+W   d ++ +        + +s +E+lF++k+ + k+++     +++k++e+++LDp++aqNi+
+  KAI7886931.1 1048 SRKR-MrYQPDVKTRALQWTKMHNQMVGKTIWGTEDVDELALedelqdLGVFSSIENLFAQKVIQRKKRD-----QQPKKQEIRILDPNKAQNIN 1136
+                    2333.36*************************999999888888999999***************99865.....******************** PP
+
+                    HH.HHHH.TS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHH.....HCTCTSGTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHH CS
+           FH2  210 Il.Lrkl.klspeeikdailegDeevLdlellenLlkflPtkeElekl.....keykgdlekLgeaEqFllelskiprleqRleallFklnFeee 297 
+                    I  L++l  ++ e +++++l++D+  + ++ll+++ +f+Pt++E  kl     ++ ++dle+L++++ F++e++k++r+++R++ +lF+++F+e+
+  KAI7886931.1 1137 IAiLSRLkYVPIETVVAKLLAVDDGLFKENLLKSMQEFAPTPDETGKLnvfvnSASEEDLERLSKPDTFCYEVMKVDRYKERVDNMLFRATFNEK 1231
+                    *559***668**************************************77775566666************************************ PP
+
+                    HHHHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-TTTT.SBHHHHHHHHHHCCSGGGGGHHHHTTT CS
+           FH2  298 veelkpslealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKstdgk.tTLLHylveeveekypelldfpdeLeh 391 
+                     + l +++ ++ +A+  +++Sk++k+lL+l+L lGNymNg+t++G+A+G ++ s++KL+dtK tdg+ tTLLH+lv ++e k+p l +f d+L+ 
+  KAI7886931.1 1232 HQQLSQNMASVLDASIAVKESKSFKELLKLILTLGNYMNGSTFQGGAFGIRIASINKLVDTKCTDGSsTTLLHFLVDTIESKFPRLHGFLDDLKE 1326
+                    ****************************************************************876378************************* PP
+
+                    HHHHHTS-HHHHHHHHHHHHHHHHHHHHHHHCCCT....SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHH CS
+           FH2  392 vekAakvsleelekdlskLekglkkvekeleasek....eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefF 482 
+                      +A++v l+++ k+ ++L++gl+k+ +el+a+       +++d+F ++m eF ++A e++e+Le  ++ ++ ++k+++ ++ge+++e++p+efF
+  KAI7886931.1 1327 TGQACRVTLQDVIKEYNELRSGLQKLIDELDAHYGddykPDQGDNFAKTMVEFRDKALEKFEELEVRYTSMDVAYKDAVSFYGENANEMKPDEFF 1421
+                    *********************************************************************************************** PP
+
+                    HHHHHHHHHHH............................................................................ CS
+           FH2  483 gifreFlseflslsaekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakeekesekkkklkkekkkklsskaeskk 569 
+                    gif++F s++++ ++++k+++++ ++ e+ ++++ee++++ ++++++ + ++e++ ++ +ee+++  ++ l++ ++  l + +++++
+  KAI7886931.1 1422 GIFKTFTSSWERAMSDNKNARKKLEQMERARRMEEERRERIKAQRQRGVDTSEDNGSAGNEEEKNLMDNLLDRLRAGDLDTGNKRAR 1508
+                    ********************9999999999999888888887777777766666655555555444444444444333333333333 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1547 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 88.88
+//
+Query:       KAI7879656.1  [L=1505]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   6.4e-121  391.0  12.8   6.4e-121  391.0  12.8    2.1  2  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.8   1.8       0.1       0.1     546     564 ..     571     589 ..     514     656 .. 0.29
+   2 !  391.0  12.8  6.4e-121  6.4e-121     124     584 ..     868    1376 ..     845    1435 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: -2.8 bits;  conditional E-value: 0.1
+                   ................... CS
+           FH2 546 esekkkklkkekkkklssk 564
+                   +++ +++l++ ++++   +
+  KAI7879656.1 571 NEALERMLRVANQTNSVLQ 589
+                   1111111111111111111 PP
+
+  == domain 2  score: 391.0 bits;  conditional E-value: 6.4e-121
+                    ...X.XXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHC........................TSHHHHHHHHTBSCECHHHHXXXXXHCSCCT CS
+           FH2  124 kaap.ikpkkklKpLnWdklppnqvtgtvWaeldeesfek........................eldlselEelFsakakkkkekkskkksakkk 193 
+                    ++++ ++pk +lK   W+k + + +++tvW+ +++++                            + ++++E+lF++k+++ k       ++++ 
+  KAI7879656.1  868 RKPSaFQPKQRLKFVEWEKMNLTNISQTVWSHMEKDDTSAtttttdqeqppssfeqsieyqlaeAGVFKDIERLFAQKTPTAK-------KPQQP 955 
+                    333369******************************9888*****************************************65.......578** PP
+
+                    TCCBSSS-HHHHHHHHHHHHHH..TS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHHHCTCTS....GTTB-HHHHHHHHHCTSTTHH CS
+           FH2  194 pkevslLDpkraqNiaIlLrkl..klspeeikdailegDeevLdlellenLlkflPtkeEleklkeykgd....lekLgeaEqFllelskiprle 282 
+                    +  v+++Dpk+a+N+ I+L+ +   ++++eik  i+++D    d+  l +Llk++Pt eE+ klk y +     l+kL+ +++F l++++ipr++
+  KAI7879656.1  956 KGPVQIIDPKKAKNMYIVLKNIekAIPFPEIKPRIINMDPYFDDEQILSTLLKNAPTMEEIGKLKPYRDApdteLSKLSMPDRFALQMVEIPRFQ 1050
+                    **********************9999***************************************999999999********************* PP
+
+                    HHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-TTTTSBHHHHHHHHHHC CS
+           FH2  283 qRleallFklnFeeeveelkpslealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKstdgktTLLHylveevee 377 
+                    qRle++lFk+ F e++++l  +l a+++A+e++++ k++k+lL+l+L++GN++Ng+t+rG+A+G ++ s++KL+dtK+  g +TLLH+lve+ ++
+  KAI7879656.1 1051 QRLECMLFKSVFWEKYQNLNSQLTAISDASESVKQAKHFKQLLQLILLIGNFLNGNTFRGGAFGIRIASINKLVDTKGIAGTMTLLHFLVETTQK 1145
+                    *********************************************************************************************** PP
+
+                    CSGGGGGHHHHTTTHHHHHTS-HHHHHHHHHHHHHHHHHHHHHHHCCCT.......................SSTT-THHHHHHHHHHHHHHHHH CS
+           FH2  378 kypelldfpdeLehvekAakvsleelekdlskLekglkkvekeleasek.......................eeesdkFkekmkeFlkdAeeele 449 
+                     +p +++f +eL+++e A+kvs  e+++++++L++g   +ekel+++                          e++d F+++++eF k+A+++++
+  KAI7879656.1 1146 VFPSITGFLEELKACEDACKVSKAEMQSEFQELKTGFGLIEKELKTQGVnieallnekqaeegdddgpeqadNEDNDTFRTVIREFYKEATKRFK 1240
+                    *********************************************************************************************** PP
+
+                    HHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH................................................... CS
+           FH2  450 kLeellkeaeklfkelleYFgedpketspeefFgifreFlseflslsaekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakee 544 
+                    +Le l +e +++++++++Y+gedp + +p+ fFgif+eF+ ++++++a+ +e+++++++ e+++k++e++++ ++++ e+  +++e ++ la+ +
+  KAI7879656.1 1241 RLELLRQESMSAYEAVVKYYGEDPGKLHPDAFFGIFKEFVASWEKCQANINEERQKQEHVEKQKKMREMRKKGSKSAVEMGPNRDEMEHLLAQLK 1335
+                    ***********************************************999999999998888888877777666666555555444444443333 PP
+
+                    ......................................... CS
+           FH2  545 ke.sekkkklkkekkkklsskaeskklaseevekvavsell 584 
+                    ++ +++k  ++k++++++  +++++++  ++  + ++++ll
+  KAI7879656.1 1336 NRpVSAKPLRRKRASARHDINTHARSMYGTDSVMLQAETLL 1376
+                    33022222222222222222222222222222222222222 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1505 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 98.20
+//
+Query:       KAI7885728.1  [L=1469]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   5.9e-123  397.8   2.5   5.9e-123  397.8   2.5    2.3  2  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    2.3   5.9    0.0029    0.0029     405     585 ..     585     747 ..     545     810 .. 0.59
+   2 !  397.8   2.5  5.9e-123  5.9e-123     127     597 ..     876    1360 ..     853    1395 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 2.3 bits;  conditional E-value: 0.0029
+                   HHHHHHHHHHHHHHHHHHCCCTSSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHT..T--TTTCHHHHHHHHHHHHHHHHH...... CS
+           FH2 405 kdlskLekglkkvekeleasekeeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYF..gedpketspeefFgifreFlseflslsaek 499
+                   +d+++L+ +++++e+ l+  ++   +  +++++++   + ++ +e ++++ k++ + +++l+eY   +e+                    + +++++
+  KAI7885728.1 585 TDINELKAKIDQLERTLRVADQ--ANTLLQHQLSDLEMEYQQTVEVMDSQNKRLYDTVRQLTEYGspCEKR-------------------RVHRNSR 660
+                   6899999999999999999999..88999999999999999999999999999999999999999888876...................3333333 PP
+
+                   ....................................................................................... CS
+           FH2 500 kekkeekkk.eeakekskeeasveeeekaekkaelkeekkklakeekesekkkklkkekkkklsskaeskklaseevekvavsellk 585
+                   k  k+++++ ++ + +++++++ +++e+ ++ + + ++++ +++  +++++ +k+++++   l+++ e+++ +se+ + ++ ++ ++
+  KAI7885728.1 661 KYRKDDDTDiKTWEVQTARQNKLQSAENGTEDSPVPSKQSLRSRLGSRMTSFMKRASQQDVFLRKMIEHMSDTSENGDDKSPTTPAD 747
+                   333333333033333333333333333334444344433333333333333333333322222222222222222222222222221 PP
+
+  == domain 2  score: 397.8 bits;  conditional E-value: 5.9e-123
+                    X...XXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHC................TSHHHHHHHHTBSCECHHHHXXXXXHCSCCTTCCBSSS-H CS
+           FH2  127 p...ikpkkklKpLnWdklppnqvtgtvWaeldeesfek................eldlselEelFsakakkkkekkskkksakkkpkevslLDp 202 
+                    +   ++p++klK + W+k ++n +++t+W+++d++ +                   + ++++E+ F++++++         + k+ ++ v++LD+
+  KAI7885728.1  876 KesaFQPTRKLKFIEWEKMNANNIQQTIWSQIDKSLDTRpqqdgadhsieyqlarVGIFDDIEKIFEQRPAAEL-------KVKNNKERVHVLDS 963 
+                    12369******************************8777********************************965.......578*********** PP
+
+                    HHHHHHHHHHHHH..TS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHHHCTCTS..GTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHC CS
+           FH2  203 kraqNiaIlLrkl..klspeeikdailegDeevLdlellenLlkflPtkeEleklkeykgd..lekLgeaEqFllelskiprleqRleallFkln 293 
+                    ++a+N++I+++++  k+++ +i+  i  +D    d+  l nL++f+Pt eE+eklk y g+    +L+ ++qF+++l++i+r+++R e++lF+ +
+  KAI7885728.1  964 RKAYNLNIFITSIarKIPFNDIVPRIKYMDAVFDDEQILNNLIRFAPTTEEMEKLKPYVGSekRFELTIPDQFCVQLMDIKRFKERAECMLFRTT 1058
+                    *******************************88889999******************************************************** PP
+
+                    HHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-T..TTTSBHHHHHHHHHHCCSGGGGGHH CS
+           FH2  294 FeeeveelkpslealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKst..dgktTLLHylveeveekypelldfp 386 
+                    F +++  l++++ a+++A+ +L + k + +lL+l+L+lGNy+Ng+++rG+A+G ++ s++KL+dtK++    ++T+LH+lv +ve+ +p++l+f 
+  KAI7885728.1 1059 FRDRYHQLHKQMTAVSEASLSLHNAKEFTQLLHLILLLGNYLNGNSYRGGAFGIRIASINKLVDTKGAptSAGSTFLHFLVDTVERYFPDMLNFL 1153
+                    *******************************************************************99999*********************** PP
+
+                    HHTTTHHHHHTS-HHHHHHHHHHHHHHHHHHHHHHHCCCTSSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHH CS
+           FH2  387 deLehvekAakvsleelekdlskLekglkkvekeleasekeeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeef 481 
+                    +eLe + +A+kv   e+ +++++Le+ l+k+e+e++ +++   +d+F+++m+eF ++A  e+++L  l +++ + ++++++Y+gedp +++p+ef
+  KAI7885728.1 1154 EELEECGEASKVAKNEMINEFRSLESSLNKLEEEIKHHDE---NDRFVSVMREFHTQAYSEFKRLFMLRNKMNEWYDKIVRYYGEDPTKMHPDEF 1245
+                    **************************************99...**************************************************** PP
+
+                    HHHHHHHHHHHH................................................................................... CS
+           FH2  482 FgifreFlseflslsaekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakeekesekkkklkkekkkklsskaeskklaseeve 576 
+                    Fgif++F s+++++ a+ k ++++k++ e+++k ++e+++++++ +++++ ++ ++  ++ e++ ++  +k+ +  ++  +++++ ++ +s+ v 
+  KAI7885728.1 1246 FGIFKRFTSSWERCAADVKLARQKKERLEKQKKREQERRTRARSGSSVRKGVDINNYGENGENAIMDGLMKKLRLVTTGGNRRRN-RQRSSSIVG 1339
+                    *************************999999999999998888888888887777666655554444333333332222222222.222222222 PP
+
+                    ..................... CS
+           FH2  577 kvavsellksvdealrkvles 597 
+                     +++    +sv+   r++l+s
+  KAI7885728.1 1340 GNNTLVHSDSVSLRARRMLQS 1360
+                    222223333333333333333 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1469 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 121.54
+//
+Query:       KAI8323587.1  [L=2226]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   1.6e-122  396.3  12.0   1.6e-122  396.3  12.0    2.7  2  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -5.2   3.4      0.55      0.55     437     462 ..     808     833 ..     752     925 .. 0.54
+   2 !  396.3  12.0  1.6e-122  1.6e-122     127     538 ..    1194    1669 ..    1180    1699 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: -5.2 bits;  conditional E-value: 0.55
+                   HHHHHHHHHHHHHHHHHHHHHHHHHH CS
+           FH2 437 mkeFlkdAeeelekLeellkeaeklf 462
+                   +++ l  ++  +e+L+++ ke+++ f
+  KAI8323587.1 808 LEDLLRMSRHTIEALQTQIKELRDQF 833
+                   22333333334444444444433332 PP
+
+  == domain 2  score: 396.3 bits;  conditional E-value: 1.6e-122
+                    X..XXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHC..........TSHHHHHHHHTBSCECHHHHXX...XXXHCSCCTTCCBSSS-HHHHH CS
+           FH2  127 p..ikpkkklKpLnWdklppnqvtgtvWaeldeesfek..........eldlselEelFsakakkkkekk...skkksakkkpkevslLDpkraq 206 
+                       + pk+klK L+Wdkl+ + v +++W++l++   ++          ++ ++ +E++F+ak++    +    ++k+ a+++ +evs+L++kra+
+  KAI8323587.1 1194 EllYVPKVKLKALQWDKLNDQHVDSSLWSKLEDRAGLEerlvldtlhgQGVFDHIERMFAAKQAVDIFALrekRRKERAEQEQEEVSVLESKRAY 1288
+                    14578*****************************9999***************************99999************************* PP
+
+                    HHHHHHHHH.TS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHHHCTCTS..GTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHH CS
+           FH2  207 NiaIlLrkl.klspeeikdailegDeevLdlellenLlkflPtkeEleklkeykgd..lekLgeaEqFllelskiprleqRleallFklnFeeev 298 
+                    Ni+I+L+ + k s+++i++a+l++D+++++++ll++Ll+f+Pt+eE  +l++y g    ++L+++++F+le +k+ r+eqRl++     + +e+ 
+  KAI8323587.1 1289 NINIMLGMFkKYSFKDIRKALLRMDTSTISENLLKQLLTFIPTPEERGLLSAYMGRpdRKRLARPDRFFLETMKVWRYEQRLRVTMTWTTWPESF 1383
+                    *******************************************************999************************************* PP
+
+                    HHHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-TTTTSBHHHHHHHHHHCCSGGGGGHHHHTTTHH CS
+           FH2  299 eelkpslealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKstdgktTLLHylveeveekypelldfpdeLehve 393 
+                     +l++++ a+ +A+  + +S++++++Le+vL +GN+mNg+++rG+A+GFk+ sL++L dtK+ d+ktTLLH+++ +vee++ + l f deL+ v+
+  KAI8323587.1 1384 RDLQQDVAAVMTASHAVATSRHFPQVLEVVLSIGNFMNGSGFRGGAFGFKIASLNRLMDTKADDNKTTLLHFVASTVEENFSDALEFLDELKPVD 1478
+                    *********************************************************************************************** PP
+
+                    HHHTS-HHHHHHHHHHHHHHHHHHHHHHHCCCT..............................................SSTT-THHHHHHHHHH CS
+           FH2  394 kAakvsleelekdlskLekglkkvekeleasek..............................................eeesdkFkekmkeFlk 442 
+                      ++vs+ e+++++ +++ +l++ ++ele   +                                               +++d+F  ++++Fl+
+  KAI8323587.1 1479 SGCRVSYAEMKAEMGDMRMRLREAKRELELLRDqrenelkeiamaeekgeatkpasesedsaneaaaeasgtslptssaSDPQDRFLLTIRRFLT 1573
+                    *********************************************************************************************** PP
+
+                    HHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH............................................ CS
+           FH2  443 dAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreFlseflslsaekkekkeekkkeeakekskeeasveeeekaekkaelkeek 537 
+                    +A e++e+L+++++ +e+++++ ++ +gedp+++ peefFgif++F  +f++ +++++ ++e+kk+ e+++k+ e++ ++++ +++++a++ ++ 
+  KAI8323587.1 1574 EANEQYEALSSQFTAMEDSYSNSVLLYGEDPRTVAPEEFFGIFKTFTASFSQVNKDNTRERERKKAAEKRRKQIEAQIEQKRLNKQNRANRLAQG 1668
+                    *****************************************************999999998888887777766666555554444444433332 PP
+
+                    . CS
+           FH2  538 k 538 
+                    +
+  KAI8323587.1 1669 A 1669
+                    2 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (2226 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 86.26
+//
+Query:       EIE78106.1  [L=1220]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    3.4e-91  292.8  14.3    3.4e-91  292.8  14.3    1.9  2  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.7   0.0      0.19      0.19     460     503 ..     304     347 ..     302     358 .. 0.81
+   2 !  292.8  14.3   3.4e-91   3.4e-91     123     583 ..     744    1196 ..     724    1217 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: -3.7 bits;  conditional E-value: 0.19
+                 HHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH.......... CS
+         FH2 460 klfkelleYFgedpketspeefFgifreFlseflslsaekkekk 503
+                 k + ell +++++    ++ + F i+r F++++  +++  ++ +
+  EIE78106.1 304 KTVCELLAFLCYSDGYEHVVRGFEILRKFRKDLGLFDSWMRDFE 347
+                 7788999999999999999999*********9988877666555 PP
+
+  == domain 2  score: 292.8 bits;  conditional E-value: 3.4e-91
+                  ....X.XXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHC.......TSHHHHHHHHTBSCECHHHHXXXXXHCSCCTTCCBSSS-HHHHHHHHHH CS
+         FH2  123 kkaap.ikpkkklKpLnWdklppnqvtgtvWaeldeesfek.......eldlselEelFsakakkkkekkskkksakkkpkevslLDpkraqNiaIl 211 
+                  +k+ +   p++klK L+W+kl+    ++t+W+  ++   +k       ++ ++ +E lF ak++k  ek  + k+ +  ++ +++L  ++  Ni  +
+  EIE78106.1  744 RKE-MqHYPQVKLKNLQWQKLDVKATNQTLWDTENSNLHQKleeklkeKGVFNTIESLFPAKENKFLEKRLQIKKIDIDNDLIKFLTKDKNRNIKTF 839 
+                  222.24789**************************9988889999************************99999*******************9655 PP
+
+                  HHHHTS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHH.....HCTCTSGTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHHHHHHH CS
+         FH2  212 LrklklspeeikdailegDeevLdlellenLlkflPtkeElekl.....keykgdlekLgeaEqFllelskiprleqRleallFklnFeeeveelkp 303 
+                                             l nL++++P ke+         ++ + +  kL+ +EqF +e+++i r+e+Rl+ +lF+ +F e+ + lk 
+  EIE78106.1  840 ---------------------------LVNLMTYIPNKEDNLVVmqkyiRASEAECMKLDLPEQFTVEMMRIYRYEARLKYMLFRVQFWERFDRLKT 909 
+                  ...........................5677*********666663336777778****************************************** PP
+
+                  HHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-T.TTTSBHHHHHHHHHHCCSGGGGGHHHHTTTHHHHHTS. CS
+         FH2  304 slealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKst.dgktTLLHylveeveekypelldfpdeLehvekAakv. 398 
+                  sl ++ +Ac+ L +S+ lk+lL++vL lGNymN+ + +G+AyGF++ s++KL dtK+t +++ TLLH l+ ++++++ ++l+f d+L++v++Aa++ 
+  EIE78106.1  910 SLATVLDACDALHNSDALKELLSVVLMLGNYMNATSLQGGAYGFRIASINKLIDTKATdNSNLTLLHTLIGVIRQQFSHILNFIDDLKDVPQAARIm 1006
+                  **********************************************************77789*********************************9 PP
+
+                  .-HHHHHHHHHHHHHHHHHHHHHHHCCCT....SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHH CS
+         FH2  399 .sleelekdlskLekglkkvekeleasek....eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreFls 490 
+                   s+ ++ ++  ++++gl+ +  el++  k    + e+d+F  +m++  ++  e++e++e+l+ +++ ++k+++ ++ge+p+++ p+efF if+ F++
+  EIE78106.1 1007 aSISDIVQEYTDMRQGLRHLGIELDTYWKggqvDLEQDRFYVVMEDYRNSVMERFEEIETLYINMDAKWKNVMTFYGENPQTIRPDEFFAIFSKFIE 1103
+                  9************************************************************************************************ PP
+
+                  HHH.......................................................................................... CS
+         FH2  491 eflslsaekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakeekesekkkklkkekkkklsskaeskklaseevekvavsel 583 
+                   ++ +  e+ + +++k++e+++ ++ ee++ ++ ++++ +++ +e        +k ++ ++ +k++k++ +++ ++sk+++++  ++++ +++
+  EIE78106.1 1104 CWKTCAYEELKYTQNKEREQKRIEEMEEKRLKSLQANSDTKQDEEGPLVDDLLAKLRSGESLTKRRKSRVRRMFKHSKSFKRRPSNSSVRRDS 1196
+                  888888888888877777777777666666666666555555555555544444444444455555555555555555555555444444333 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1220 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 128.42
+//
+Query:       EIE86344.1  [L=999]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   2.6e-109  352.7  17.4   2.6e-109  352.7  17.4    2.2  3  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.5   2.3     0.042     0.042     399     460 ..     198     271 ..     161     308 .. 0.68
+   2 ?   -4.0   0.1      0.23      0.23      89     130 ..     377     419 ..     341     424 .. 0.29
+   3 !  352.7  17.4  2.6e-109  2.6e-109     121     579 ..     481     945 ..     467     995 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: -1.5 bits;  conditional E-value: 0.042
+                 -HHHHHHHHHHHHHHHHHHHHHHHCCCT............SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+         FH2 399 sleelekdlskLekglkkvekeleasek............eeesdkFkekmkeFlkdAeeelekLeellkeaek 460
+                 +l+el+ + ++Le++ ++++ +l++  +            e++ d F + + e  +d+ee +   +++l++a +
+  EIE86344.1 198 DLKELQVNYAELERERDALRAQLSQERDlqneydaslelaENQFDAFYKLIDEHSSDSEETIVISRKDLTKALE 271
+                 45566666666666666666666666665444445555555555555555555555555555555555555544 PP
+
+  == domain 2  score: -4.0 bits;  conditional E-value: 0.23
+                 ......................................X.XXX CS
+         FH2  89 keskekekkekkeekeeekkkekkkekkkkkkekkkaap.ikp 130
+                 k + +ke  +++++++++  + + +  + ++ ++++++p ++p
+  EIE86344.1 377 KGALSKEPVHESSTNDNHIPSMQDNAIETSSIPSPPPPPpPPP 419
+                 1111111112222222222222222222222222222223334 PP
+
+  == domain 3  score: 352.7 bits;  conditional E-value: 2.6e-109
+                 ......XXXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHC........TSHHHHHHHHTBSCECHHHHXXXXXHCSCCTTCCBSSS-HHHHHHHHH. CS
+         FH2 121 ekkkaapikpkkklKpLnWdklppnqvtgtvWaeldeesfek........eldlselEelFsakakkkkekkskkksakkkpkevslLDpkraqNiaI. 210
+                  k+ ++   p++k+++L+W+kl+ n +++t+W   d e  e+        e+ +s++Ee F++k++++k+      ++  k++ + ++D+++a+Ni+I 
+  EIE86344.1 481 RKQVKH--LPTVKTRQLQWQKLNTNHIQSTIWKNSDLENKEDelaermkaEGVFSRMEEIFAQKVANSKK-----LVTNEKRQDICIIDSRKAYNISIa 572
+                 334444..49***********************99999988899***********************877.....89*********************6 PP
+
+                 HHHHH.TS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHH.....HCTCTSGTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHHHHHHH CS
+         FH2 211 lLrkl.klspeeikdailegDeevLdlellenLlkflPtkeElekl.....keykgdlekLgeaEqFllelskiprleqRleallFklnFeeeveelkp 303
+                 +L+k   +s++e k++il++De  +++ ll+nLl ++P+ +E+ kl      + ++dl  L++++ F+ e+++i+r+++Rl  +lF  +F+++++ l +
+  EIE86344.1 573 VLAKYkSISFKEFKKKILAVDERFCTEILLRNLLANIPSHDEMGKLsvflkTASEEDLQCLSKPDAFCAEIMTIDRFKERLTHMLFVTTFHDRITQLGK 671
+                 6****999**************************************88884455555****************************************** PP
+
+                 HHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-TTTTSBHHHHHHHHHHCCSGGGG.GHHHHTTTHHHHHTS-HH CS
+         FH2 304 slealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKstdgktTLLHylveeveekypell.dfpdeLehvekAakvsle 401
+                 ++ ++ +A++ L++S+ +k+lL ++L +GN++Ng +++G+A+G ++ s++KL+dt+++  +tTLLH+l+ +veek+pe++ ++ ++Le + +A++    
+  EIE86344.1 672 NMTNVMDASNNLKESEAFKELLNIILMVGNFLNGTNFQGGAFGIRIGSINKLVDTRASTDNTTLLHFLCTTVEEKFPEISkNLVKDLELCGEACR---- 766
+                 *******************************************************************************96799**********9.... PP
+
+                 HHHHHHHHHHHHHHHHHHHHHCCCT....SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH... CS
+         FH2 402 elekdlskLekglkkvekeleasek....eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreFlseflsls 496
+                     d ++L+ gl+ +  ele +       ee+d+F  +m +F ++A e++++Le  ++ ++ ++k+++ YFgedp++++p+efFgif +Fls++++ +
+  EIE86344.1 767 ----DYNELRVGLQSLIHELECNYGpdyeAEEGDNFAAVMYKFRDRAIEKFDQLEVRYTSMDIAYKDVVSYFGEDPSNMKPDEFFGIFQTFLSSWTRAK 861
+                 ....*******************99************************************************************************** PP
+
+                 .................................................................................... CS
+         FH2 497 aekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakeekesekkkklkkekkkklsskaeskkla.seevekva 579
+                 a+ + +k++ ++ e++++ +e+++++++++ + k   +++++ +  +++  ek +  ++ ++++++s++ s++ + +++ve+++
+  EIE86344.1 862 ADIEMQKKRMEQVEKSKQYQEQRKARMKNRLDIKDGSSDNQEDKDIMDNLLEKLRSGEMGTAQQRKSRRISMRERrKTRVESMV 945
+                 **9999999999999888888888877777776666665555555555444444433333333222222222221011121111 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (999 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 100.94
+//
+Query:       EIE80437.1  [L=2576]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   2.1e-100  323.2  22.8   2.1e-100  323.2  22.8    4.7  5  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.2   0.9     0.067     0.067     406     464 ..     198     266 ..     189     332 .. 0.67
+   2 !  323.2  22.8  2.1e-100  2.1e-100     129     596 ..     636    1075 ..     620    1125 .. 0.80
+   3 ?   -3.7   4.4      0.19      0.19     500     527 ..    1426    1453 ..    1340    1518 .. 0.44
+   4 ?   -6.6  13.8         1         1     498     597 ..    1536    1634 ..    1495    1690 .. 0.35
+   5 ?   -1.7   1.2     0.046     0.046      87     121 ..    2400    2434 ..    2320    2498 .. 0.51
+
+  Alignments for each domain:
+  == domain 1  score: -2.2 bits;  conditional E-value: 0.067
+                 HHHHHHHHHHHHHHHHHCCCT..........SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+         FH2 406 dlskLekglkkvekeleasek..........eeesdkFkekmkeFlkdAeeelekLeellkeaeklfke 464
+                 dl++L+   +++e+e +   +            +  +   ++++ l  ++  ++ L++ l+++++++++
+  EIE80437.1 198 DLKELQVHYTEIERERDVLRSqlshegdaleVVQLREKTASLEDLLRMSRHTISTLQKKLRDLQSEYDA 266
+                 555555555555555555555543222232222222223455566666666777777777777777764 PP
+
+  == domain 2  score: 323.2 bits;  conditional E-value: 2.1e-100
+                  XXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHC........TSHHHHHHHHTBSCECHHHHXXXXXHCSCCTTCCBSSS-HHHHHHHHH.HHHHH. CS
+         FH2  129 kpkkklKpLnWdklppnqvtgtvWaeldeesfek........eldlselEelFsakakkkkekkskkksakkkpkevslLDpkraqNiaI.lLrkl. 215 
+                   p++k+++L+W+kl++n +++t+W ++  e+ e         e+ ++++Ee F++k+ ++k+      ++k k++e+ ++Dp++a+Ni+I +L+k  
+  EIE80437.1  636 LPTVKTRQLQWQKLNANYIQSTIWKKATLEEKEValenmfdaEGVFKRMEEIFAQKVIATKK-----LAKKEKRQEICIIDPRKAYNISIaVLAKYk 727 
+                  499***********************9999888899***********************887.....89*********************66***** PP
+
+                  TS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHH.....HCTCTSGTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHHHHHHHHHHH CS
+         FH2  216 klspeeikdailegDeevLdlellenLlkflPtkeElekl.....keykgdlekLgeaEqFllelskiprleqRleallFklnFeeeveelkpslea 307 
+                  ++s++e k+++l++De  +++ ll+nLl ++P+ +E+ kl      + ++dle L++ + F+ e+++i+r+++Rl  +lF  +F+e+++ l +++ +
+  EIE80437.1  728 NISFKEFKRKLLAVDERFCTEVLLKNLLMNAPSHDEMGKLsvfmkTASEEDLECLSKSDSFCAEIMTIDRFKERLTHMLFVTTFHERISQLGKNMTN 824 
+                  ****************************************88884455555********************************************** PP
+
+                  HHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-TTTTSBHHHHHHHHHHCCSGGGG.GHHHHTTTHHHHHTS-HHHH CS
+         FH2  308 leaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKstdgktTLLHylveeveekypell.dfpdeLehvekAakvsleel 403 
+                  + +A+ +L++S+ +  lL ++L +GN++Ng +++G+A+G ++ s++KL+dt+++ + tTLLH+l+ +veek+p ++ ++ ++Le + +A++v     
+  EIE80437.1  825 VMDASTSLKDSEAFIDLLNIILMVGNFLNGTNFQGGAFGIRIGSINKLVDTRASTNDTTLLHFLCTMVEEKFPTISqSLVKDLELCGEACRV----- 916 
+                  *************************************************************************9984577888888888775..... PP
+
+                  HHHHHHHHHHHHHHHHHHHCCCTSSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH....... CS
+         FH2  404 ekdlskLekglkkvekeleasekeeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreFlseflslsaekk 500 
+                                                   m +F ++A e+++ Le  ++ ++ ++k+++ YFgedp++++p+efFgif +Fls++++ + + +
+  EIE80437.1  917 ---------------------------------MYKFRDRAIEKFDLLEVRYTSMDVAYKDVVSYFGEDPSNMKPDEFFGIFQTFLSSWKKAKGDIE 980 
+                  .................................999**********************************************************999 PP
+
+                  ................................................................................................ CS
+         FH2  501 ekkeekkkeeakekskeeasveeeekaekkaelkeekkklakeekesekkkklkkekkkklsskaeskklaseevekvavsellksvdealrkvle 596 
+                   ++++k++ e++++ +e++++  +++ + k   +++++ +  +++  ek +  ++ ++++++s++ s++ +++++++++v + ++   + +++  e
+  EIE80437.1  981 LQRKKKEQAEKSKQYQEQRKALLKNRLDIKDGPSDNQEDKDIMDNLLEKLRSGEMGTAQQRRSRRMSMRERRKTKTESMVVK-AEDLLRHIQNDEE 1075
+                  9999999999988888888887777777766665555555555554444444333333333332222222222222111111.1111122222222 PP
+
+  == domain 3  score: -3.7 bits;  conditional E-value: 0.19
+                  ............................ CS
+         FH2  500 kekkeekkkeeakekskeeasveeeeka 527 
+                  ++++ ++++++a  + ++  +v +++ +
+  EIE80437.1 1426 QQSNYQQQEQHAAIQDSYDPNVYAANPM 1453
+                  1111111111111111111111111110 PP
+
+  == domain 4  score: -6.6 bits;  conditional E-value: 1
+                  ................................................................................................. CS
+         FH2  498 ekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakeekesekkkklkkekkkklsskaeskklaseevekvavsellksvdealrkv 594 
+                  + ++++e++++ ++++++++e ++ +++ a +++ +++++ +++ ++   ++++ +++   ++ +  ++ +++++ +v+++ vs++ + +  +l++ 
+  EIE80437.1 1536 DYHQNQEQQQQ-QQQQQESSEPKTFAATPAIVSVDKQQADYQQHYNADVYNSENYTTNVFDQQDTVFEDLQSSKDAQVDQNIVSQNSHFTVSSLNEN 1631
+                  11111111111.1111111111111111111111111111111111111111111111111111111111222222222222222222222222222 PP
+
+                  ... CS
+         FH2  595 les 597 
+                   ++
+  EIE80437.1 1632 NDT 1634
+                  221 PP
+
+  == domain 5  score: -1.7 bits;  conditional E-value: 0.046
+                  ................................... CS
+         FH2   87 akkeskekekkekkeekeeekkkekkkekkkkkke 121 
+                  +++++k+++++e++ ++e+ekk++  ke+ kk++e
+  EIE80437.1 2400 NSSTKKNRSTSEQQPSDESEKKETAPKEEPKKEQE 2434
+                  11111111111111112222222222222222222 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (2576 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 97.49
+//
+Query:       EIE88410.1  [L=1286]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+   4.5e-117  378.3   9.5   4.5e-117  378.3   9.5    2.3  2  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.8   2.1     0.049     0.049     407     593 ..     480     496 ..     379     552 .. 0.42
+   2 !  378.3   9.5  4.5e-117  4.5e-117     127     539 ..     851    1275 ..     839    1285 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: -1.8 bits;  conditional E-value: 0.049
+                 HHHHHHHHHHHHHHHHCCCTSSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH............ CS
+         FH2 407 lskLekglkkvekeleasekeeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreFlseflslsaekkekkee 505
+                 ++ L+++lk++++e                                                                                     
+  EIE88410.1 480 IATLQRKLKDTQQE------------------------------------------------------------------------------------- 493
+                 11111111111111..................................................................................... PP
+
+                 ........................................................................................ CS
+         FH2 506 kkkeeakekskeeasveeeekaekkaelkeekkklakeekesekkkklkkekkkklsskaeskklaseevekvavsellksvdealrk 593
+                                                                                                      ++ 
+  EIE88410.1 494 -------------------------------------------------------------------------------------YEM 496
+                 .....................................................................................111 PP
+
+  == domain 2  score: 378.3 bits;  conditional E-value: 4.5e-117
+                  X..XXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHC......TSHHHHHHHHTBSCECHHHHXXXXXHCSCCTTCCBSSS-HHHHHHHHHH.HHH CS
+         FH2  127 p..ikpkkklKpLnWdklppnqvtgtvWaeldeesfek......eldlselEelFsakakkkkekkskkksakkkpkevslLDpkraqNiaIl.Lrk 214 
+                      +p +k++ ++W+kl+ n v+ tvW + d ++ +        + ++ +E +F++k+ + k+      + + ++ke+++LD k+ +Ni+I  L++
+  EIE88410.1  851 VlrHQPNVKTRAIQWTKLQGNAVGRTVWGSNDVDELALedemdtLGIFDSIESMFAQKVVQAKK-----RVVQEEKKEIRILDQKKGYNINIAiLSR 942 
+                  13479***********************99999988888899999999*************987.....78*********************559** PP
+
+                  H.TS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHH....HCTCTS.GTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHHHHHHHHH CS
+         FH2  215 l.klspeeikdailegDeevLdlellenLlkflPtkeElekl....keykgd.lekLgeaEqFllelskiprleqRleallFklnFeeeveelkpsl 305 
+                  l  ls+e++ +  l++++++L++++l nL +++Pt+eE  +l    k+ +++ le+L+ ++ F++e++ki+r+++R++ +lF+++F+e+ ++l + +
+  EIE88410.1  943 LkSLSMEQMAKEFLAVNDKILTENFLVNLQQYAPTPEEQGRLsvfvKSASEEeLEQLSAPDAFCVEMMKIDRYKERIDNMLFRATFAERQQSLSKHM 1039
+                  *99***************************************88885555556******************************************** PP
+
+                  HHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-TTTTSBHHHHHHHHHHCCSGGGGGHHHHTTTHHHHHTS-HHH CS
+         FH2  306 ealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKstdgktTLLHylveeveekypelldfpdeLehvekAakvslee 402 
+                   a+ +A+ +L++S ++k+lL+l+L lGN+mNg+t++G+A+G ++ s++KL+dtK+t g+ TLLH+lv  ve k+p l +f d+L+ +  A    l++
+  EIE88410.1 1040 AAVLNASVSLKDSSSFKELLKLILVLGNFMNGSTFQGGAFGIRIASINKLVDTKGTEGSVTLLHFLVDSVESKFPRLHGFLDDLQECGDA--FTLQD 1134
+                  *****************************************************************************************6..779** PP
+
+                  HHHHHHHHHHHHHHHHHHHHCCCT....SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH.. CS
+         FH2  403 lekdlskLekglkkvekeleasek....eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreFlseflsl 495 
+                  l k+ ++++ gl+k+ +el+++ +     +e+d++ ++mk+F ++A e++e+Le  ++ ++ ++++++ YFge+p++++p+efF+if++F s++++ 
+  EIE88410.1 1135 LVKEYNEIRVGLQKLIQELDNHYEedyeAPEGDNYADVMKKFRDEAIEKFEELEVRYTSMDVAYRDVVTYFGENPDQMKPDEFFSIFKTFTSSWERA 1231
+                  ************************************************************************************************* PP
+
+                  ............................................ CS
+         FH2  496 saekkekkeekkkeeakekskeeasveeeekaekkaelkeekkk 539 
+                  ++++ ++k++ + +e+ + ++e++++++++++ + + ++e++k+
+  EIE88410.1 1232 MSDNVTAKKKIELREKARLIEEARKEKMRAQKLRCVDTSESDKS 1275
+                  ***99999999988888888877777777666665555555444 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1286 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 130.75
+//
+Query:       EIE86940.1  [L=1092]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    3.6e-87  279.5  16.4    3.6e-87  279.5  16.4    1.7  2  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.8   0.3       0.1       0.1     388     418 ..     474     500 ..     459     543 .. 0.71
+   2 !  279.5  16.4   3.6e-87   3.6e-87     113     572 ..     638    1064 ..     580    1090 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: -2.8 bits;  conditional E-value: 0.1
+                 HTTTHHHHHTS-HHHHHHHHHHHHHHHHHHH CS
+         FH2 388 eLehvekAakvsleelekdlskLekglkkve 418
+                 eLe++    kv++e+++++  +L+ ++ k++
+  EIE86940.1 474 ELENL----KVQYESVAAEKEQLQAEIAKLR 500
+                 44444....6788888888888888877776 PP
+
+  == domain 2  score: 279.5 bits;  conditional E-value: 3.6e-87
+                  ..............X.XXXSSXBXXXXXXBESSGGCTTSCTCSTCCHHHHC.....TSHHHHHHHHTBSCECHHHHXXXXXHCSCCTTCCBSSS-HH CS
+         FH2  113 kekkkkkkekkkaap.ikpkkklKpLnWdklppnqvtgtvWaeldeesfek.....eldlselEelFsakakkkkekkskkksakkkpkevslLDpk 203 
+                   +  +++++++k+     p++klK L+W+k ++    +t+W+  + ++ ++     ++ ++ +E lF ak++   ek  ++k+++ +++ +++L  +
+  EIE86940.1  638 LSTPHAAPNTRKE-LhHYPQVKLKNLQWQKMDARATCQTFWDTNNHSENLEeklneKGVFDTIECLFPAKVNHFLEKRLQSKKTDVENDSIKFLKKD 733 
+                  2222333333333.2578*************************9999888899999***************************************** PP
+
+                  HHHHHHHHHHHHTS-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHH....HHHHHCTCTS.GTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHH CS
+         FH2  204 raqNiaIlLrklklspeeikdailegDeevLdlellenLlkflPtkeE....leklkeykgd.lekLgeaEqFllelskiprleqRleallFklnFe 295 
+                  +  Ni  +L                            nL++++P  ++    ++k+ + +++  +kL+ +EqF +e++ki r+e+Rl+ +lF+++F 
+  EIE86940.1  734 KNRNIKTFLV---------------------------NLITNIPNNDDdlvtMQKYMSASDEeCSKLDLPEQFTIEMMKIYRYEARLKYMLFRAQFW 803 
+                  *****76665...........................66888888877666677775555556********************************** PP
+
+                  HHHHHHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-T.TTTSBHHHHHHHHHHCCSGGGGGHHHHTTT CS
+         FH2  296 eeveelkpslealeaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKst.dgktTLLHylveeveekypelldfpdeLeh 391 
+                  e+ + lk sl ++  Ac+ L +S+ +k+lL+++L lGNymN+++ +G+A+GF++ s++KL+dtK+t  +  TLLH l+ ++++++p++l+f ++ ++
+  EIE86940.1  804 ERFDRLKSSLSIVLGACDALHDSEAFKELLSIILMLGNYMNASSLQGGAFGFRIASINKLVDTKATeSSHLTLLHILAGIIRKQFPHILKFIEDVKD 900 
+                  ******************************************************************88889************************** PP
+
+                  HHHHHTS-HHHHHHHHHHHHHHHHHHHHHHHCCCTSSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHH CS
+         FH2  392 vekAakvsleelekdlskLekglkkvekeleasekeeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreF 488 
+                  v++Aa+               +l+  +ke +  ++   +d+F  +m++   + +e++e++e+l+ +++ ++k+l++Y+ge+p+++ p+efF+if++F
+  EIE86940.1  901 VPQAAR---------------KLDTYWKETQDDSN---QDRFYAVMEQHRRSVTERFEEIEALYINMDAKWKNLMLYYGENPQSMRPDEFFQIFSRF 979 
+                  *****7...............88888888888888...*********************************************************** PP
+
+                  HHHHH................................................................................ CS
+         FH2  489 lseflslsaekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakeekesekkkkl.kkekkkklsskaeskklas 572 
+                  +  ++ +  e+   +++k++ee++ ++ ee++ +++++++k++  +   +    ++ +s ++ ++ +k+++++++++ ++++++s
+  EIE86940.1  980 VHNWKTCAYEELVYAQSKEREEKRIRELEEKRLQKTKNMTKSNDDEGPLVDDLLAKLRSGESLTKsRKNRARRKTRQFKKSQSSS 1064
+                  ***9999999999999988888887777777666666665555544443333333333322222202222222222222222222 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1092 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 124.49
+//
+Query:       EIE82009.1  [L=1206]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    1.1e-72  231.6  12.4    1.1e-72  231.6  12.4    1.9  2  FH2       Formin Homology 2 Domain
+
+
+Domain annotation for each model (and alignments):
+>> FH2  Formin Homology 2 Domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.1   0.8     0.031     0.031     486     601 ..     438     556 ..     433     593 .. 0.39
+   2 !  231.6  12.4   1.1e-72   1.1e-72     128     544 ..     741    1140 ..     725    1203 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: -1.1 bits;  conditional E-value: 0.031
+                 HHHHHHHH........................................................................................... CS
+         FH2 486 reFlseflslsaekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakeekesekkkklkkekkkklssk...aeskklaseevekvavs 581
+                  +F+s++l + ++ k+++ +++ +e  +++ + ++++ + ++   +++  + ++++ + +e ++ ++ ++++++ ++++   a++++  ++++e+ + +
+  EIE82009.1 438 QTFRSMLLIKGDADKKTHYHQAISEIVSNIVMDRRNSVTVEELGASAFGISVNNMIGKFNELDRLQEIARSAEEDKENSirlAAENRELRQQIENLMST 536
+                 567777777766666666666655555555444444444443333333333333332222222222222222222221100022222222222222222 PP
+
+                 .................... CS
+         FH2 582 ellksvdealrkvlesvave 601
+                 +  ++++ ++++v   + ++
+  EIE82009.1 537 KGSDTRNYKIENVAIRALLQ 556
+                 22222222222222222222 PP
+
+  == domain 2  score: 231.6 bits;  conditional E-value: 1.1e-72
+                  XXXSSXBXXXXXXBESSGGCTTSCT..CSTCCHHHHC....TSHHHHHHHHTBSCECHHHHXXXXXHCSCCTTCCBSSS-HHHHHHHHHH.HHHHTS CS
+         FH2  128 ikpkkklKpLnWdklppnqvtgtvW..aeldeesfek....eldlselEelFsakakkkkekkskkksakkkpkevslLDpkraqNiaIl.Lrklkl 217 
+                    p+ klK L+W+kl++  v++tvW  + ++e+++e+     + ++++  lF aka++  ek   k++ + k++ +++++ +++ Ni+   L k k 
+  EIE82009.1  741 HYPQIKLKNLQWQKLDARGVNNTVWvlNGVNETEIEDdldkFGVFEKIVTLFPAKANNFFEKR-IKAKVEEKKDAIKFMSKDKSRNINLAiLPKCKA 836 
+                  46899******************9966678888888866667779*****************8.************************963666654 PP
+
+                  ..-HHHHHHHHHCTSTCCCTHHHHHHHHHHCGGHHHHHHH..HCTCTS...GTTB-HHHHHHHHHCTSTTHHHHHHHHHHHHCHHHHHHHHHHHHHH CS
+         FH2  218 ..speeikdailegDeevLdlellenLlkflPtkeElekl..keykgd...lekLgeaEqFllelskiprleqRleallFklnFeeeveelkpslea 307 
+                    s+ e+++ai++ D+  ++  +l nL++flPtk++   l  k ++g+    ++L+ +EqF +e+                 +F e+++ l +    
+  EIE82009.1  837 feSFVEVRKAIMKIDDALCTDTFLGNLINFLPTKDDNLTLmqKFLEGPpeaCNELDIPEQFTIEV---------------TVQFWERIDQLEN---- 914 
+                  55**************************************97666777999***********998...............79*******9997.... PP
+
+                  HHHHHHHHHH-HHHHHHHHHHHHHHHHHSTSSTTCS-SEB-GGGGGGCSSSB-T.TTTSBHHHHHHHHHHCCSGGGGGHHHHTTTHHHHHTS..-HH CS
+         FH2  308 leaAceeLrsSkklkklLelvLalGNymNgGtrrGnAyGFkLssLlKLsdtKst.dgktTLLHylveeveekypelldfpdeLehvekAakv..sle 401 
+                                     l+L +GNymN+ + +G+A+G ++ss++KL+dtK++  ++ +LLH +v + ++++p+ll f  +L+++e+A+++  s+ 
+  EIE82009.1  915 -------------------LILVIGNYMNAQSLQGGAFGMRISSINKLVDTKASnTSSLNLLHVVVGVTRRQFPHLLEFLVDLKSIEQASRImaSIN 992 
+                  ...................***********************************88999*********************************99*** PP
+
+                  HHHHHHHHHHHHHHHHHHHHHCCCT.....SSTT-THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--TTTCHHHHHHHHHHHHHHHHH CS
+         FH2  402 elekdlskLekglkkvekeleasek.....eeesdkFkekmkeFlkdAeeelekLeellkeaeklfkelleYFgedpketspeefFgifreFlsefl 493 
+                  +l +   +++kglk++  el +  +      +e+dkF++ m++  +dA+ +++ Le+l+ +++ ++k+++ Y+ge+pk + p++fF++f++F+ +++
+  EIE82009.1  993 DLIQQYTEMRKGLKDLALELGTRWQpedvnLDEDDKFRDIMTKYNEDASIRFQVLESLYVNMDAKWKDAMVYYGENPKVMRPDDFFSTFARFVVSWK 1089
+                  ************************************************************************************************9 PP
+
+                  ................................................... CS
+         FH2  494 slsaekkekkeekkkeeakekskeeasveeeekaekkaelkeekkklakee 544 
+                   + +++++ +eek + ++++++k+++++ee++++++ +++k+e + ++k++
+  EIE82009.1 1090 ACFKREASIAEEKMALKQEREEKRKREEEERKERMRIKKEKAEAALKEKRA 1140
+                  999999999998888887777776666655555544444443333332222 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1206 residues searched)
+Target model(s):                           1  (646 nodes)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 125.44
+//
+[ok]
