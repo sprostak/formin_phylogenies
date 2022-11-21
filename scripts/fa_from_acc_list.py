@@ -2,9 +2,9 @@
 
 import re
 
-in_file = "/Users/laboratory/Documents/Fritz_Laylin_Lab/formins/files/test_fh2_hits.txt"
-db = "/Users/laboratory/Documents/Fritz_Laylin_Lab/formins/databases/proteins_for_fh2_blast.faa"
-out_file = '/Users/laboratory/Documents/Fritz_Laylin_Lab/formins/files/test_hits.fa'
+in_file = "/Users/laboratory/Documents/Fritz_Laylin_Lab/formins/files/blasts_20221117/fh2_hit_accs.txt"
+db = "/Users/laboratory/Documents/Fritz_Laylin_Lab/formins/files/protein_sets/early_fungi_prots.fa"
+out_file = '/Users/laboratory/Documents/Fritz_Laylin_Lab/formins/files/blasts_20221117/fh2_hit_seqs_20221117.fa'
 
 db_dict = {}
 
