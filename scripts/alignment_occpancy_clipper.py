@@ -5,9 +5,9 @@
 import pandas as pd
 import re
 
-aln_file = '/Users/laboratory/Documents/Fritz_Laylin_Lab/formins/files/fastas/alignment_test.txt'
-removed_file = '/Users/laboratory/Documents/Fritz_Laylin_Lab/formins/files/columns_removed_test.txt' 
-out_file = '/Users/laboratory/Documents/Fritz_Laylin_Lab/formins/files/fastas/clipped_aln_test.txt'
+aln_file = '/Users/laboratory/Documents/Fritz_Laylin_Lab/formins/files/hmmalign_20221122/20221122_prots_with_fh2_aligned_clipped.fa'
+removed_file = '/Users/laboratory/Documents/Fritz_Laylin_Lab/formins/files/hmmalign_20221122/columns_removed.txt' 
+out_file = '/Users/laboratory/Documents/Fritz_Laylin_Lab/formins/files/hmmalign_20221122/20221122_prots_with_fh2_for_tree.fa'
 
 
 ## define the fasta parser function to put the seq and any gaps inserted into a list associated with geneID
@@ -21,8 +21,7 @@ def fastaparse(file):
 				db_dict[gene_id] = ''
 			else:
 				seq = line.rstrip('\n')
-				seq_list = [*seq]				## makes the sequence into a list where each element is an amino acid or a gap
-				db_dict[gene_id] = seq_list		## associates the sequence list with the geneID in the database dict
+				db_dict[gene_id] += seq		## associates the sequence with the geneID in the database dict
 	return db_dict
 
 ## define a function to convert a list to a string
@@ -35,13 +34,20 @@ def listToString(l):
     # return string
     return str1
 
-aln_dict = fastaparse(aln_file)
+aln_dict_string = fastaparse(aln_file)
+aln_dict_list = {}
 
-aln_df = pd.DataFrame(aln_dict.values(), index = aln_dict.keys())
+
+## make a new alignment dictionary where the values are the sequence in list form for the given gene
+for gene, seq in aln_dict_string.items():
+	seq_list = [*seq]
+	if gene not in aln_dict_list:
+		aln_dict_list[gene] = seq_list
+
+aln_df = pd.DataFrame(aln_dict_list.values(), index = aln_dict_list.keys())
 
 print(f'''
-Alignment added to dataframe
-''')
+Alignment added to dataframe''')
 
 with open(removed_file, 'w') as f:
 	for (columnName, columnData) in aln_df.items():
@@ -56,7 +62,8 @@ with open(removed_file, 'w') as f:
 
 
 print(f'''
-Columns with less than 80% occupant removed from alignment''')
+Columns with less than 80% occupancy added to columns_removed.txt 
+Columns with less than 80% occupancy removed from alignment''')
 
 ## add the new alignment to a fasta file
 
