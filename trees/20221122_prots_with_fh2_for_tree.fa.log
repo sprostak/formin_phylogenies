@@ -1,0 +1,1118 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    fermat (AVX2, FMA3, 1009 GB RAM)
+Command: ../../iqtree -s 20221122_prots_with_fh2_for_tree.fa -st AA -m TEST -bb 1000 -wbt -alrt 1000
+Seed:    891729 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Nov 22 19:59:41 2022
+Kernel:  AVX+FMA - 1 threads (128 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 128 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file 20221122_prots_with_fh2_for_tree.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 328 sequences with 349 columns, 349 distinct patterns
+349 parsimony-informative, 0 singleton sites, 0 constant sites
+WARNING: Some sequence names are changed as follows:
+KAI3643801.1_Amoeboaphelidium_protococcarum/756-1143 -> KAI3643801.1_Amoeboaphelidium_protococcarum_756-1143
+KAI3645177.1_Amoeboaphelidium_protococcarum/753-1140 -> KAI3645177.1_Amoeboaphelidium_protococcarum_753-1140
+KAI3652879.1_Amoeboaphelidium_protococcarum/696-1056 -> KAI3652879.1_Amoeboaphelidium_protococcarum_696-1056
+KAI3651607.1_Amoeboaphelidium_protococcarum/696-1056 -> KAI3651607.1_Amoeboaphelidium_protococcarum_696-1056
+KAI3647622.1_Amoeboaphelidium_protococcarum/618-992 -> KAI3647622.1_Amoeboaphelidium_protococcarum_618-992
+KAI3642370.1_Amoeboaphelidium_protococcarum/618-992 -> KAI3642370.1_Amoeboaphelidium_protococcarum_618-992
+KAI9183600.1_Blastocladiella_emersonii_ATCC_22665/900-1274 -> KAI9183600.1_Blastocladiella_emersonii_ATCC_22665_900-1274
+KAI9183601.1_Blastocladiella_emersonii_ATCC_22665/801-1183 -> KAI9183601.1_Blastocladiella_emersonii_ATCC_22665_801-1183
+ORZ35123.1_Catenaria_anguillulae_PL171/927-1304 -> ORZ35123.1_Catenaria_anguillulae_PL171_927-1304
+ORZ35120.1_Catenaria_anguillulae_PL171/732-1105 -> ORZ35120.1_Catenaria_anguillulae_PL171_732-1105
+ORZ31703.1_Catenaria_anguillulae_PL171/596-962 -> ORZ31703.1_Catenaria_anguillulae_PL171_596-962
+KXN68160.1_Conidiobolus_coronatus_NRRL_28638/1158-1527 -> KXN68160.1_Conidiobolus_coronatus_NRRL_28638_1158-1527
+KXN64633.1_Conidiobolus_coronatus_NRRL_28638/1-219 -> KXN64633.1_Conidiobolus_coronatus_NRRL_28638_1-219
+CDH58867.1_Lichtheimia_corymbifera_JMRC:FSU:9682/93-475 -> CDH58867.1_Lichtheimia_corymbifera_JMRC_FSU_9682_93-475
+CDH49539.1_Lichtheimia_corymbifera_JMRC:FSU:9682/862-1243 -> CDH49539.1_Lichtheimia_corymbifera_JMRC_FSU_9682_862-1243
+CDH56507.1_Lichtheimia_corymbifera_JMRC:FSU:9682/1160-1539 -> CDH56507.1_Lichtheimia_corymbifera_JMRC_FSU_9682_1160-1539
+CDH61520.1_Lichtheimia_corymbifera_JMRC:FSU:9682/1090-1465 -> CDH61520.1_Lichtheimia_corymbifera_JMRC_FSU_9682_1090-1465
+CDH49882.1_Lichtheimia_corymbifera_JMRC:FSU:9682/891-1265 -> CDH49882.1_Lichtheimia_corymbifera_JMRC_FSU_9682_891-1265
+CDH53494.1_Lichtheimia_corymbifera_JMRC:FSU:9682/878-1287 -> CDH53494.1_Lichtheimia_corymbifera_JMRC_FSU_9682_878-1287
+CDH51440.1_Lichtheimia_corymbifera_JMRC:FSU:9682/1004-1410 -> CDH51440.1_Lichtheimia_corymbifera_JMRC_FSU_9682_1004-1410
+KAI7885518.1_Lichtheimia_hyalospora_FSU_10163/899-1281 -> KAI7885518.1_Lichtheimia_hyalospora_FSU_10163_899-1281
+KAI7877521.1_Lichtheimia_hyalospora_FSU_10163/854-1235 -> KAI7877521.1_Lichtheimia_hyalospora_FSU_10163_854-1235
+KAI7884419.1_Lichtheimia_hyalospora_FSU_10163/1164-1543 -> KAI7884419.1_Lichtheimia_hyalospora_FSU_10163_1164-1543
+KAI7886931.1_Lichtheimia_hyalospora_FSU_10163/1056-1431 -> KAI7886931.1_Lichtheimia_hyalospora_FSU_10163_1056-1431
+KAI7879656.1_Lichtheimia_hyalospora_FSU_10163/875-1283 -> KAI7879656.1_Lichtheimia_hyalospora_FSU_10163_875-1283
+KAI7885728.1_Lichtheimia_hyalospora_FSU_10163/882-1256 -> KAI7885728.1_Lichtheimia_hyalospora_FSU_10163_882-1256
+KAI8323587.1_Martensiomyces_pterosporus/1199-1623 -> KAI8323587.1_Martensiomyces_pterosporus_1199-1623
+EIE78106.1_Rhizopus_delemar_RA_99-880/751-1105 -> EIE78106.1_Rhizopus_delemar_RA_99-880_751-1105
+EIE86344.1_Rhizopus_delemar_RA_99-880/488-857 -> EIE86344.1_Rhizopus_delemar_RA_99-880_488-857
+EIE80437.1_Rhizopus_delemar_RA_99-880/637-972 -> EIE80437.1_Rhizopus_delemar_RA_99-880_637-972
+EIE88410.1_Rhizopus_delemar_RA_99-880/856-1228 -> EIE88410.1_Rhizopus_delemar_RA_99-880_856-1228
+EIE86940.1_Rhizopus_delemar_RA_99-880/655-983 -> EIE86940.1_Rhizopus_delemar_RA_99-880_655-983
+EIE82009.1_Rhizopus_delemar_RA_99-880/743-1088 -> EIE82009.1_Rhizopus_delemar_RA_99-880_743-1088
+KFH66168.1_Podila_verticillata_NRRL_6337/1121-1493 -> KFH66168.1_Podila_verticillata_NRRL_6337_1121-1493
+KAI9293249.1_Neoconidiobolus_thromboides_FSU_785/1070-1443 -> KAI9293249.1_Neoconidiobolus_thromboides_FSU_785_1070-1443
+KAH7045424.1_Linnemannia_elongata/842-1212 -> KAH7045424.1_Linnemannia_elongata_842-1212
+KFH70854.1_Podila_verticillata_NRRL_6337/802-1174 -> KFH70854.1_Podila_verticillata_NRRL_6337_802-1174
+KAH7056569.1_Linnemannia_elongata/534-905 -> KAH7056569.1_Linnemannia_elongata_534-905
+KAI3659735.1_Amoeboaphelidium_occidentale/698-1059 -> KAI3659735.1_Amoeboaphelidium_occidentale_698-1059
+KAI3657429.1_Amoeboaphelidium_occidentale/654-1014 -> KAI3657429.1_Amoeboaphelidium_occidentale_654-1014
+KFH69528.1_Podila_verticillata_NRRL_6337/1524-1893 -> KFH69528.1_Podila_verticillata_NRRL_6337_1524-1893
+KAI3661183.1_Amoeboaphelidium_occidentale/728-1127 -> KAI3661183.1_Amoeboaphelidium_occidentale_728-1127
+KAI3659892.1_Amoeboaphelidium_occidentale/641-1018 -> KAI3659892.1_Amoeboaphelidium_occidentale_641-1018
+KAI9298202.1_Neoconidiobolus_thromboides_FSU_785/1282-1653 -> KAI9298202.1_Neoconidiobolus_thromboides_FSU_785_1282-1653
+Formin_2,3_and_collagen_domain_containing_protein,_putative_A0A0A1TUY7_EINVA/782-1150 -> Formin_2_3_and_collagen_domain_containing_protein__putative_A0A0A1TUY7_EINVA_782-1150
+Protein_diaphanous,_putative_A0A0A1U9W6_EINVA/761-1137 -> Protein_diaphanous__putative_A0A0A1U9W6_EINVA_761-1137
+FH2_domain-containing_protein_A0A0A1UAJ4_EINVA/427-761 -> FH2_domain-containing_protein_A0A0A1UAJ4_EINVA_427-761
+Formin_2,3_and_collagen_domain_containing_protein,_putative_A0A0A1UDG0_EINVA/783-1147 -> Formin_2_3_and_collagen_domain_containing_protein__putative_A0A0A1UDG0_EINVA_783-1147
+FH2_domain-containing_protein_A0A0A1UDL9_EINVA/561-779 -> FH2_domain-containing_protein_A0A0A1UDL9_EINVA_561-779
+Formin_1,2/cappuccino,_putative_A0A0A1UFQ3_EINVA/559-913 -> Formin_1_2_cappuccino__putative_A0A0A1UFQ3_EINVA_559-913
+Chromosome_12,_whole_genome_shotgun_sequence_A0A0D1CLP7_UMAYD/1151-1544 -> Chromosome_12__whole_genome_shotgun_sequence_A0A0D1CLP7_UMAYD_1151-1544
+Diaphanous_related_Formin_A0A0D1CXZ5_UMAYD/1599-1966 -> Diaphanous_related_Formin_A0A0D1CXZ5_UMAYD_1599-1966
+Uncharacterized_protein_A0A0D2UQ75_COWCZ/838-1217 -> Uncharacterized_protein_A0A0D2UQ75_COWCZ_838-1217
+Uncharacterized_protein_A0A0D2VZG9_COWCZ/454-811 -> Uncharacterized_protein_A0A0D2VZG9_COWCZ_454-811
+Uncharacterized_protein_A0A0D2WWW9_COWCZ/670-1014 -> Uncharacterized_protein_A0A0D2WWW9_COWCZ_670-1014
+Uncharacterized_protein_A0A0D2X0R3_COWCZ/784-1155 -> Uncharacterized_protein_A0A0D2X0R3_COWCZ_784-1155
+Uncharacterized_protein_A0A0D2X1Q4_COWCZ/819-1181 -> Uncharacterized_protein_A0A0D2X1Q4_COWCZ_819-1181
+DAAM1_protein_A0A0D2X1W7_COWCZ/614-985 -> DAAM1_protein_A0A0D2X1W7_COWCZ_614-985
+FH2_domain-containing_protein_A0A0L0D359_TTRAH/682-1049 -> FH2_domain-containing_protein_A0A0L0D359_TTRAH_682-1049
+FH2_domain-containing_protein_A0A0L0D3M7_TTRAH/433-839 -> FH2_domain-containing_protein_A0A0L0D3M7_TTRAH_433-839
+Uncharacterized_protein_A0A0L0D492_TTRAH/1201-1564 -> Uncharacterized_protein_A0A0L0D492_TTRAH_1201-1564
+FH2_domain-containing_protein_A0A0L0D6J7_TTRAH/1235-1600 -> FH2_domain-containing_protein_A0A0L0D6J7_TTRAH_1235-1600
+FH2_domain-containing_protein_A0A0L0D814_TTRAH/15-417 -> FH2_domain-containing_protein_A0A0L0D814_TTRAH_15-417
+Dynactin_A0A0L0DB11_TTRAH/1327-1681 -> Dynactin_A0A0L0DB11_TTRAH_1327-1681
+Uncharacterized_protein_A0A0L0DCZ2_TTRAH/646-1006 -> Uncharacterized_protein_A0A0L0DCZ2_TTRAH_646-1006
+Uncharacterized_protein_A0A0L0DDQ6_TTRAH/672-1009 -> Uncharacterized_protein_A0A0L0DDQ6_TTRAH_672-1009
+Uncharacterized_protein_A0A0L0DEY6_TTRAH/2654-3009 -> Uncharacterized_protein_A0A0L0DEY6_TTRAH_2654-3009
+FH2_domain-containing_protein_A0A0L0DG19_TTRAH/425-787 -> FH2_domain-containing_protein_A0A0L0DG19_TTRAH_425-787
+FH2_domain-containing_protein_A0A0L0DKL4_TTRAH/1002-1355 -> FH2_domain-containing_protein_A0A0L0DKL4_TTRAH_1002-1355
+Uncharacterized_protein_A0A0L0DLH2_TTRAH/917-1286 -> Uncharacterized_protein_A0A0L0DLH2_TTRAH_917-1286
+Uncharacterized_protein_A0A0L0DLY3_TTRAH/425-787 -> Uncharacterized_protein_A0A0L0DLY3_TTRAH_425-787
+Uncharacterized_protein_A0A0L0DMV4_TTRAH/577-959 -> Uncharacterized_protein_A0A0L0DMV4_TTRAH_577-959
+FH2_domain-containing_protein_A0A0L0DNU1_TTRAH/949-1338 -> FH2_domain-containing_protein_A0A0L0DNU1_TTRAH_949-1338
+FH2_domain-containing_protein_A0A0L0DNX9_TTRAH/545-818 -> FH2_domain-containing_protein_A0A0L0DNX9_TTRAH_545-818
+FH2_domain-containing_protein_A0A0L0DPP0_TTRAH/813-1202 -> FH2_domain-containing_protein_A0A0L0DPP0_TTRAH_813-1202
+Uncharacterized_protein_A0A0L0DR50_TTRAH/757-1126 -> Uncharacterized_protein_A0A0L0DR50_TTRAH_757-1126
+Uncharacterized_protein_A0A0L0DVW4_TTRAH/1637-1986 -> Uncharacterized_protein_A0A0L0DVW4_TTRAH_1637-1986
+FH2_domain-containing_protein_A0A0L0HBD9_SPUNC/5-343 -> FH2_domain-containing_protein_A0A0L0HBD9_SPUNC_5-343
+Uncharacterized_protein_A0A0L0HJT9_SPUNC/772-1165 -> Uncharacterized_protein_A0A0L0HJT9_SPUNC_772-1165
+Uncharacterized_protein_A0A0L0HKU1_SPUNC/1019-1395 -> Uncharacterized_protein_A0A0L0HKU1_SPUNC_1019-1395
+Uncharacterized_protein_A0A0L0HSH3_SPUNC/699-1084 -> Uncharacterized_protein_A0A0L0HSH3_SPUNC_699-1084
+FH2_domain-containing_protein_A0A0L0RW57_AMACR/1-278 -> FH2_domain-containing_protein_A0A0L0RW57_AMACR_1-278
+FH2_domain-containing_protein_A0A0L0S0G4_AMACR/57-284 -> FH2_domain-containing_protein_A0A0L0S0G4_AMACR_57-284
+FH2_domain-containing_protein_A0A0L0S522_AMACR/15-440 -> FH2_domain-containing_protein_A0A0L0S522_AMACR_15-440
+FH2_domain-containing_protein_A0A0L0SI62_AMACR/99-519 -> FH2_domain-containing_protein_A0A0L0SI62_AMACR_99-519
+Uncharacterized_protein_A0A0L0SIJ4_AMACR/609-981 -> Uncharacterized_protein_A0A0L0SIJ4_AMACR_609-981
+Uncharacterized_protein_A0A0L0SL59_AMACR/609-1029 -> Uncharacterized_protein_A0A0L0SL59_AMACR_609-1029
+Uncharacterized_protein_A0A0L0SZN5_AMACR/923-1308 -> Uncharacterized_protein_A0A0L0SZN5_AMACR_923-1308
+FH2_domain-containing_protein_A0A0L0T9P8_AMACR/15-442 -> FH2_domain-containing_protein_A0A0L0T9P8_AMACR_15-442
+Uncharacterized_protein_A0A0L0TDJ3_AMACR/625-996 -> Uncharacterized_protein_A0A0L0TDJ3_AMACR_625-996
+Uncharacterized_protein_A0A162PSR0_PBLAK/770-1153 -> Uncharacterized_protein_A0A162PSR0_PBLAK_770-1153
+FH2_domain-containing_protein_A0A162UUM8_PBLAK/1-195 -> FH2_domain-containing_protein_A0A162UUM8_PBLAK_1-195
+FH2_domain-containing_protein_A0A167P1E0_PBLAK/3-196 -> FH2_domain-containing_protein_A0A167P1E0_PBLAK_3-196
+FH2_domain-containing_protein_A0A1S8VAS9_BSALA/2-118 -> FH2_domain-containing_protein_A0A1S8VAS9_BSALA_2-118
+FH2_domain-containing_protein_A0A1S8VBQ4_BSALA/1-152 -> FH2_domain-containing_protein_A0A1S8VBQ4_BSALA_1-152
+Uncharacterized_protein_A0A1S8VKL4_BSALA/27-424 -> Uncharacterized_protein_A0A1S8VKL4_BSALA_27-424
+Uncharacterized_protein_A0A1S8VW17_BSALA/1537-1926 -> Uncharacterized_protein_A0A1S8VW17_BSALA_1537-1926
+Uncharacterized_protein_A0A1S8W533_BSALA/1356-1727 -> Uncharacterized_protein_A0A1S8W533_BSALA_1356-1727
+Uncharacterized_protein_A0A1S8W838_BSALA/662-1056 -> Uncharacterized_protein_A0A1S8W838_BSALA_662-1056
+Actin-binding_FH2_A0A1Y2CG89_RGLOB/2-196 -> Actin-binding_FH2_A0A1Y2CG89_RGLOB_2-196
+FH2-domain-containing_protein_A0A1Y2CGH6_RGLOB/687-1074 -> FH2-domain-containing_protein_A0A1Y2CGH6_RGLOB_687-1074
+Actin-binding_FH2_A0A1Y2CIF6_RGLOB/662-974 -> Actin-binding_FH2_A0A1Y2CIF6_RGLOB_662-974
+Uncharacterized_protein_A0A1Y2CTF0_RGLOB/1169-1522 -> Uncharacterized_protein_A0A1Y2CTF0_RGLOB_1169-1522
+FH2-domain-containing_protein_A0A1Y2D2Q0_RGLOB/635-1004 -> FH2-domain-containing_protein_A0A1Y2D2Q0_RGLOB_635-1004
+Formin-like_protein_A0A2K3DRP0_CREIN/3820-4159 -> Formin-like_protein_A0A2K3DRP0_CREIN_3820-4159
+FH2_domain-containing_protein_A0A2K3DS02_CREIN/945-1293 -> FH2_domain-containing_protein_A0A2K3DS02_CREIN_945-1293
+Formin-like_protein_A0A2K3DUU3_CREIN/1656-2038 -> Formin-like_protein_A0A2K3DUU3_CREIN_1656-2038
+Formin-like_protein_A0A2K3DWR9_CREIN/1255-1619 -> Formin-like_protein_A0A2K3DWR9_CREIN_1255-1619
+Formin_Homology_2_Domain_containing_protein_A2DC30_TVAGI/681-1041 -> Formin_Homology_2_Domain_containing_protein_A2DC30_TVAGI_681-1041
+Formin_Homology_2_Domain_containing_protein_A2DFC2_TVAGI/735-1090 -> Formin_Homology_2_Domain_containing_protein_A2DFC2_TVAGI_735-1090
+Formin_Homology_2_Domain_containing_protein_A2DSW7_TVAGI/368-731 -> Formin_Homology_2_Domain_containing_protein_A2DSW7_TVAGI_368-731
+Formin_Homology_2_Domain_containing_protein_A2DXB4_TVAGI/770-1120 -> Formin_Homology_2_Domain_containing_protein_A2DXB4_TVAGI_770-1120
+Erythrocyte_membrane-associated_giant_protein_antigen_332_containing_protein_A2EA78_TVAGI/2401-2609 -> Erythrocyte_membrane-associated_giant_protein_antigen_332_containing_protein_A2EA78_TVAGI_2401-2609
+Formin_Homology_2_Domain_containing_protein_A2F502_TVAGI/697-1055 -> Formin_Homology_2_Domain_containing_protein_A2F502_TVAGI_697-1055
+Formin_Homology_2_Domain_containing_protein_A2FX23_TVAGI/1962-2298 -> Formin_Homology_2_Domain_containing_protein_A2FX23_TVAGI_1962-2298
+Formin-like_protein_A0A2K1IBW5_PPATE/186-555 -> Formin-like_protein_A0A2K1IBW5_PPATE_186-555
+Formin-like_protein_A0A2K1IJJ1_PPATE/656-1080 -> Formin-like_protein_A0A2K1IJJ1_PPATE_656-1080
+Formin-like_protein_A0A2K1J2G5_PPATE/1665-2093 -> Formin-like_protein_A0A2K1J2G5_PPATE_1665-2093
+Formin-like_protein_A0A2K1JPH5_PPATE/740-1105 -> Formin-like_protein_A0A2K1JPH5_PPATE_740-1105
+Formin-like_protein_A0A2K1K7X3_PPATE/1-407 -> Formin-like_protein_A0A2K1K7X3_PPATE_1-407
+Formin-like_protein_A0A2K1K7X6_PPATE/1048-1479 -> Formin-like_protein_A0A2K1K7X6_PPATE_1048-1479
+Formin-like_protein_A0A2K1KNQ5_PPATE/581-948 -> Formin-like_protein_A0A2K1KNQ5_PPATE_581-948
+Formin-like_protein_A9RMD2_PPATE/657-1096 -> Formin-like_protein_A9RMD2_PPATE_657-1096
+Formin-like_protein_A9SEU3_PPATE/621-1063 -> Formin-like_protein_A9SEU3_PPATE_621-1063
+Predicted_protein_A9URA4_MBREV/1128-1539 -> Predicted_protein_A9URA4_MBREV_1128-1539
+Predicted_protein_A9UVG5_MBREV/633-999 -> Predicted_protein_A9UVG5_MBREV_633-999
+Predicted_protein_A9UWS2_MBREV/573-924 -> Predicted_protein_A9UWS2_MBREV_573-924
+Predicted_protein_A9UZC5_MBREV/557-816 -> Predicted_protein_A9UZC5_MBREV_557-816
+Predicted_protein_A9V1N4_MBREV/763-1133 -> Predicted_protein_A9V1N4_MBREV_763-1133
+Predicted_protein_A9V1R7_MBREV/484-853 -> Predicted_protein_A9V1R7_MBREV_484-853
+Predicted_protein_A9VAM4_MBREV/1123-1484 -> Predicted_protein_A9VAM4_MBREV_1123-1484
+Predicted_protein_A9VC36_MBREV/605-960 -> Predicted_protein_A9VC36_MBREV_605-960
+FH2_domain-containing_protein_B8C0Z6_TPSEU/1-366 -> FH2_domain-containing_protein_B8C0Z6_TPSEU_1-366
+FH2_domain-containing_protein_B8C8N4_TPSEU/1-178 -> FH2_domain-containing_protein_B8C8N4_TPSEU_1-178
+Uncharacterized_protein_B8C976_TPSEU/2492-2903 -> Uncharacterized_protein_B8C976_TPSEU_2492-2903
+FH2_domain-containing_protein_B8CAS5_TPSEU/8-258 -> FH2_domain-containing_protein_B8CAS5_TPSEU_8-258
+FH2_domain-containing_protein_B8CFC0_TPSEU/28-404 -> FH2_domain-containing_protein_B8CFC0_TPSEU_28-404
+FH2_domain-containing_protein_D2V0M6_NGRUB/783-1137 -> FH2_domain-containing_protein_D2V0M6_NGRUB_783-1137
+FH2_domain-containing_protein_D2V201_NGRUB/587-951 -> FH2_domain-containing_protein_D2V201_NGRUB_587-951
+FH2_domain-containing_protein_D2V870_NGRUB/695-1082 -> FH2_domain-containing_protein_D2V870_NGRUB_695-1082
+Diaphanous-related_formin_D2VDU4_NGRUB/784-1140 -> Diaphanous-related_formin_D2VDU4_NGRUB_784-1140
+Diaphanous-related_formin_D2VDX1_NGRUB/833-1199 -> Diaphanous-related_formin_D2VDX1_NGRUB_833-1199
+FH2_domain-containing_protein_D2VED8_NGRUB/655-1018 -> FH2_domain-containing_protein_D2VED8_NGRUB_655-1018
+FH2_domain-containing_protein_D2VGI5_NGRUB/863-1231 -> FH2_domain-containing_protein_D2VGI5_NGRUB_863-1231
+Diaphanous-related_formin_D2VH52_NGRUB/799-1162 -> Diaphanous-related_formin_D2VH52_NGRUB_799-1162
+FH2_domain-containing_protein_D2VV74_NGRUB/479-860 -> FH2_domain-containing_protein_D2VV74_NGRUB_479-860
+FH2_domain-containing_protein_D2VW50_NGRUB/657-1030 -> FH2_domain-containing_protein_D2VW50_NGRUB_657-1030
+FH2_domain-containing_protein_D2VW54_NGRUB/923-1316 -> FH2_domain-containing_protein_D2VW54_NGRUB_923-1316
+FH2_domain-containing_protein_D2W236_NGRUB/693-1055 -> FH2_domain-containing_protein_D2W236_NGRUB_693-1055
+FH2_domain-containing_protein_D2W2H9_NGRUB/657-1029 -> FH2_domain-containing_protein_D2W2H9_NGRUB_657-1029
+Diaphanous-related_formin_D2W476_NGRUB/1161-1500 -> Diaphanous-related_formin_D2W476_NGRUB_1161-1500
+Uncharacterized_protein_F2TZ21_SROSE/638-1009 -> Uncharacterized_protein_F2TZ21_SROSE_638-1009
+Uncharacterized_protein_F2U2L9_SROSE/549-900 -> Uncharacterized_protein_F2U2L9_SROSE_549-900
+Uncharacterized_protein_F2U7A9_SROSE/504-753 -> Uncharacterized_protein_F2U7A9_SROSE_504-753
+Uncharacterized_protein_F2U8B9_SROSE/1119-1480 -> Uncharacterized_protein_F2U8B9_SROSE_1119-1480
+Uncharacterized_protein_F2U8H0_SROSE/1262-1632 -> Uncharacterized_protein_F2U8H0_SROSE_1262-1632
+Uncharacterized_protein_F2UEZ1_SROSE/609-973 -> Uncharacterized_protein_F2UEZ1_SROSE_609-973
+FH2_domain-containing_protein_F2UF81_SROSE/223-581 -> FH2_domain-containing_protein_F2UF81_SROSE_223-581
+Uncharacterized_protein_F2UH63_SROSE/1115-1490 -> Uncharacterized_protein_F2UH63_SROSE_1115-1490
+Uncharacterized_protein_A0A177WCJ8_BDEND/993-1371 -> Uncharacterized_protein_A0A177WCJ8_BDEND_993-1371
+Uncharacterized_protein_A0A177WJT1_BDEND/672-1062 -> Uncharacterized_protein_A0A177WJT1_BDEND_672-1062
+Uncharacterized_protein_A0A177WSU7_BDEND/746-1142 -> Uncharacterized_protein_A0A177WSU7_BDEND_746-1142
+Uncharacterized_protein_A0A177WT75_BDEND/697-1091 -> Uncharacterized_protein_A0A177WT75_BDEND_697-1091
+Uncharacterized_protein_F4NSE8_BDEND/1352-1721 -> Uncharacterized_protein_F4NSE8_BDEND_1352-1721
+Uncharacterized_protein_F4NTW8_BDEND/1402-1780 -> Uncharacterized_protein_F4NTW8_BDEND_1402-1780
+Ankyrin_repeat_containing_protein_L8GIQ3_ACAST/1050-1407 -> Ankyrin_repeat_containing_protein_L8GIQ3_ACAST_1050-1407
+Diaphanous_FH3_Domaincontaining_protein_L8GQR6_ACAST/1095-1442 -> Diaphanous_FH3_Domaincontaining_protein_L8GQR6_ACAST_1095-1442
+Formin_domain_containing_protein_L8GRW6_ACAST/450-824 -> Formin_domain_containing_protein_L8GRW6_ACAST_450-824
+Formin_domain_containing_protein_L8GTC9_ACAST/141-496 -> Formin_domain_containing_protein_L8GTC9_ACAST_141-496
+Formin_domain_containing_protein_L8GVK1_ACAST/146-511 -> Formin_domain_containing_protein_L8GVK1_ACAST_146-511
+Formin_domain_containing_protein_L8GYU3_ACAST/649-1046 -> Formin_domain_containing_protein_L8GYU3_ACAST_649-1046
+Formin_domain_containing_protein_L8H4N2_ACAST/15-396 -> Formin_domain_containing_protein_L8H4N2_ACAST_15-396
+Formin_domain_containing_protein_L8H6I2_ACAST/572-740 -> Formin_domain_containing_protein_L8H6I2_ACAST_572-740
+Ankyrin_repeat-containing_protein_L8H732_ACAST/601-748 -> Ankyrin_repeat-containing_protein_L8H732_ACAST_601-748
+Formin_domain_containing_protein_L8H8H0_ACAST/2-189 -> Formin_domain_containing_protein_L8H8H0_ACAST_2-189
+Formin_domain_containing_protein_L8HGI3_ACAST/430-811 -> Formin_domain_containing_protein_L8HGI3_ACAST_430-811
+BNI1-related_protein_1_P40450_SCERE/874-1264 -> BNI1-related_protein_1_P40450_SCERE_874-1264
+Protein_BNI1_P41832_SCERE/1354-1740 -> Protein_BNI1_P41832_SCERE_1354-1740
+Cytokinesis_protein_sepA_P78621_ENIDU/1147-1538 -> Cytokinesis_protein_sepA_P78621_ENIDU_1147-1538
+Formin-3_O94532_SPOMB/851-1231 -> Formin-3_O94532_SPOMB_851-1231
+Cell_division_control_protein_12_Q10059_SPOMB/986-1365 -> Cell_division_control_protein_12_Q10059_SPOMB_986-1365
+Cell_fusion_protein_fus1_Q10719_SPOMB/874-1252 -> Cell_fusion_protein_fus1_Q10719_SPOMB_874-1252
+FH2_domain-containing_protein_I7M3Z5_TTHER/386-763 -> FH2_domain-containing_protein_I7M3Z5_TTHER_386-763
+Formin-like_2_domain_protein_Q22KQ6_TTHER/893-1253 -> Formin-like_2_domain_protein_Q22KQ6_TTHER_893-1253
+Formin-like_2_domain_protein_Q23JZ2_TTHER/725-1095 -> Formin-like_2_domain_protein_Q23JZ2_TTHER_725-1095
+Formin_B_Q385J4_TBRUC/590-948 -> Formin_B_Q385J4_TBRUC_590-948
+Formin_A_Q582D5_TBRUC/619-919 -> Formin_A_Q582D5_TBRUC_619-919
+Cytokinesis_protein_J9VVJ2_CNEOF/1215-1592 -> Cytokinesis_protein_J9VVJ2_CNEOF_1215-1592
+Cytokinesis_protein_sepa_(Fh1/2_protein),_putative_Q5KAA5_CNEOF/1207-1584 -> Cytokinesis_protein_sepa__Fh1_2_protein___putative_Q5KAA5_CNEOF_1207-1584
+Formin-G_Q1ZXK2_DDISC/637-1005 -> Formin-G_Q1ZXK2_DDISC_637-1005
+Formin-J_Q54ER5_DDISC/1112-1469 -> Formin-J_Q54ER5_DDISC_1112-1469
+Formin-C_Q54KF1_DDISC/607-967 -> Formin-C_Q54KF1_DDISC_607-967
+Formin-H_Q54N00_DDISC/629-990 -> Formin-H_Q54N00_DDISC_629-990
+Formin-I_Q54PI9_DDISC/512-916 -> Formin-I_Q54PI9_DDISC_512-916
+Formin-B_Q54SP2_DDISC/618-985 -> Formin-B_Q54SP2_DDISC_618-985
+Formin-A_Q54WH2_DDISC/765-1129 -> Formin-A_Q54WH2_DDISC_765-1129
+Formin-D_Q5TJ55_DDISC/569-1011 -> Formin-D_Q5TJ55_DDISC_569-1011
+Formin-F_Q5TJ56_DDISC/662-1028 -> Formin-F_Q5TJ56_DDISC_662-1028
+Formin-E_Q5TJ57_DDISC/1092-1449 -> Formin-E_Q5TJ57_DDISC_1092-1449
+Formin_3,_isoform_B_A8JNM1_DMELA/421-802 -> Formin_3__isoform_B_A8JNM1_DMELA_421-802
+Cappuccino,_isoform_E_B7Z010_DMELA/812-1227 -> Cappuccino__isoform_E_B7Z010_DMELA_812-1227
+Cappuccino,_isoform_F_B7Z011_DMELA/893-1308 -> Cappuccino__isoform_F_B7Z011_DMELA_893-1308
+Cappuccino,_isoform_I_B7Z013_DMELA/830-1245 -> Cappuccino__isoform_I_B7Z013_DMELA_830-1245
+Cappuccino,_isoform_G_B7Z014_DMELA/464-879 -> Cappuccino__isoform_G_B7Z014_DMELA_464-879
+Formin_homology_2_domain_containing,_isoform_I_E1JI78_DMELA/2024-2383 -> Formin_homology_2_domain_containing__isoform_I_E1JI78_DMELA_2024-2383
+Formin_homology_2_domain_containing,_isoform_D_M9MSK7_DMELA/889-1248 -> Formin_homology_2_domain_containing__isoform_D_M9MSK7_DMELA_889-1248
+Dishevelled_associated_activator_of_morphogenesis,_isoform_D_M9MSM5_DMELA/956-1328 -> Dishevelled_associated_activator_of_morphogenesis__isoform_D_M9MSM5_DMELA_956-1328
+Diaphanous,_isoform_D_M9NCZ5_DMELA/614-982 -> Diaphanous__isoform_D_M9NCZ5_DMELA_614-982
+Formin_homology_2_domain_containing,_isoform_G_M9NFP9_DMELA/648-1007 -> Formin_homology_2_domain_containing__isoform_G_M9NFP9_DMELA_648-1007
+Ah1644_protein_Q86C16_DMELA/348-729 -> Ah1644_protein_Q86C16_DMELA_348-729
+Cappuccino,_isoform_J_Q8IQ12_DMELA/621-1036 -> Cappuccino__isoform_J_Q8IQ12_DMELA_621-1036
+Cappuccino,_isoform_D_Q9VQV9_DMELA/739-1154 -> Cappuccino__isoform_D_Q9VQV9_DMELA_739-1154
+Formin-like_protein_Q9VUC6_DMELA/693-1062 -> Formin-like_protein_Q9VUC6_DMELA_693-1062
+Formin-like_protein_A0A1I9LNY7_ATHAL/35-106 -> Formin-like_protein_A0A1I9LNY7_ATHAL_35-106
+Formin_3_A0A1P8B463_ATHAL/327-426 -> Formin_3_A0A1P8B463_ATHAL_327-426
+Formin-like_protein_A0A1P8BD82_ATHAL/1221-1587 -> Formin-like_protein_A0A1P8BD82_ATHAL_1221-1587
+Formin-like_protein_A0A1P8BD84_ATHAL/1243-1643 -> Formin-like_protein_A0A1P8BD84_ATHAL_1243-1643
+Formin-like_protein_A0A1P8BDL7_ATHAL/522-817 -> Formin-like_protein_A0A1P8BDL7_ATHAL_522-817
+Formin-like_protein_A0A1P8BH35_ATHAL/449-763 -> Formin-like_protein_A0A1P8BH35_ATHAL_449-763
+Formin-like_protein_A0A1R7T3E7_ATHAL/195-552 -> Formin-like_protein_A0A1R7T3E7_ATHAL_195-552
+Formin-like_protein_F4K851_ATHAL/159-518 -> Formin-like_protein_F4K851_ATHAL_159-518
+Formin-like_protein_8_O04532_ATHAL/302-706 -> Formin-like_protein_8_O04532_ATHAL_302-706
+Formin-like_protein_2_O22824_ATHAL/444-838 -> Formin-like_protein_2_O22824_ATHAL_444-838
+Formin-like_protein_3_O23373_ATHAL/327-721 -> Formin-like_protein_3_O23373_ATHAL_327-721
+Formin-like_protein_4_O48682_ATHAL/309-712 -> Formin-like_protein_4_O48682_ATHAL_309-712
+Formin-like_protein_15a_P0C5K2_ATHAL/58-400 -> Formin-like_protein_15a_P0C5K2_ATHAL_58-400
+Putative_formin-like_protein_21a_P0C5K4_ATHAL/130-424 -> Putative_formin-like_protein_21a_P0C5K4_ATHAL_130-424
+Formin-like_protein_9_Q8GX37_ATHAL/430-773 -> Formin-like_protein_9_Q8GX37_ATHAL_430-773
+Formin-like_protein_5_Q94B77_ATHAL/439-839 -> Formin-like_protein_5_Q94B77_ATHAL_439-839
+Formin-like_protein_14_Q9C6S1_ATHAL/815-1181 -> Formin-like_protein_14_Q9C6S1_ATHAL_815-1181
+Formin-like_protein_12_Q9C7S1_ATHAL/2-268 -> Formin-like_protein_12_Q9C7S1_ATHAL_2-268
+Formin-like_protein_19_Q9FF14_ATHAL/74-436 -> Formin-like_protein_19_Q9FF14_ATHAL_74-436
+Formin-like_protein_6_Q9FJX6_ATHAL/458-841 -> Formin-like_protein_6_Q9FJX6_ATHAL_458-841
+Formin-like_protein_20_Q9FLQ7_ATHAL/1243-1609 -> Formin-like_protein_20_Q9FLQ7_ATHAL_1243-1609
+Formin-like_protein_17_Q9LH02_ATHAL/92-460 -> Formin-like_protein_17_Q9LH02_ATHAL_92-460
+Formin-like_protein_13_Q9LVN1_ATHAL/835-1200 -> Formin-like_protein_13_Q9LVN1_ATHAL_835-1200
+Formin-like_protein_11_Q9MA60_ATHAL/467-861 -> Formin-like_protein_11_Q9MA60_ATHAL_467-861
+Formin-like_protein_1_Q9SE97_ATHAL/594-984 -> Formin-like_protein_1_Q9SE97_ATHAL_594-984
+Formin-like_protein_18_Q9SK28_ATHAL/741-1109 -> Formin-like_protein_18_Q9SK28_ATHAL_741-1109
+Formin-like_protein_10_Q9SRR2_ATHAL/475-827 -> Formin-like_protein_10_Q9SRR2_ATHAL_475-827
+Formin-like_protein_7_Q9XIE0_ATHAL/459-858 -> Formin-like_protein_7_Q9XIE0_ATHAL_459-858
+Formin-like_protein_1_A0A0A0MR62_HSAPI/293-619 -> Formin-like_protein_1_A0A0A0MR62_HSAPI_293-619
+Formin-2_A0A0A0MTF8_HSAPI/19-148 -> Formin-2_A0A0A0MTF8_HSAPI_19-148
+Protein_diaphanous_homolog_1_A0A0G2JH68_HSAPI/775-1145 -> Protein_diaphanous_homolog_1_A0A0G2JH68_HSAPI_775-1145
+Disheveled-associated_activator_of_morphogenesis_2_A0A0J9YYF7_HSAPI/601-977 -> Disheveled-associated_activator_of_morphogenesis_2_A0A0J9YYF7_HSAPI_601-977
+Delphilin_A4D2P6_HSAPI/826-1187 -> Delphilin_A4D2P6_HSAPI_826-1187
+Protein_diaphanous_homolog_2_C9J6U3_HSAPI/641-1009 -> Protein_diaphanous_homolog_2_C9J6U3_HSAPI_641-1009
+Formin-1_H0YLM7_HSAPI/2-172 -> Formin-1_H0YLM7_HSAPI_2-172
+Formin-1_H0YM30_HSAPI/880-1264 -> Formin-1_H0YM30_HSAPI_880-1264
+FH1/FH2_domain-containing_protein_1_J3KTH7_HSAPI/5-90 -> FH1_FH2_domain-containing_protein_1_J3KTH7_HSAPI_5-90
+Formin-like_protein_1_K7EJE6_HSAPI/1-327 -> Formin-like_protein_1_K7EJE6_HSAPI_1-327
+Formin-like_protein_1_K7EK60_HSAPI/216-575 -> Formin-like_protein_1_K7EK60_HSAPI_216-575
+FH1/FH2_domain-containing_protein_3_K7EKZ0_HSAPI/2-287 -> FH1_FH2_domain-containing_protein_3_K7EKZ0_HSAPI_2-287
+FH1/FH2_domain-containing_protein_3_K7EP24_HSAPI/102-466 -> FH1_FH2_domain-containing_protein_3_K7EP24_HSAPI_102-466
+FH1/FH2_domain-containing_protein_3_K7ER94_HSAPI/667-1031 -> FH1_FH2_domain-containing_protein_3_K7ER94_HSAPI_667-1031
+Formin-like_protein_1_O95466_HSAPI/638-997 -> Formin-like_protein_1_O95466_HSAPI_638-997
+Inverted_formin-2_Q27J81_HSAPI/560-920 -> Inverted_formin-2_Q27J81_HSAPI_560-920
+FH1/FH2_domain-containing_protein_3_Q2V2M9_HSAPI/889-1253 -> FH1_FH2_domain-containing_protein_3_Q2V2M9_HSAPI_889-1253
+Formin-1_Q68DA7_HSAPI/978-1362 -> Formin-1_Q68DA7_HSAPI_978-1362
+Formin-like_protein_3_Q8IVF7_HSAPI/567-925 -> Formin-like_protein_3_Q8IVF7_HSAPI_567-925
+Formin-like_protein_2_Q96PY5_HSAPI/622-981 -> Formin-like_protein_2_Q96PY5_HSAPI_622-981
+FH2_domain-containing_protein_1_Q9C0D6_HSAPI/93-456 -> FH2_domain-containing_protein_1_Q9C0D6_HSAPI_93-456
+Protein_diaphanous_homolog_3_Q9NSV4_HSAPI/642-1008 -> Protein_diaphanous_homolog_3_Q9NSV4_HSAPI_642-1008
+Formin-2_Q9NZ56_HSAPI/1289-1672 -> Formin-2_Q9NZ56_HSAPI_1289-1672
+Disheveled-associated_activator_of_morphogenesis_1_Q9Y4D1_HSAPI/606-983 -> Disheveled-associated_activator_of_morphogenesis_1_Q9Y4D1_HSAPI_606-983
+FH1/FH2_domain-containing_protein_1_Q9Y613_HSAPI/622-987 -> FH1_FH2_domain-containing_protein_1_Q9Y613_HSAPI_622-987
+FH2_domain-containing_protein_1_A0A0A6YXK5_MMUSC/1-126 -> FH2_domain-containing_protein_1_A0A0A6YXK5_MMUSC_1-126
+Formin-2_A0A0A6YY57_MMUSC/31-145 -> Formin-2_A0A0A6YY57_MMUSC_31-145
+Formin-like_protein_1_A0A1W2P6X3_MMUSC/639-998 -> Formin-like_protein_1_A0A1W2P6X3_MMUSC_639-998
+Formin-like_1,_isoform_CRA_c_A2AB60_MMUSC/633-992 -> Formin-like_1__isoform_CRA_c_A2AB60_MMUSC_633-992
+Formin-like_protein_2_A2APV2_MMUSC/621-980 -> Formin-like_protein_2_A2APV2_MMUSC_621-980
+Formin-like_protein_2_A2AQW2_MMUSC/621-980 -> Formin-like_protein_2_A2AQW2_MMUSC_621-980
+Formin-like_protein_3_D3Z7A7_MMUSC/567-925 -> Formin-like_protein_3_D3Z7A7_MMUSC_567-925
+Protein_diaphanous_homolog_1_E9PV41_MMUSC/767-1137 -> Protein_diaphanous_homolog_1_E9PV41_MMUSC_767-1137
+Formin-like_protein_2_E9PXE6_MMUSC/587-946 -> Formin-like_protein_2_E9PXE6_MMUSC_587-946
+Protein_diaphanous_homolog_2_E9Q4U7_MMUSC/635-1003 -> Protein_diaphanous_homolog_2_E9Q4U7_MMUSC_635-1003
+Formin-1_E9Q7P6_MMUSC/891-1275 -> Formin-1_E9Q7P6_MMUSC_891-1275
+Protein_diaphanous_homolog_3_F8WIG5_MMUSC/621-987 -> Protein_diaphanous_homolog_3_F8WIG5_MMUSC_621-987
+Formin-1_Q05860_MMUSC/989-1409 -> Formin-1_Q05860_MMUSC_989-1409
+Inverted_formin-2_Q0GNC1_MMUSC/595-953 -> Inverted_formin-2_Q0GNC1_MMUSC_595-953
+Delphilin_Q0QWG9_MMUSC/818-1179 -> Delphilin_Q0QWG9_MMUSC_818-1179
+FH2_domain-containing_protein_1_Q3ULZ2_MMUSC/94-457 -> FH2_domain-containing_protein_1_Q3ULZ2_MMUSC_94-457
+FH1/FH2_domain-containing_protein_1_Q6P9Q4_MMUSC/654-1019 -> FH1_FH2_domain-containing_protein_1_Q6P9Q4_MMUSC_654-1019
+Formin-like_protein_3_Q6ZPF4_MMUSC/567-925 -> Formin-like_protein_3_Q6ZPF4_MMUSC_567-925
+FH1/FH2_domain-containing_protein_3_Q76LL6_MMUSC/1045-1409 -> FH1_FH2_domain-containing_protein_3_Q76LL6_MMUSC_1045-1409
+Disheveled-associated_activator_of_morphogenesis_2_Q80U19_MMUSC/601-1016 -> Disheveled-associated_activator_of_morphogenesis_2_Q80U19_MMUSC_601-1016
+Disheveled-associated_activator_of_morphogenesis_1_Q8BPM0_MMUSC/606-982 -> Disheveled-associated_activator_of_morphogenesis_1_Q8BPM0_MMUSC_606-982
+Formin-2_Q9JL04_MMUSC/1145-1528 -> Formin-2_Q9JL04_MMUSC_1145-1528
+Formin-like_protein_S7W8F4_SLOPH/476-807 -> Formin-like_protein_S7W8F4_SLOPH_476-807
+Formin_like_protein_S7XTS3_SLOPH/411-734 -> Formin_like_protein_S7XTS3_SLOPH_411-734
+FH2_domain-containing_protein_A0A024V5A0_PFALC/2286-2657 -> FH2_domain-containing_protein_A0A024V5A0_PFALC_2286-2657
+FH2_domain-containing_protein_A0A024VPF6_PFALC/2342-2713 -> FH2_domain-containing_protein_A0A024VPF6_PFALC_2342-2713
+FH2_domain-containing_protein_A0A024VU18_PFALC/2254-2622 -> FH2_domain-containing_protein_A0A024VU18_PFALC_2254-2622
+FH2_domain-containing_protein_A0A024WM12_PFALC/2235-2606 -> FH2_domain-containing_protein_A0A024WM12_PFALC_2235-2606
+Diaphanous_A0A0L0CTR1_PFALC/2314-2682 -> Diaphanous_A0A0L0CTR1_PFALC_2314-2682
+Formin_2_A0A0L0CVW4_PFALC/2363-2734 -> Formin_2_A0A0L0CVW4_PFALC_2363-2734
+Formin_2_A0A0L1I4M5_PFALC/2417-2788 -> Formin_2_A0A0L1I4M5_PFALC_2417-2788
+FH2_domain-containing_protein_A0A0L7LWB1_PFALC/2411-2782 -> FH2_domain-containing_protein_A0A0L7LWB1_PFALC_2411-2782
+FH2_domain-containing_protein_W4IFD2_PFALC/2236-2607 -> FH2_domain-containing_protein_W4IFD2_PFALC_2236-2607
+FH2_domain-containing_protein_W4J3E5_PFALC/2301-2672 -> FH2_domain-containing_protein_W4J3E5_PFALC_2301-2672
+FH2_domain-containing_protein_W7EYE0_PFALC/2229-2600 -> FH2_domain-containing_protein_W7EYE0_PFALC_2229-2600
+FH2_domain-containing_protein_W7J9S5_PFALC/2300-2671 -> FH2_domain-containing_protein_W7J9S5_PFALC_2300-2671
+FH2_domain-containing_protein_W7K468_PFALC/2185-2556 -> FH2_domain-containing_protein_W7K468_PFALC_2185-2556
+jgi|Neosp1|667552|estExt_fgenesh1_pg.C_450074/944-1339 -> jgi_Neosp1_667552_estExt_fgenesh1_pg.C_450074_944-1339
+jgi|Neosp1|499729|fgenesh1_pg.8_#_56/778-1212 -> jgi_Neosp1_499729_fgenesh1_pg.8___56_778-1212
+jgi|Neosp1|519906|fgenesh1_pg.547_#_10/432-667 -> jgi_Neosp1_519906_fgenesh1_pg.547___10_432-667
+jgi|Neosp1|672049|estExt_fgenesh1_pg.C_1230054/671-1044 -> jgi_Neosp1_672049_estExt_fgenesh1_pg.C_1230054_671-1044
+jgi|Neosp1|663968|estExt_fgenesh1_pg.C_80092/21-418 -> jgi_Neosp1_663968_estExt_fgenesh1_pg.C_80092_21-418
+jgi|Neosp1|676083|estExt_fgenesh1_pg.C_2570014/958-1358 -> jgi_Neosp1_676083_estExt_fgenesh1_pg.C_2570014_958-1358
+jgi|Neosp1|178121|CE178120_2441/557-934 -> jgi_Neosp1_178121_CE178120_2441_557-934
+jgi|Neosp1|517963|fgenesh1_pg.346_#_3/760-1124 -> jgi_Neosp1_517963_fgenesh1_pg.346___3_760-1124
+jgi|Neosp1|392776|estExt_Genewise1.C_4170049/882-1256 -> jgi_Neosp1_392776_estExt_Genewise1.C_4170049_882-1256
+jgi|Neosp1|697005|fgenesh2_kg.3_#_101_#_Locus9531v1rpkm3.45/855-1229 -> jgi_Neosp1_697005_fgenesh2_kg.3___101___Locus9531v1rpkm3.45_855-1229
+jgi|Neosp1|666909|estExt_fgenesh1_pg.C_370029/1828-2084 -> jgi_Neosp1_666909_estExt_fgenesh1_pg.C_370029_1828-2084
+jgi|Chyhya1|410297|CE410296_6712/402-758 -> jgi_Chyhya1_410297_CE410296_6712_402-758
+jgi|Chyhya1|598052|fgenesh1_kg.13_#_536_#_TRINITY_DN5914_c0_g2_i1/13-312 -> jgi_Chyhya1_598052_fgenesh1_kg.13___536___TRINITY_DN5914_c0_g2_i1_13-312
+jgi|Chyhya1|593777|fgenesh1_kg.8_#_523_#_TRINITY_DN5221_c0_g2_i1/750-1160 -> jgi_Chyhya1_593777_fgenesh1_kg.8___523___TRINITY_DN5221_c0_g2_i1_750-1160
+jgi|Chyhya1|324226|CE324225_4506/648-1016 -> jgi_Chyhya1_324226_CE324225_4506_648-1016
+jgi|Chyhya1|536071|e_gw1.46.133.1/3-190 -> jgi_Chyhya1_536071_e_gw1.46.133.1_3-190
+jgi|Chyhya1|190657|CE190656_3012/1-277 -> jgi_Chyhya1_190657_CE190656_3012_1-277
+jgi|Orpsp1_1|1174887|evm.model.c7180000051843.1/287-542 -> jgi_Orpsp1_1_1174887_evm.model.c7180000051843.1_287-542
+jgi|Orpsp1_1|1177818|evm.model.c7180000062993.1/65-478 -> jgi_Orpsp1_1_1177818_evm.model.c7180000062993.1_65-478
+jgi|Orpsp1_1|1175808|evm.model.c7180000055294.1/511-885 -> jgi_Orpsp1_1_1175808_evm.model.c7180000055294.1_511-885
+jgi|Orpsp1_1|1185052|evm.model.c7180000092151.1/10-357 -> jgi_Orpsp1_1_1185052_evm.model.c7180000092151.1_10-357
+jgi|Orpsp1_1|1174117|evm.model.c7180000048991.1/86-600 -> jgi_Orpsp1_1_1174117_evm.model.c7180000048991.1_86-600
+jgi|Orpsp1_1|1174224|evm.model.c7180000049324.1/1234-1359 -> jgi_Orpsp1_1_1174224_evm.model.c7180000049324.1_1234-1359
+jgi|Orpsp1_1|1191502|evm.model.d7180000086404.2/2-271 -> jgi_Orpsp1_1_1191502_evm.model.d7180000086404.2_2-271
+jgi|Orpsp1_1|1187852+jgi|Orpsp1_1|1187853/2-162 -> jgi_Orpsp1_1_1187852_jgi_Orpsp1_1_1187853_2-162
+
+                                                                                                     Gap/Ambiguity  Composition  p-value
+   1  KAI3643801.1_Amoeboaphelidium_protococcarum_756-1143                                                   0.57%    failed      0.00%
+   2  KAI3645177.1_Amoeboaphelidium_protococcarum_753-1140                                                   0.57%    failed      0.00%
+   3  KAI3652879.1_Amoeboaphelidium_protococcarum_696-1056                                                   0.29%    passed     59.59%
+   4  KAI3651607.1_Amoeboaphelidium_protococcarum_696-1056                                                   0.29%    passed     56.47%
+   5  KAI3647622.1_Amoeboaphelidium_protococcarum_618-992                                                    0.00%    passed     21.93%
+   6  KAI3642370.1_Amoeboaphelidium_protococcarum_618-992                                                    0.00%    passed     18.95%
+   7  KAI9183600.1_Blastocladiella_emersonii_ATCC_22665_900-1274                                             0.00%    passed     19.79%
+   8  KAI9183601.1_Blastocladiella_emersonii_ATCC_22665_801-1183                                             0.00%    failed      0.00%
+   9  ORZ35123.1_Catenaria_anguillulae_PL171_927-1304                                                        0.00%    passed     29.51%
+  10  ORZ35120.1_Catenaria_anguillulae_PL171_732-1105                                                        0.00%    passed      8.32%
+  11  ORZ31703.1_Catenaria_anguillulae_PL171_596-962                                                         0.86%    failed      1.78%
+  12  KXN68160.1_Conidiobolus_coronatus_NRRL_28638_1158-1527                                                 0.57%    failed      1.76%
+  13  KXN64633.1_Conidiobolus_coronatus_NRRL_28638_1-219                                                    39.26%    failed      3.44%
+  14  CDH58867.1_Lichtheimia_corymbifera_JMRC_FSU_9682_93-475                                                0.00%    passed     54.68%
+  15  CDH49539.1_Lichtheimia_corymbifera_JMRC_FSU_9682_862-1243                                              0.00%    passed      5.96%
+  16  CDH56507.1_Lichtheimia_corymbifera_JMRC_FSU_9682_1160-1539                                             0.29%    passed     75.08%
+  17  CDH61520.1_Lichtheimia_corymbifera_JMRC_FSU_9682_1090-1465                                             0.57%    passed     99.87%
+  18  CDH49882.1_Lichtheimia_corymbifera_JMRC_FSU_9682_891-1265                                              0.86%    passed     10.19%
+  19  CDH53494.1_Lichtheimia_corymbifera_JMRC_FSU_9682_878-1287                                              0.86%    passed     83.84%
+  20  CDH51440.1_Lichtheimia_corymbifera_JMRC_FSU_9682_1004-1410                                             0.00%    passed      6.80%
+  21  KAI7885518.1_Lichtheimia_hyalospora_FSU_10163_899-1281                                                 0.00%    passed     40.87%
+  22  KAI7877521.1_Lichtheimia_hyalospora_FSU_10163_854-1235                                                 0.00%    passed     15.69%
+  23  KAI7884419.1_Lichtheimia_hyalospora_FSU_10163_1164-1543                                                0.29%    passed     75.53%
+  24  KAI7886931.1_Lichtheimia_hyalospora_FSU_10163_1056-1431                                                0.57%    passed     99.66%
+  25  KAI7879656.1_Lichtheimia_hyalospora_FSU_10163_875-1283                                                 0.86%    passed     58.17%
+  26  KAI7885728.1_Lichtheimia_hyalospora_FSU_10163_882-1256                                                 0.86%    passed     20.17%
+  27  KAI8323587.1_Martensiomyces_pterosporus_1199-1623                                                      0.00%    failed      4.68%
+  28  EIE78106.1_Rhizopus_delemar_RA_99-880_751-1105                                                         7.74%    passed     17.36%
+  29  EIE86344.1_Rhizopus_delemar_RA_99-880_488-857                                                          2.58%    passed     35.83%
+  30  EIE80437.1_Rhizopus_delemar_RA_99-880_637-972                                                         10.03%    passed     75.30%
+  31  EIE88410.1_Rhizopus_delemar_RA_99-880_856-1228                                                         0.86%    passed     93.76%
+  32  EIE86940.1_Rhizopus_delemar_RA_99-880_655-983                                                         12.03%    passed     26.22%
+  33  EIE82009.1_Rhizopus_delemar_RA_99-880_743-1088                                                        10.89%    passed     48.52%
+  34  KFH66168.1_Podila_verticillata_NRRL_6337_1121-1493                                                     0.29%    passed     65.60%
+  35  KAI9293249.1_Neoconidiobolus_thromboides_FSU_785_1070-1443                                             0.00%    passed     12.31%
+  36  KAH7045424.1_Linnemannia_elongata_842-1212                                                             0.86%    passed     15.23%
+  37  KFH70854.1_Podila_verticillata_NRRL_6337_802-1174                                                      0.29%    passed     19.40%
+  38  KAH7056569.1_Linnemannia_elongata_534-905                                                              0.57%    passed     80.40%
+  39  KAI3659735.1_Amoeboaphelidium_occidentale_698-1059                                                     1.15%    failed      0.41%
+  40  KAI3657429.1_Amoeboaphelidium_occidentale_654-1014                                                     0.29%    passed     80.57%
+  41  KFH69528.1_Podila_verticillata_NRRL_6337_1524-1893                                                     0.00%    passed     71.83%
+  42  KAI3661183.1_Amoeboaphelidium_occidentale_728-1127                                                     2.01%    passed     62.66%
+  43  KAI3659892.1_Amoeboaphelidium_occidentale_641-1018                                                     0.00%    passed     13.38%
+  44  KAI9298202.1_Neoconidiobolus_thromboides_FSU_785_1282-1653                                             0.00%    failed      4.79%
+  45  Formin_2_3_and_collagen_domain_containing_protein__putative_A0A0A1TUY7_EINVA_782-1150                  0.00%    failed      0.01%
+  46  Protein_diaphanous__putative_A0A0A1U9W6_EINVA_761-1137                                                 0.00%    failed      0.13%
+  47  FH2_domain-containing_protein_A0A0A1UAJ4_EINVA_427-761                                                14.04%    passed      9.68%
+  48  Formin_2_3_and_collagen_domain_containing_protein__putative_A0A0A1UDG0_EINVA_783-1147                  0.00%    passed      8.96%
+  49  FH2_domain-containing_protein_A0A0A1UDL9_EINVA_561-779                                                40.97%    passed     51.44%
+  50  Formin_1_2_cappuccino__putative_A0A0A1UFQ3_EINVA_559-913                                               3.15%    failed      4.13%
+  51  Chromosome_12__whole_genome_shotgun_sequence_A0A0D1CLP7_UMAYD_1151-1544                                0.29%    passed     68.32%
+  52  Diaphanous_related_Formin_A0A0D1CXZ5_UMAYD_1599-1966                                                   0.00%    passed     13.92%
+  53  Uncharacterized_protein_A0A0D2UQ75_COWCZ_838-1217                                                      0.57%    failed      4.67%
+  54  Uncharacterized_protein_A0A0D2VZG9_COWCZ_454-811                                                       1.15%    passed     72.36%
+  55  Uncharacterized_protein_A0A0D2WWW9_COWCZ_670-1014                                                      5.16%    passed     74.55%
+  56  Uncharacterized_protein_A0A0D2X0R3_COWCZ_784-1155                                                      1.15%    failed      0.23%
+  57  Uncharacterized_protein_A0A0D2X1Q4_COWCZ_819-1181                                                      0.29%    passed     65.08%
+  58  DAAM1_protein_A0A0D2X1W7_COWCZ_614-985                                                                 0.29%    passed     44.70%
+  59  FH2_domain-containing_protein_A0A0L0D359_TTRAH_682-1049                                                0.00%    failed      0.00%
+  60  FH2_domain-containing_protein_A0A0L0D3M7_TTRAH_433-839                                                 0.57%    failed      0.09%
+  61  Uncharacterized_protein_A0A0L0D492_TTRAH_1201-1564                                                     0.29%    failed      0.00%
+  62  FH2_domain-containing_protein_A0A0L0D6J7_TTRAH_1235-1600                                               0.29%    passed     28.34%
+  63  FH2_domain-containing_protein_A0A0L0D814_TTRAH_15-417                                                  0.57%    passed     11.16%
+  64  Dynactin_A0A0L0DB11_TTRAH_1327-1681                                                                    2.01%    passed      8.52%
+  65  Uncharacterized_protein_A0A0L0DCZ2_TTRAH_646-1006                                                      0.29%    passed     88.39%
+  66  Uncharacterized_protein_A0A0L0DDQ6_TTRAH_672-1009                                                      8.60%    failed      0.03%
+  67  Uncharacterized_protein_A0A0L0DEY6_TTRAH_2654-3009                                                     0.86%    passed     11.55%
+  68  FH2_domain-containing_protein_A0A0L0DG19_TTRAH_425-787                                                 0.00%    failed      1.27%
+  69  FH2_domain-containing_protein_A0A0L0DKL4_TTRAH_1002-1355                                               3.72%    failed      0.00%
+  70  Uncharacterized_protein_A0A0L0DLH2_TTRAH_917-1286                                                      0.00%    passed     57.81%
+  71  Uncharacterized_protein_A0A0L0DLY3_TTRAH_425-787                                                       5.44%    failed      0.25%
+  72  Uncharacterized_protein_A0A0L0DMV4_TTRAH_577-959                                                       4.87%    failed      0.00%
+  73  FH2_domain-containing_protein_A0A0L0DNU1_TTRAH_949-1338                                                0.29%    failed      0.00%
+  74  FH2_domain-containing_protein_A0A0L0DNX9_TTRAH_545-818                                                29.23%    failed      0.00%
+  75  FH2_domain-containing_protein_A0A0L0DPP0_TTRAH_813-1202                                                0.29%    failed      0.00%
+  76  Uncharacterized_protein_A0A0L0DR50_TTRAH_757-1126                                                      0.57%    passed      5.42%
+  77  Uncharacterized_protein_A0A0L0DVW4_TTRAH_1637-1986                                                     0.86%    passed     15.08%
+  78  FH2_domain-containing_protein_A0A0L0HBD9_SPUNC_5-343                                                  16.05%    passed      6.37%
+  79  Uncharacterized_protein_A0A0L0HJT9_SPUNC_772-1165                                                      0.29%    passed     71.20%
+  80  Uncharacterized_protein_A0A0L0HKU1_SPUNC_1019-1395                                                     0.00%    failed      0.68%
+  81  Uncharacterized_protein_A0A0L0HSH3_SPUNC_699-1084                                                      0.00%    passed     82.47%
+  82  FH2_domain-containing_protein_A0A0L0RW57_AMACR_1-278                                                  22.35%    failed      0.89%
+  83  FH2_domain-containing_protein_A0A0L0S0G4_AMACR_57-284                                                 38.68%    failed      3.50%
+  84  FH2_domain-containing_protein_A0A0L0S522_AMACR_15-440                                                  0.29%    failed      0.00%
+  85  FH2_domain-containing_protein_A0A0L0SI62_AMACR_99-519                                                  0.00%    failed      0.95%
+  86  Uncharacterized_protein_A0A0L0SIJ4_AMACR_609-981                                                       0.00%    failed      0.00%
+  87  Uncharacterized_protein_A0A0L0SL59_AMACR_609-1029                                                      0.00%    failed      0.87%
+  88  Uncharacterized_protein_A0A0L0SZN5_AMACR_923-1308                                                      0.57%    failed      0.00%
+  89  FH2_domain-containing_protein_A0A0L0T9P8_AMACR_15-442                                                  0.00%    failed      0.00%
+  90  Uncharacterized_protein_A0A0L0TDJ3_AMACR_625-996                                                       0.00%    failed      0.00%
+  91  Uncharacterized_protein_A0A162PSR0_PBLAK_770-1153                                                      0.00%    passed     31.06%
+  92  FH2_domain-containing_protein_A0A162UUM8_PBLAK_1-195                                                  45.56%    failed      1.21%
+  93  FH2_domain-containing_protein_A0A167P1E0_PBLAK_3-196                                                  48.42%    passed     23.15%
+  94  FH2_domain-containing_protein_A0A1S8VAS9_BSALA_2-118                                                  66.76%    passed      5.41%
+  95  FH2_domain-containing_protein_A0A1S8VBQ4_BSALA_1-152                                                  56.45%    passed     19.15%
+  96  Uncharacterized_protein_A0A1S8VKL4_BSALA_27-424                                                        0.00%    passed     51.73%
+  97  Uncharacterized_protein_A0A1S8VW17_BSALA_1537-1926                                                     6.88%    passed     42.70%
+  98  Uncharacterized_protein_A0A1S8W533_BSALA_1356-1727                                                     0.00%    passed     27.40%
+  99  Uncharacterized_protein_A0A1S8W838_BSALA_662-1056                                                      0.57%    passed     65.43%
+ 100  Actin-binding_FH2_A0A1Y2CG89_RGLOB_2-196                                                              46.13%    passed     54.40%
+ 101  FH2-domain-containing_protein_A0A1Y2CGH6_RGLOB_687-1074                                                0.29%    passed     87.31%
+ 102  Actin-binding_FH2_A0A1Y2CIF6_RGLOB_662-974                                                            14.61%    passed     17.85%
+ 103  Uncharacterized_protein_A0A1Y2CTF0_RGLOB_1169-1522                                                     6.88%    passed     36.98%
+ 104  FH2-domain-containing_protein_A0A1Y2D2Q0_RGLOB_635-1004                                                0.00%    passed     73.17%
+ 105  Formin-like_protein_A0A2K3DRP0_CREIN_3820-4159                                                        17.77%    failed      0.00%
+ 106  FH2_domain-containing_protein_A0A2K3DS02_CREIN_945-1293                                               19.77%    failed      0.00%
+ 107  Formin-like_protein_A0A2K3DUU3_CREIN_1656-2038                                                        16.05%    failed      0.02%
+ 108  Formin-like_protein_A0A2K3DWR9_CREIN_1255-1619                                                         0.29%    failed      0.72%
+ 109  Formin_Homology_2_Domain_containing_protein_A2DC30_TVAGI_681-1041                                      0.00%    passed     20.27%
+ 110  Formin_Homology_2_Domain_containing_protein_A2DFC2_TVAGI_735-1090                                      1.72%    passed     18.72%
+ 111  Formin_Homology_2_Domain_containing_protein_A2DSW7_TVAGI_368-731                                       0.00%    passed     45.05%
+ 112  Formin_Homology_2_Domain_containing_protein_A2DXB4_TVAGI_770-1120                                      2.01%    passed     44.75%
+ 113  Erythrocyte_membrane-associated_giant_protein_antigen_332_containing_protein_A2EA78_TVAGI_2401-2609   42.41%    passed     41.18%
+ 114  Formin_Homology_2_Domain_containing_protein_A2F502_TVAGI_697-1055                                      0.57%    passed     64.87%
+ 115  Formin_Homology_2_Domain_containing_protein_A2FX23_TVAGI_1962-2298                                     5.44%    passed     60.82%
+ 116  Formin-like_protein_A0A2K1IBW5_PPATE_186-555                                                           0.00%    passed     12.01%
+ 117  Formin-like_protein_A0A2K1IJJ1_PPATE_656-1080                                                          0.86%    passed     28.59%
+ 118  Formin-like_protein_A0A2K1J2G5_PPATE_1665-2093                                                         0.00%    failed      0.39%
+ 119  Formin-like_protein_A0A2K1JPH5_PPATE_740-1105                                                          0.00%    passed     69.87%
+ 120  Formin-like_protein_A0A2K1K7X3_PPATE_1-407                                                             6.59%    passed     18.77%
+ 121  Formin-like_protein_A0A2K1K7X6_PPATE_1048-1479                                                         0.86%    passed     96.01%
+ 122  Formin-like_protein_A0A2K1KNQ5_PPATE_581-948                                                           0.00%    passed     81.40%
+ 123  Formin-like_protein_A9RMD2_PPATE_657-1096                                                              0.57%    passed     41.72%
+ 124  Formin-like_protein_A9SEU3_PPATE_621-1063                                                              0.57%    passed     16.49%
+ 125  Predicted_protein_A9URA4_MBREV_1128-1539                                                               2.58%    passed      6.30%
+ 126  Predicted_protein_A9UVG5_MBREV_633-999                                                                 0.57%    failed      0.83%
+ 127  Predicted_protein_A9UWS2_MBREV_573-924                                                                 1.15%    failed      3.46%
+ 128  Predicted_protein_A9UZC5_MBREV_557-816                                                                32.09%    failed      3.25%
+ 129  Predicted_protein_A9V1N4_MBREV_763-1133                                                                0.00%    failed      0.10%
+ 130  Predicted_protein_A9V1R7_MBREV_484-853                                                                 2.29%    passed     23.95%
+ 131  Predicted_protein_A9VAM4_MBREV_1123-1484                                                               0.86%    passed     43.70%
+ 132  Predicted_protein_A9VC36_MBREV_605-960                                                                 3.15%    failed      0.05%
+ 133  FH2_domain-containing_protein_B8C0Z6_TPSEU_1-366                                                       2.29%    passed     87.99%
+ 134  FH2_domain-containing_protein_B8C8N4_TPSEU_1-178                                                      49.86%    passed     83.91%
+ 135  Uncharacterized_protein_B8C976_TPSEU_2492-2903                                                         0.00%    passed     45.26%
+ 136  FH2_domain-containing_protein_B8CAS5_TPSEU_8-258                                                      33.24%    passed     95.99%
+ 137  FH2_domain-containing_protein_B8CFC0_TPSEU_28-404                                                      0.00%    passed     95.40%
+ 138  FH2_domain-containing_protein_D2V0M6_NGRUB_783-1137                                                    2.01%    failed      0.76%
+ 139  FH2_domain-containing_protein_D2V201_NGRUB_587-951                                                     1.15%    passed     18.30%
+ 140  FH2_domain-containing_protein_D2V870_NGRUB_695-1082                                                    1.43%    passed      9.24%
+ 141  Diaphanous-related_formin_D2VDU4_NGRUB_784-1140                                                        0.86%    passed     38.66%
+ 142  Diaphanous-related_formin_D2VDX1_NGRUB_833-1199                                                        0.00%    passed     46.13%
+ 143  FH2_domain-containing_protein_D2VED8_NGRUB_655-1018                                                    2.87%    failed      3.45%
+ 144  FH2_domain-containing_protein_D2VGI5_NGRUB_863-1231                                                    0.00%    passed     19.08%
+ 145  Diaphanous-related_formin_D2VH52_NGRUB_799-1162                                                        0.00%    passed     49.78%
+ 146  FH2_domain-containing_protein_D2VV74_NGRUB_479-860                                                     1.72%    passed      5.38%
+ 147  FH2_domain-containing_protein_D2VW50_NGRUB_657-1030                                                    5.44%    passed     12.41%
+ 148  FH2_domain-containing_protein_D2VW54_NGRUB_923-1316                                                    0.00%    failed      4.49%
+ 149  FH2_domain-containing_protein_D2W236_NGRUB_693-1055                                                    1.15%    passed     40.47%
+ 150  FH2_domain-containing_protein_D2W2H9_NGRUB_657-1029                                                    0.00%    passed     11.34%
+ 151  Diaphanous-related_formin_D2W476_NGRUB_1161-1500                                                       6.59%    passed     15.70%
+ 152  Uncharacterized_protein_F2TZ21_SROSE_638-1009                                                          0.00%    passed     28.87%
+ 153  Uncharacterized_protein_F2U2L9_SROSE_549-900                                                           1.15%    passed      6.84%
+ 154  Uncharacterized_protein_F2U7A9_SROSE_504-753                                                          29.51%    passed     11.00%
+ 155  Uncharacterized_protein_F2U8B9_SROSE_1119-1480                                                         0.86%    passed     19.00%
+ 156  Uncharacterized_protein_F2U8H0_SROSE_1262-1632                                                         5.44%    passed      7.79%
+ 157  Uncharacterized_protein_F2UEZ1_SROSE_609-973                                                           0.00%    passed     52.57%
+ 158  FH2_domain-containing_protein_F2UF81_SROSE_223-581                                                     1.15%    failed      1.78%
+ 159  Uncharacterized_protein_F2UH63_SROSE_1115-1490                                                         0.57%    failed      0.89%
+ 160  Uncharacterized_protein_A0A177WCJ8_BDEND_993-1371                                                      6.59%    passed     40.32%
+ 161  Uncharacterized_protein_A0A177WJT1_BDEND_672-1062                                                      0.57%    passed     92.24%
+ 162  Uncharacterized_protein_A0A177WSU7_BDEND_746-1142                                                      0.29%    passed     82.26%
+ 163  Uncharacterized_protein_A0A177WT75_BDEND_697-1091                                                      0.00%    passed     72.17%
+ 164  Uncharacterized_protein_F4NSE8_BDEND_1352-1721                                                         0.00%    passed     57.53%
+ 165  Uncharacterized_protein_F4NTW8_BDEND_1402-1780                                                         6.59%    passed     40.32%
+ 166  Ankyrin_repeat_containing_protein_L8GIQ3_ACAST_1050-1407                                               2.01%    passed     22.66%
+ 167  Diaphanous_FH3_Domaincontaining_protein_L8GQR6_ACAST_1095-1442                                         5.73%    passed     99.99%
+ 168  Formin_domain_containing_protein_L8GRW6_ACAST_450-824                                                  2.29%    passed     89.69%
+ 169  Formin_domain_containing_protein_L8GTC9_ACAST_141-496                                                  0.29%    passed     34.61%
+ 170  Formin_domain_containing_protein_L8GVK1_ACAST_146-511                                                  4.01%    passed     96.86%
+ 171  Formin_domain_containing_protein_L8GYU3_ACAST_649-1046                                                 0.00%    passed     71.02%
+ 172  Formin_domain_containing_protein_L8H4N2_ACAST_15-396                                                   0.00%    passed     60.73%
+ 173  Formin_domain_containing_protein_L8H6I2_ACAST_572-740                                                 53.30%    passed     35.91%
+ 174  Ankyrin_repeat-containing_protein_L8H732_ACAST_601-748                                                59.03%    passed     94.30%
+ 175  Formin_domain_containing_protein_L8H8H0_ACAST_2-189                                                   47.28%    passed     51.53%
+ 176  Formin_domain_containing_protein_L8HGI3_ACAST_430-811                                                  0.29%    passed     88.53%
+ 177  BNI1-related_protein_1_P40450_SCERE_874-1264                                                           2.01%    failed      0.27%
+ 178  Protein_BNI1_P41832_SCERE_1354-1740                                                                    0.86%    passed     85.95%
+ 179  Cytokinesis_protein_sepA_P78621_ENIDU_1147-1538                                                        0.57%    passed     33.46%
+ 180  Formin-3_O94532_SPOMB_851-1231                                                                         2.29%    failed      3.48%
+ 181  Cell_division_control_protein_12_Q10059_SPOMB_986-1365                                                 3.44%    passed     47.14%
+ 182  Cell_fusion_protein_fus1_Q10719_SPOMB_874-1252                                                         2.29%    passed     35.06%
+ 183  FH2_domain-containing_protein_I7M3Z5_TTHER_386-763                                                     0.29%    failed      0.00%
+ 184  Formin-like_2_domain_protein_Q22KQ6_TTHER_893-1253                                                     0.57%    failed      0.24%
+ 185  Formin-like_2_domain_protein_Q23JZ2_TTHER_725-1095                                                     2.58%    failed      0.60%
+ 186  Formin_B_Q385J4_TBRUC_590-948                                                                          6.02%    passed     45.11%
+ 187  Formin_A_Q582D5_TBRUC_619-919                                                                         17.19%    failed      0.35%
+ 188  Cytokinesis_protein_J9VVJ2_CNEOF_1215-1592                                                             0.57%    passed     92.83%
+ 189  Cytokinesis_protein_sepa__Fh1_2_protein___putative_Q5KAA5_CNEOF_1207-1584                              0.57%    passed     91.33%
+ 190  Formin-G_Q1ZXK2_DDISC_637-1005                                                                         0.86%    failed      0.62%
+ 191  Formin-J_Q54ER5_DDISC_1112-1469                                                                        0.86%    failed      1.43%
+ 192  Formin-C_Q54KF1_DDISC_607-967                                                                          5.44%    failed      0.06%
+ 193  Formin-H_Q54N00_DDISC_629-990                                                                          0.29%    passed     53.53%
+ 194  Formin-I_Q54PI9_DDISC_512-916                                                                          0.00%    failed      0.03%
+ 195  Formin-B_Q54SP2_DDISC_618-985                                                                          1.15%    failed      3.16%
+ 196  Formin-A_Q54WH2_DDISC_765-1129                                                                         0.29%    passed      8.29%
+ 197  Formin-D_Q5TJ55_DDISC_569-1011                                                                         1.15%    passed      7.75%
+ 198  Formin-F_Q5TJ56_DDISC_662-1028                                                                         0.00%    failed      3.66%
+ 199  Formin-E_Q5TJ57_DDISC_1092-1449                                                                        0.29%    passed     29.14%
+ 200  Formin_3__isoform_B_A8JNM1_DMELA_421-802                                                               0.00%    passed     43.82%
+ 201  Cappuccino__isoform_E_B7Z010_DMELA_812-1227                                                            0.00%    passed     32.23%
+ 202  Cappuccino__isoform_F_B7Z011_DMELA_893-1308                                                            0.00%    passed     32.23%
+ 203  Cappuccino__isoform_I_B7Z013_DMELA_830-1245                                                            0.00%    passed     32.23%
+ 204  Cappuccino__isoform_G_B7Z014_DMELA_464-879                                                             0.00%    passed     32.23%
+ 205  Formin_homology_2_domain_containing__isoform_I_E1JI78_DMELA_2024-2383                                  1.43%    passed     59.79%
+ 206  Formin_homology_2_domain_containing__isoform_D_M9MSK7_DMELA_889-1248                                   1.43%    passed     59.79%
+ 207  Dishevelled_associated_activator_of_morphogenesis__isoform_D_M9MSM5_DMELA_956-1328                     0.00%    passed     18.17%
+ 208  Diaphanous__isoform_D_M9NCZ5_DMELA_614-982                                                             0.00%    passed     64.75%
+ 209  Formin_homology_2_domain_containing__isoform_G_M9NFP9_DMELA_648-1007                                   1.43%    passed     59.79%
+ 210  Ah1644_protein_Q86C16_DMELA_348-729                                                                    0.00%    passed     43.82%
+ 211  Cappuccino__isoform_J_Q8IQ12_DMELA_621-1036                                                            0.00%    passed     32.23%
+ 212  Cappuccino__isoform_D_Q9VQV9_DMELA_739-1154                                                            0.00%    passed     32.23%
+ 213  Formin-like_protein_Q9VUC6_DMELA_693-1062                                                              0.00%    passed     95.06%
+ 214  Formin-like_protein_A0A1I9LNY7_ATHAL_35-106                                                           82.23%    passed     41.92%
+ 215  Formin_3_A0A1P8B463_ATHAL_327-426                                                                     73.93%    passed     93.10%
+ 216  Formin-like_protein_A0A1P8BD82_ATHAL_1221-1587                                                         0.00%    passed     92.94%
+ 217  Formin-like_protein_A0A1P8BD84_ATHAL_1243-1643                                                         0.00%    passed     92.94%
+ 218  Formin-like_protein_A0A1P8BDL7_ATHAL_522-817                                                          17.19%    passed     63.27%
+ 219  Formin-like_protein_A0A1P8BH35_ATHAL_449-763                                                          12.32%    passed     69.09%
+ 220  Formin-like_protein_A0A1R7T3E7_ATHAL_195-552                                                           1.43%    passed     97.42%
+ 221  Formin-like_protein_F4K851_ATHAL_159-518                                                               1.43%    passed     87.87%
+ 222  Formin-like_protein_8_O04532_ATHAL_302-706                                                             0.57%    passed     17.11%
+ 223  Formin-like_protein_2_O22824_ATHAL_444-838                                                             0.29%    passed     87.54%
+ 224  Formin-like_protein_3_O23373_ATHAL_327-721                                                             0.86%    passed     59.65%
+ 225  Formin-like_protein_4_O48682_ATHAL_309-712                                                             0.57%    passed     20.56%
+ 226  Formin-like_protein_15a_P0C5K2_ATHAL_58-400                                                           20.92%    passed     74.05%
+ 227  Putative_formin-like_protein_21a_P0C5K4_ATHAL_130-424                                                 22.06%    passed     80.39%
+ 228  Formin-like_protein_9_Q8GX37_ATHAL_430-773                                                             6.59%    passed     11.81%
+ 229  Formin-like_protein_5_Q94B77_ATHAL_439-839                                                             0.57%    passed     54.69%
+ 230  Formin-like_protein_14_Q9C6S1_ATHAL_815-1181                                                           0.00%    passed     66.70%
+ 231  Formin-like_protein_12_Q9C7S1_ATHAL_2-268                                                             25.79%    passed     25.40%
+ 232  Formin-like_protein_19_Q9FF14_ATHAL_74-436                                                             2.01%    passed     97.75%
+ 233  Formin-like_protein_6_Q9FJX6_ATHAL_458-841                                                             0.00%    passed     25.12%
+ 234  Formin-like_protein_20_Q9FLQ7_ATHAL_1243-1609                                                          0.00%    passed     92.94%
+ 235  Formin-like_protein_17_Q9LH02_ATHAL_92-460                                                             0.00%    passed     92.70%
+ 236  Formin-like_protein_13_Q9LVN1_ATHAL_835-1200                                                           0.00%    passed     83.53%
+ 237  Formin-like_protein_11_Q9MA60_ATHAL_467-861                                                            0.86%    passed      6.92%
+ 238  Formin-like_protein_1_Q9SE97_ATHAL_594-984                                                             0.29%    passed     66.52%
+ 239  Formin-like_protein_18_Q9SK28_ATHAL_741-1109                                                           0.00%    passed     86.22%
+ 240  Formin-like_protein_10_Q9SRR2_ATHAL_475-827                                                            6.02%    passed     10.65%
+ 241  Formin-like_protein_7_Q9XIE0_ATHAL_459-858                                                             0.57%    passed     89.30%
+ 242  Formin-like_protein_1_A0A0A0MR62_HSAPI_293-619                                                        10.03%    passed     40.30%
+ 243  Formin-2_A0A0A0MTF8_HSAPI_19-148                                                                      66.48%    failed      2.33%
+ 244  Protein_diaphanous_homolog_1_A0A0G2JH68_HSAPI_775-1145                                                 0.00%    passed     45.46%
+ 245  Disheveled-associated_activator_of_morphogenesis_2_A0A0J9YYF7_HSAPI_601-977                            0.00%    failed      3.83%
+ 246  Delphilin_A4D2P6_HSAPI_826-1187                                                                        0.29%    passed     10.99%
+ 247  Protein_diaphanous_homolog_2_C9J6U3_HSAPI_641-1009                                                     0.00%    passed     68.57%
+ 248  Formin-1_H0YLM7_HSAPI_2-172                                                                           53.01%    passed     90.28%
+ 249  Formin-1_H0YM30_HSAPI_880-1264                                                                         0.00%    passed     55.23%
+ 250  FH1_FH2_domain-containing_protein_1_J3KTH7_HSAPI_5-90                                                 75.93%    passed     65.83%
+ 251  Formin-like_protein_1_K7EJE6_HSAPI_1-327                                                               9.17%    passed     24.12%
+ 252  Formin-like_protein_1_K7EK60_HSAPI_216-575                                                             0.86%    passed     40.90%
+ 253  FH1_FH2_domain-containing_protein_3_K7EKZ0_HSAPI_2-287                                                20.92%    passed     64.95%
+ 254  FH1_FH2_domain-containing_protein_3_K7EP24_HSAPI_102-466                                               1.43%    passed     52.36%
+ 255  FH1_FH2_domain-containing_protein_3_K7ER94_HSAPI_667-1031                                              1.43%    passed     52.36%
+ 256  Formin-like_protein_1_O95466_HSAPI_638-997                                                             0.86%    passed     40.90%
+ 257  Inverted_formin-2_Q27J81_HSAPI_560-920                                                                 0.29%    passed      5.83%
+ 258  FH1_FH2_domain-containing_protein_3_Q2V2M9_HSAPI_889-1253                                              1.43%    passed     52.36%
+ 259  Formin-1_Q68DA7_HSAPI_978-1362                                                                         0.00%    passed     55.23%
+ 260  Formin-like_protein_3_Q8IVF7_HSAPI_567-925                                                             1.15%    passed     90.06%
+ 261  Formin-like_protein_2_Q96PY5_HSAPI_622-981                                                             0.86%    passed     95.07%
+ 262  FH2_domain-containing_protein_1_Q9C0D6_HSAPI_93-456                                                    0.57%    passed     35.03%
+ 263  Protein_diaphanous_homolog_3_Q9NSV4_HSAPI_642-1008                                                     0.00%    passed     13.15%
+ 264  Formin-2_Q9NZ56_HSAPI_1289-1672                                                                        0.29%    passed     34.50%
+ 265  Disheveled-associated_activator_of_morphogenesis_1_Q9Y4D1_HSAPI_606-983                                0.00%    passed     95.67%
+ 266  FH1_FH2_domain-containing_protein_1_Q9Y613_HSAPI_622-987                                               1.43%    failed      0.61%
+ 267  FH2_domain-containing_protein_1_A0A0A6YXK5_MMUSC_1-126                                                68.19%    passed     23.74%
+ 268  Formin-2_A0A0A6YY57_MMUSC_31-145                                                                      71.63%    failed      2.79%
+ 269  Formin-like_protein_1_A0A1W2P6X3_MMUSC_639-998                                                         0.86%    passed     53.06%
+ 270  Formin-like_1__isoform_CRA_c_A2AB60_MMUSC_633-992                                                      0.86%    passed     53.06%
+ 271  Formin-like_protein_2_A2APV2_MMUSC_621-980                                                             0.86%    passed     97.52%
+ 272  Formin-like_protein_2_A2AQW2_MMUSC_621-980                                                             0.86%    passed     97.52%
+ 273  Formin-like_protein_3_D3Z7A7_MMUSC_567-925                                                             1.15%    passed     81.20%
+ 274  Protein_diaphanous_homolog_1_E9PV41_MMUSC_767-1137                                                     0.00%    passed     33.72%
+ 275  Formin-like_protein_2_E9PXE6_MMUSC_587-946                                                             0.86%    passed     97.52%
+ 276  Protein_diaphanous_homolog_2_E9Q4U7_MMUSC_635-1003                                                     0.00%    passed     63.78%
+ 277  Formin-1_E9Q7P6_MMUSC_891-1275                                                                         0.00%    passed     72.86%
+ 278  Protein_diaphanous_homolog_3_F8WIG5_MMUSC_621-987                                                      0.00%    passed     26.37%
+ 279  Formin-1_Q05860_MMUSC_989-1409                                                                         0.00%    passed     72.86%
+ 280  Inverted_formin-2_Q0GNC1_MMUSC_595-953                                                                 0.29%    passed     16.51%
+ 281  Delphilin_Q0QWG9_MMUSC_818-1179                                                                        0.29%    passed      6.94%
+ 282  FH2_domain-containing_protein_1_Q3ULZ2_MMUSC_94-457                                                    0.57%    passed     16.69%
+ 283  FH1_FH2_domain-containing_protein_1_Q6P9Q4_MMUSC_654-1019                                              1.43%    failed      0.60%
+ 284  Formin-like_protein_3_Q6ZPF4_MMUSC_567-925                                                             1.15%    passed     81.20%
+ 285  FH1_FH2_domain-containing_protein_3_Q76LL6_MMUSC_1045-1409                                             1.43%    passed     60.35%
+ 286  Disheveled-associated_activator_of_morphogenesis_2_Q80U19_MMUSC_601-1016                               0.00%    passed     18.74%
+ 287  Disheveled-associated_activator_of_morphogenesis_1_Q8BPM0_MMUSC_606-982                                0.00%    passed     92.99%
+ 288  Formin-2_Q9JL04_MMUSC_1145-1528                                                                        0.29%    passed     23.60%
+ 289  Formin-like_protein_S7W8F4_SLOPH_476-807                                                              11.46%    failed      0.00%
+ 290  Formin_like_protein_S7XTS3_SLOPH_411-734                                                              10.89%    failed      0.00%
+ 291  FH2_domain-containing_protein_A0A024V5A0_PFALC_2286-2657                                               0.29%    failed      2.35%
+ 292  FH2_domain-containing_protein_A0A024VPF6_PFALC_2342-2713                                               0.29%    failed      2.46%
+ 293  FH2_domain-containing_protein_A0A024VU18_PFALC_2254-2622                                               0.00%    failed      0.14%
+ 294  FH2_domain-containing_protein_A0A024WM12_PFALC_2235-2606                                               0.29%    failed      2.73%
+ 295  Diaphanous_A0A0L0CTR1_PFALC_2314-2682                                                                  0.00%    failed      0.14%
+ 296  Formin_2_A0A0L0CVW4_PFALC_2363-2734                                                                    0.29%    failed      2.46%
+ 297  Formin_2_A0A0L1I4M5_PFALC_2417-2788                                                                    0.29%    failed      2.46%
+ 298  FH2_domain-containing_protein_A0A0L7LWB1_PFALC_2411-2782                                               0.29%    failed      2.35%
+ 299  FH2_domain-containing_protein_W4IFD2_PFALC_2236-2607                                                   0.29%    failed      2.35%
+ 300  FH2_domain-containing_protein_W4J3E5_PFALC_2301-2672                                                   0.29%    failed      2.73%
+ 301  FH2_domain-containing_protein_W7EYE0_PFALC_2229-2600                                                   0.29%    failed      2.73%
+ 302  FH2_domain-containing_protein_W7J9S5_PFALC_2300-2671                                                   0.29%    failed      2.73%
+ 303  FH2_domain-containing_protein_W7K468_PFALC_2185-2556                                                   0.29%    failed      2.73%
+ 304  jgi_Neosp1_667552_estExt_fgenesh1_pg.C_450074_944-1339                                                 7.74%    failed      0.72%
+ 305  jgi_Neosp1_499729_fgenesh1_pg.8___56_778-1212                                                          0.29%    passed     38.97%
+ 306  jgi_Neosp1_519906_fgenesh1_pg.547___10_432-667                                                        36.39%    passed     24.15%
+ 307  jgi_Neosp1_672049_estExt_fgenesh1_pg.C_1230054_671-1044                                                0.00%    failed      4.26%
+ 308  jgi_Neosp1_663968_estExt_fgenesh1_pg.C_80092_21-418                                                    7.16%    failed      0.00%
+ 309  jgi_Neosp1_676083_estExt_fgenesh1_pg.C_2570014_958-1358                                                6.02%    failed      0.26%
+ 310  jgi_Neosp1_178121_CE178120_2441_557-934                                                                0.00%    passed      5.64%
+ 311  jgi_Neosp1_517963_fgenesh1_pg.346___3_760-1124                                                         2.58%    failed      0.03%
+ 312  jgi_Neosp1_392776_estExt_Genewise1.C_4170049_882-1256                                                  0.00%    failed      3.27%
+ 313  jgi_Neosp1_697005_fgenesh2_kg.3___101___Locus9531v1rpkm3.45_855-1229                                   0.00%    failed      3.72%
+ 314  jgi_Neosp1_666909_estExt_fgenesh1_pg.C_370029_1828-2084                                               30.09%    failed      0.09%
+ 315  jgi_Chyhya1_410297_CE410296_6712_402-758                                                               9.74%    passed     49.34%
+ 316  jgi_Chyhya1_598052_fgenesh1_kg.13___536___TRINITY_DN5914_c0_g2_i1_13-312                              20.92%    failed      0.00%
+ 317  jgi_Chyhya1_593777_fgenesh1_kg.8___523___TRINITY_DN5221_c0_g2_i1_750-1160                              0.00%    passed     45.93%
+ 318  jgi_Chyhya1_324226_CE324225_4506_648-1016                                                              0.00%    passed     36.18%
+ 319  jgi_Chyhya1_536071_e_gw1.46.133.1_3-190                                                               48.14%    passed     76.31%
+ 320  jgi_Chyhya1_190657_CE190656_3012_1-277                                                                22.64%    passed     31.13%
+ 321  jgi_Orpsp1_1_1174887_evm.model.c7180000051843.1_287-542                                               35.82%    passed      5.06%
+ 322  jgi_Orpsp1_1_1177818_evm.model.c7180000062993.1_65-478                                                 0.29%    passed     63.34%
+ 323  jgi_Orpsp1_1_1175808_evm.model.c7180000055294.1_511-885                                                0.00%    passed      8.45%
+ 324  jgi_Orpsp1_1_1185052_evm.model.c7180000092151.1_10-357                                                 7.74%    failed      2.68%
+ 325  jgi_Orpsp1_1_1174117_evm.model.c7180000048991.1_86-600                                                 6.30%    failed      0.11%
+ 326  jgi_Orpsp1_1_1174224_evm.model.c7180000049324.1_1234-1359                                             67.34%    failed      0.38%
+ 327  jgi_Orpsp1_1_1191502_evm.model.d7180000086404.2_2-271                                                 25.79%    passed      9.37%
+ 328  jgi_Orpsp1_1_1187852_jgi_Orpsp1_1_1187853_2-162                                                       54.15%    failed      0.04%
+WARNING: 13 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                  6.80%  96 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: FH2_domain-containing_protein_A0A0L0DPP0_TTRAH_813-1202 is identical to FH2_domain-containing_protein_A0A0L0DNU1_TTRAH_949-1338 but kept for subsequent analysis
+NOTE: Uncharacterized_protein_F4NTW8_BDEND_1402-1780 is identical to Uncharacterized_protein_A0A177WCJ8_BDEND_993-1371 but kept for subsequent analysis
+NOTE: Ah1644_protein_Q86C16_DMELA_348-729 is identical to Formin_3__isoform_B_A8JNM1_DMELA_421-802 but kept for subsequent analysis
+NOTE: Cappuccino__isoform_F_B7Z011_DMELA_893-1308 is identical to Cappuccino__isoform_E_B7Z010_DMELA_812-1227 but kept for subsequent analysis
+NOTE: Formin_homology_2_domain_containing__isoform_D_M9MSK7_DMELA_889-1248 is identical to Formin_homology_2_domain_containing__isoform_I_E1JI78_DMELA_2024-2383 but kept for subsequent analysis
+NOTE: Formin-like_protein_A0A1P8BD84_ATHAL_1243-1643 is identical to Formin-like_protein_A0A1P8BD82_ATHAL_1221-1587 but kept for subsequent analysis
+NOTE: Formin-1_Q68DA7_HSAPI_978-1362 is identical to Formin-1_H0YM30_HSAPI_880-1264 but kept for subsequent analysis
+NOTE: Formin-like_protein_1_O95466_HSAPI_638-997 is identical to Formin-like_protein_1_K7EK60_HSAPI_216-575 but kept for subsequent analysis
+NOTE: FH1_FH2_domain-containing_protein_3_K7ER94_HSAPI_667-1031 is identical to FH1_FH2_domain-containing_protein_3_K7EP24_HSAPI_102-466 but kept for subsequent analysis
+NOTE: Formin-like_1__isoform_CRA_c_A2AB60_MMUSC_633-992 is identical to Formin-like_protein_1_A0A1W2P6X3_MMUSC_639-998 but kept for subsequent analysis
+NOTE: Formin-like_protein_2_A2AQW2_MMUSC_621-980 is identical to Formin-like_protein_2_A2APV2_MMUSC_621-980 but kept for subsequent analysis
+NOTE: Formin-like_protein_3_Q6ZPF4_MMUSC_567-925 is identical to Formin-like_protein_3_D3Z7A7_MMUSC_567-925 but kept for subsequent analysis
+NOTE: Formin-1_Q05860_MMUSC_989-1409 is identical to Formin-1_E9Q7P6_MMUSC_891-1275 but kept for subsequent analysis
+NOTE: FH2_domain-containing_protein_A0A0L7LWB1_PFALC_2411-2782 is identical to FH2_domain-containing_protein_A0A024V5A0_PFALC_2286-2657 but kept for subsequent analysis
+NOTE: Formin_2_A0A0L0CVW4_PFALC_2363-2734 is identical to FH2_domain-containing_protein_A0A024VPF6_PFALC_2342-2713 but kept for subsequent analysis
+NOTE: Diaphanous_A0A0L0CTR1_PFALC_2314-2682 is identical to FH2_domain-containing_protein_A0A024VU18_PFALC_2254-2622 but kept for subsequent analysis
+NOTE: FH2_domain-containing_protein_W4J3E5_PFALC_2301-2672 is identical to FH2_domain-containing_protein_A0A024WM12_PFALC_2235-2606 but kept for subsequent analysis
+NOTE: 13 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Cappuccino__isoform_I_B7Z013_DMELA_830-1245 (identical to Cappuccino__isoform_E_B7Z010_DMELA_812-1227) is ignored but added at the end
+NOTE: Cappuccino__isoform_G_B7Z014_DMELA_464-879 (identical to Cappuccino__isoform_E_B7Z010_DMELA_812-1227) is ignored but added at the end
+NOTE: Cappuccino__isoform_J_Q8IQ12_DMELA_621-1036 (identical to Cappuccino__isoform_E_B7Z010_DMELA_812-1227) is ignored but added at the end
+NOTE: Cappuccino__isoform_D_Q9VQV9_DMELA_739-1154 (identical to Cappuccino__isoform_E_B7Z010_DMELA_812-1227) is ignored but added at the end
+NOTE: Formin_homology_2_domain_containing__isoform_G_M9NFP9_DMELA_648-1007 (identical to Formin_homology_2_domain_containing__isoform_I_E1JI78_DMELA_2024-2383) is ignored but added at the end
+NOTE: Formin-like_protein_20_Q9FLQ7_ATHAL_1243-1609 (identical to Formin-like_protein_A0A1P8BD82_ATHAL_1221-1587) is ignored but added at the end
+NOTE: FH1_FH2_domain-containing_protein_3_Q2V2M9_HSAPI_889-1253 (identical to FH1_FH2_domain-containing_protein_3_K7EP24_HSAPI_102-466) is ignored but added at the end
+NOTE: Formin-like_protein_2_E9PXE6_MMUSC_587-946 (identical to Formin-like_protein_2_A2APV2_MMUSC_621-980) is ignored but added at the end
+NOTE: FH2_domain-containing_protein_W4IFD2_PFALC_2236-2607 (identical to FH2_domain-containing_protein_A0A024V5A0_PFALC_2286-2657) is ignored but added at the end
+NOTE: Formin_2_A0A0L1I4M5_PFALC_2417-2788 (identical to FH2_domain-containing_protein_A0A024VPF6_PFALC_2342-2713) is ignored but added at the end
+NOTE: FH2_domain-containing_protein_W7EYE0_PFALC_2229-2600 (identical to FH2_domain-containing_protein_A0A024WM12_PFALC_2235-2606) is ignored but added at the end
+NOTE: FH2_domain-containing_protein_W7J9S5_PFALC_2300-2671 (identical to FH2_domain-containing_protein_A0A024WM12_PFALC_2235-2606) is ignored but added at the end
+NOTE: FH2_domain-containing_protein_W7K468_PFALC_2185-2556 (identical to FH2_domain-containing_protein_A0A024WM12_PFALC_2235-2606) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to 20221122_prots_with_fh2_for_tree.fa.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.157 seconds
+NOTE: ModelFinder requires 73 MB RAM!
+ModelFinder will test 84 protein models (sample size: 349) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  Dayhoff       157186.510   627 315627.020   1103139.020  318044.150
+  2  Dayhoff+G4    153465.442   628 308186.885   1098210.885  310607.870
+  3  Dayhoff+F     156810.847   646 314913.694   1150837.694  317404.071
+  4  Dayhoff+F+G4  152921.037   647 307136.073   1145648.073  309630.305
+  5  mtMAM         170972.401   627 343198.803   1130710.803  345615.933
+  6  mtMAM+G4      161901.866   628 325059.732   1115083.732  327480.717
+  7  mtMAM+F       163642.347   646 328576.694   1164500.694  331067.071
+  8  mtMAM+F+G4    157270.061   647 315834.123   1154346.123  318328.354
+  9  JTT           156656.964   627 314567.928   1102079.928  316985.058
+ 10  JTT+G4        152694.803   628 306645.605   1096669.605  309066.591
+ 11  JTT+F         156275.705   646 313843.410   1149767.410  316333.786
+ 12  JTT+F+G4      152222.832   647 305739.664   1144251.664  308233.896
+ 13  WAG           155027.607   627 311309.214   1098821.214  313726.344
+ 14  WAG+G4        151778.159   628 304812.318   1094836.318  307233.303
+ 15  WAG+F         155421.241   646 312134.483   1148058.483  314624.859
+ 16  WAG+F+G4      151938.044   647 305170.089   1143682.089  307664.320
+ 17  cpREV         156563.374   627 314380.749   1101892.749  316797.879
+ 18  cpREV+G4      153345.450   628 307946.900   1097970.900  310367.886
+ 19  cpREV+F       157228.401   646 315748.802   1151672.802  318239.178
+ 20  cpREV+F+G4    153608.980   647 308511.961   1147023.961  311006.192
+ 21  mtREV         165197.414   627 331648.827   1119160.827  334065.957
+ 22  mtREV+G4      159178.528   628 319613.055   1109637.055  322034.040
+ 23  mtREV+F       159309.925   646 319911.850   1155835.850  322402.227
+ 24  mtREV+F+G4    154700.285   647 310694.570   1149206.570  313188.802
+ 25  rtREV         156250.394   627 313754.788   1101266.788  316171.918
+ 26  rtREV+G4      152322.880   628 305901.760   1095925.760  308322.745
+ 27  rtREV+F       155414.845   646 312121.690   1148045.690  314612.067
+ 28  rtREV+F+G4    151360.896   647 304015.792   1142527.792  306510.024
+ 29  mtART         168618.207   627 338490.415   1126002.415  340907.545
+ 30  mtART+G4      160083.045   628 321422.090   1111446.090  323843.075
+ 31  mtART+F       161064.247   646 323420.494   1159344.494  325910.871
+ 32  mtART+F+G4    154796.336   647 310886.672   1149398.672  313380.903
+ 33  mtZOA         163991.356   627 329236.712   1116748.712  331653.842
+ 34  mtZOA+G4      156466.617   628 314189.235   1104213.235  316610.220
+ 35  mtZOA+F       158850.982   646 318993.963   1154917.963  321484.340
+ 36  mtZOA+F+G4    153429.567   647 308153.134   1146665.134  310647.366
+ 37  VT            155192.608   627 311639.215   1099151.215  314056.345
+ 38  VT+G4         151907.104   628 305070.209   1095094.209  307491.194
+ 39  VT+F          155357.806   646 312007.611   1147931.611  314497.988
+ 40  VT+F+G4       151958.583   647 305211.166   1143723.166  307705.397
+ 41  LG            155213.719   627 311681.438   1099193.438  314098.568
+ 42  LG+G4         150973.500   628 303203.000   1093227.000  305623.985
+ 43  LG+F          155232.455   646 311756.911   1147680.911  314247.287
+ 44  LG+F+G4       150921.680   647 303137.360   1141649.360  305631.592
+ 45  DCMut         157179.591   627 315613.181   1103125.181  318030.311
+ 46  DCMut+G4      153466.836   628 308189.672   1098213.672  310610.658
+ 47  DCMut+F       156804.264   646 314900.529   1150824.529  317390.905
+ 48  DCMut+F+G4    152921.971   647 307137.941   1145649.941  309632.173
+ 49  PMB           156358.952   627 313971.905   1101483.905  316389.035
+ 50  PMB+G4        152920.458   628 307096.917   1097120.917  309517.902
+ 51  PMB+F         156520.205   646 314332.409   1150256.409  316822.786
+ 52  PMB+F+G4      152995.530   647 307285.060   1145797.060  309779.292
+ 53  HIVb          160749.631   627 322753.262   1110265.262  325170.392
+ 54  HIVb+G4       155911.292   628 313078.584   1103102.584  315499.569
+ 55  HIVb+F        159730.951   646 320753.902   1156677.902  323244.278
+ 56  HIVb+F+G4     154581.433   647 310456.867   1148968.867  312951.098
+ 57  HIVw          167714.047   627 336682.094   1124194.094  339099.225
+ 58  HIVw+G4       163252.079   628 327760.158   1117784.158  330181.143
+ 59  HIVw+F        164200.046   646 329692.092   1165616.092  332182.469
+ 60  HIVw+F+G4     159423.520   647 320141.040   1158653.040  322635.272
+ 61  JTTDCMut      156661.065   627 314576.131   1102088.131  316993.261
+ 62  JTTDCMut+G4   152710.621   628 306677.241   1096701.241  309098.226
+ 63  JTTDCMut+F    156306.485   646 313904.970   1149828.970  316395.346
+ 64  JTTDCMut+F+G4 152260.775   647 305815.549   1144327.549  308309.781
+ 65  FLU           160081.140   627 321416.280   1108928.280  323833.410
+ 66  FLU+G4        155649.225   628 312554.450   1102578.450  314975.435
+ 67  FLU+F         159613.431   646 320518.861   1156442.861  323009.238
+ 68  FLU+F+G4      154700.423   647 310694.846   1149206.846  313189.078
+ 69  Blosum62      155873.653   627 313001.306   1100513.306  315418.436
+ 70  Blosum62+G4   152661.803   628 306579.605   1096603.605  309000.590
+ 71  Blosum62+F    156087.973   646 313467.946   1149391.946  315958.323
+ 72  Blosum62+F+G4 152783.600   647 306861.200   1145373.200  309355.432
+ 73  mtMet         166282.591   627 333819.182   1121331.182  336236.312
+ 74  mtMet+G4      159174.084   628 319604.167   1109628.167  322025.152
+ 75  mtMet+F       159188.747   646 319669.494   1155593.494  322159.870
+ 76  mtMet+F+G4    153964.769   647 309223.538   1147735.538  311717.769
+ 77  mtVer         168051.472   627 337356.945   1124868.945  339774.075
+ 78  mtVer+G4      160214.643   628 321685.286   1111709.286  324106.271
+ 79  mtVer+F       162052.690   646 325397.381   1161321.381  327887.757
+ 80  mtVer+F+G4    156188.352   647 313670.705   1152182.705  316164.936
+ 81  mtInv         166494.830   627 334243.660   1121755.660  336660.791
+ 82  mtInv+G4      160021.936   628 321299.873   1111323.873  323720.858
+ 83  mtInv+F       157636.028   646 316564.057   1152488.057  319054.433
+ 84  mtInv+F+G4    152917.836   647 307129.672   1145641.672  309623.904
+Akaike Information Criterion:           LG+F+G4
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         LG+G4
+Best-fit model: LG+G4 chosen according to BIC
+
+All model information printed to 20221122_prots_with_fh2_for_tree.fa.model.gz
+CPU time for ModelFinder: 203.780 seconds (0h:3m:23s)
+Wall-clock time for ModelFinder: 205.128 seconds (0h:3m:25s)
+Generating 1000 samples for ultrafast bootstrap (seed: 891729)...
+
+NOTE: 73 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -151257.656
+2. Current log-likelihood: -151005.014
+3. Current log-likelihood: -150973.975
+4. Current log-likelihood: -150973.514
+Optimal log-likelihood: -150973.497
+Gamma shape alpha: 2.098
+Parameters optimization took 4 rounds (4.402 sec)
+Computing ML distances based on estimated model parameters... 32.136 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.110 seconds
+Log-likelihood of BIONJ tree: -150197.057
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 19.852 second
+Computing log-likelihood of 98 initial trees ... 54.240 seconds
+Current best score: -150197.057
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -150019.298
+Iteration 10 / LogL: -150292.751 / Time: 0h:3m:40s
+Iteration 20 / LogL: -150368.939 / Time: 0h:5m:28s
+Finish initializing candidate tree set (20)
+Current best tree score: -150019.298 / CPU time: 286.369
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -150017.574
+Iteration 30 / LogL: -150041.563 / Time: 0h:6m:56s (0h:22m:29s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 34: -150017.403
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -150009.725
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 38: -150005.558
+Iteration 40 / LogL: -150007.003 / Time: 0h:8m:21s (0h:21m:0s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 43: -149991.062
+Iteration 50 / LogL: -149995.642 / Time: 0h:9m:49s (0h:18m:38s left)
+Log-likelihood cutoff on original alignment: -150163.188
+UFBoot trees printed to 20221122_prots_with_fh2_for_tree.fa.ufboot
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 52: -149986.910
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 55: -149985.114
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 57: -149979.332
+Iteration 60 / LogL: -150091.460 / Time: 0h:11m:14s (0h:18m:29s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 66: -149973.576
+Iteration 70 / LogL: -149991.189 / Time: 0h:12m:34s (0h:17m:29s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 72: -149968.494
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 78: -149967.560
+Iteration 80 / LogL: -149974.100 / Time: 0h:13m:57s (0h:17m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 88: -149965.474
+Iteration 90 / LogL: -149981.207 / Time: 0h:15m:40s (0h:17m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 94: -149962.234
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 99: -149962.178
+Iteration 100 / LogL: -149970.013 / Time: 0h:17m:4s (0h:17m:4s left)
+Log-likelihood cutoff on original alignment: -150073.272
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.961
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to 20221122_prots_with_fh2_for_tree.fa.ufboot
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 102: -149954.161
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 108: -149949.672
+Iteration 110 / LogL: -150014.782 / Time: 0h:18m:32s (0h:16m:40s left)
+Iteration 120 / LogL: -150103.283 / Time: 0h:19m:52s (0h:14m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 130: -149948.330
+Iteration 130 / LogL: -149948.330 / Time: 0h:21m:12s (0h:16m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 134: -149943.638
+Iteration 140 / LogL: -149946.172 / Time: 0h:22m:33s (0h:15m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 145: -149936.391
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 146: -149935.142
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 150: -149932.832
+Iteration 150 / LogL: -149932.832 / Time: 0h:23m:55s (0h:16m:3s left)
+Log-likelihood cutoff on original alignment: -150063.990
+UFBoot trees printed to 20221122_prots_with_fh2_for_tree.fa.ufboot
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 155: -149932.717
+Iteration 160 / LogL: -149942.545 / Time: 0h:25m:21s (0h:15m:9s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 167: -149929.455
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 170: -149929.047
+Iteration 170 / LogL: -149929.047 / Time: 0h:26m:48s (0h:15m:51s left)
+Iteration 180 / LogL: -149930.468 / Time: 0h:28m:11s (0h:14m:10s left)
+Iteration 190 / LogL: -149941.734 / Time: 0h:29m:35s (0h:12m:31s left)
+Iteration 200 / LogL: -149941.120 / Time: 0h:30m:57s (0h:10m:53s left)
+Log-likelihood cutoff on original alignment: -150047.882
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.948
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to 20221122_prots_with_fh2_for_tree.fa.ufboot
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 201: -149928.181
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 204: -149927.971
+Iteration 210 / LogL: -149941.167 / Time: 0h:32m:22s (0h:14m:33s left)
+Iteration 220 / LogL: -149945.347 / Time: 0h:33m:59s (0h:13m:2s left)
+Iteration 230 / LogL: -149942.826 / Time: 0h:35m:18s (0h:11m:24s left)
+Iteration 240 / LogL: -149944.648 / Time: 0h:36m:39s (0h:9m:49s left)
+Iteration 250 / LogL: -149932.141 / Time: 0h:38m:1s (0h:8m:14s left)
+Log-likelihood cutoff on original alignment: -150047.882
+UFBoot trees printed to 20221122_prots_with_fh2_for_tree.fa.ufboot
+Iteration 260 / LogL: -149944.728 / Time: 0h:39m:29s (0h:6m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 261: -149927.297
+Iteration 270 / LogL: -149928.495 / Time: 0h:40m:51s (0h:13m:49s left)
+Iteration 280 / LogL: -149933.953 / Time: 0h:42m:13s (0h:12m:15s left)
+Iteration 290 / LogL: -149947.875 / Time: 0h:43m:35s (0h:10m:42s left)
+Iteration 300 / LogL: -149957.061 / Time: 0h:44m:55s (0h:9m:9s left)
+Log-likelihood cutoff on original alignment: -150047.882
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.990
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to 20221122_prots_with_fh2_for_tree.fa.ufboot
+Iteration 310 / LogL: -149928.968 / Time: 0h:46m:15s (0h:13m:28s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 314: -149927.250
+Iteration 320 / LogL: -149942.819 / Time: 0h:47m:35s (0h:14m:1s left)
+Iteration 330 / LogL: -149932.938 / Time: 0h:48m:56s (0h:12m:29s left)
+Iteration 340 / LogL: -149937.731 / Time: 0h:50m:17s (0h:10m:58s left)
+Iteration 350 / LogL: -149938.045 / Time: 0h:51m:35s (0h:9m:27s left)
+Log-likelihood cutoff on original alignment: -150047.882
+UFBoot trees printed to 20221122_prots_with_fh2_for_tree.fa.ufboot
+Iteration 360 / LogL: -149929.961 / Time: 0h:52m:59s (0h:7m:58s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 369: -149924.723
+Iteration 370 / LogL: -150018.161 / Time: 0h:54m:23s (0h:14m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 372: -149922.416
+Iteration 380 / LogL: -149922.980 / Time: 0h:55m:43s (0h:13m:31s left)
+Iteration 390 / LogL: -149928.429 / Time: 0h:57m:3s (0h:12m:1s left)
+Iteration 400 / LogL: -149929.262 / Time: 0h:58m:23s (0h:10m:32s left)
+Log-likelihood cutoff on original alignment: -150047.882
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.990
+UFBoot trees printed to 20221122_prots_with_fh2_for_tree.fa.ufboot
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 410: -149919.911
+Iteration 410 / LogL: -149919.911 / Time: 0h:59m:48s (0h:14m:37s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 412: -149918.779
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 420: -149918.397
+Iteration 420 / LogL: -149918.397 / Time: 1h:1m:9s (0h:14m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 424: -149917.938
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 425: -149917.532
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 430: -149916.029
+Iteration 430 / LogL: -149916.029 / Time: 1h:2m:34s (0h:14m:35s left)
+Iteration 440 / LogL: -149925.037 / Time: 1h:3m:53s (0h:13m:5s left)
+Iteration 450 / LogL: -149938.497 / Time: 1h:5m:11s (0h:11m:36s left)
+Log-likelihood cutoff on original alignment: -150047.882
+UFBoot trees printed to 20221122_prots_with_fh2_for_tree.fa.ufboot
+Iteration 460 / LogL: -149922.323 / Time: 1h:6m:32s (0h:10m:8s left)
+Iteration 470 / LogL: -149928.073 / Time: 1h:7m:50s (0h:8m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 473: -149914.771
+Iteration 480 / LogL: -149914.819 / Time: 1h:9m:15s (0h:13m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 489: -149913.417
+Iteration 490 / LogL: -149914.379 / Time: 1h:10m:36s (0h:14m:17s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 500: -149911.844
+Iteration 500 / LogL: -149911.844 / Time: 1h:11m:58s (0h:14m:25s left)
+Log-likelihood cutoff on original alignment: -150047.882
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.982
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to 20221122_prots_with_fh2_for_tree.fa.ufboot
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 508: -149909.309
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 510: -149908.883
+Iteration 510 / LogL: -149908.883 / Time: 1h:13m:22s (0h:14m:24s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 520: -149908.316
+Iteration 520 / LogL: -149908.316 / Time: 1h:14m:46s (0h:14m:24s left)
+Iteration 530 / LogL: -149913.684 / Time: 1h:16m:9s (0h:12m:57s left)
+Iteration 540 / LogL: -149911.818 / Time: 1h:17m:28s (0h:11m:29s left)
+Iteration 550 / LogL: -149918.499 / Time: 1h:18m:53s (0h:10m:3s left)
+Log-likelihood cutoff on original alignment: -150001.136
+UFBoot trees printed to 20221122_prots_with_fh2_for_tree.fa.ufboot
+Iteration 560 / LogL: -149924.858 / Time: 1h:20m:14s (0h:8m:36s left)
+Iteration 570 / LogL: -149919.773 / Time: 1h:21m:30s (0h:7m:9s left)
+Iteration 580 / LogL: -149908.839 / Time: 1h:22m:52s (0h:5m:43s left)
+Iteration 590 / LogL: -149924.266 / Time: 1h:24m:11s (0h:4m:17s left)
+Iteration 600 / LogL: -149909.157 / Time: 1h:25m:29s (0h:2m:51s left)
+Log-likelihood cutoff on original alignment: -150001.136
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.977
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to 20221122_prots_with_fh2_for_tree.fa.ufboot
+Iteration 610 / LogL: -149923.742 / Time: 1h:26m:54s (0h:12m:50s left)
+Iteration 620 / LogL: -149916.257 / Time: 1h:28m:14s (0h:11m:24s left)
+Iteration 630 / LogL: -149912.304 / Time: 1h:29m:34s (0h:9m:58s left)
+Iteration 640 / LogL: -149910.018 / Time: 1h:30m:54s (0h:8m:32s left)
+Iteration 650 / LogL: -149913.320 / Time: 1h:32m:18s (0h:7m:6s left)
+Log-likelihood cutoff on original alignment: -150001.136
+UFBoot trees printed to 20221122_prots_with_fh2_for_tree.fa.ufboot
+Iteration 660 / LogL: -149922.396 / Time: 1h:33m:41s (0h:5m:41s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 669: -149907.936
+Iteration 670 / LogL: -149908.917 / Time: 1h:35m:2s (0h:14m:3s left)
+Iteration 680 / LogL: -149911.761 / Time: 1h:36m:21s (0h:12m:37s left)
+Iteration 690 / LogL: -149918.391 / Time: 1h:37m:43s (0h:11m:12s left)
+Iteration 700 / LogL: -149939.413 / Time: 1h:39m:3s (0h:9m:46s left)
+Log-likelihood cutoff on original alignment: -150001.136
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.975
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to 20221122_prots_with_fh2_for_tree.fa.ufboot
+Iteration 710 / LogL: -149924.617 / Time: 1h:40m:24s (0h:12m:44s left)
+Iteration 720 / LogL: -149915.355 / Time: 1h:41m:43s (0h:11m:19s left)
+Iteration 730 / LogL: -149916.083 / Time: 1h:43m:0s (0h:9m:53s left)
+Iteration 740 / LogL: -149928.059 / Time: 1h:44m:21s (0h:8m:28s left)
+Iteration 750 / LogL: -149925.157 / Time: 1h:45m:39s (0h:7m:3s left)
+Log-likelihood cutoff on original alignment: -150001.136
+UFBoot trees printed to 20221122_prots_with_fh2_for_tree.fa.ufboot
+Iteration 760 / LogL: -149918.364 / Time: 1h:47m:4s (0h:5m:38s left)
+Iteration 770 / LogL: -149949.335 / Time: 1h:48m:25s (0h:4m:13s left)
+Iteration 780 / LogL: -149930.663 / Time: 1h:49m:49s (0h:2m:49s left)
+Iteration 790 / LogL: -149909.203 / Time: 1h:51m:17s (0h:1m:24s left)
+Iteration 800 / LogL: -149915.665 / Time: 1h:52m:38s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -150001.136
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.985
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to 20221122_prots_with_fh2_for_tree.fa.ufboot
+Iteration 810 / LogL: -149994.484 / Time: 1h:54m:0s (0h:12m:40s left)
+Iteration 820 / LogL: -149913.004 / Time: 1h:55m:22s (0h:11m:16s left)
+Iteration 830 / LogL: -149918.654 / Time: 1h:56m:41s (0h:9m:51s left)
+Iteration 840 / LogL: -149988.477 / Time: 1h:58m:4s (0h:8m:26s left)
+Iteration 850 / LogL: -149918.744 / Time: 1h:59m:25s (0h:7m:2s left)
+Log-likelihood cutoff on original alignment: -150001.136
+UFBoot trees printed to 20221122_prots_with_fh2_for_tree.fa.ufboot
+Iteration 860 / LogL: -149965.897 / Time: 2h:0m:49s (0h:5m:37s left)
+Iteration 870 / LogL: -149943.976 / Time: 2h:2m:12s (0h:4m:13s left)
+Iteration 880 / LogL: -149920.180 / Time: 2h:3m:32s (0h:2m:48s left)
+Iteration 890 / LogL: -149915.512 / Time: 2h:4m:51s (0h:1m:24s left)
+Iteration 900 / LogL: -149911.461 / Time: 2h:6m:12s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -150001.136
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.990
+UFBoot trees printed to 20221122_prots_with_fh2_for_tree.fa.ufboot
+TREE SEARCH COMPLETED AFTER 900 ITERATIONS / Time: 2h:6m:14s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -149907.936
+2. Current log-likelihood: -149907.871
+3. Current log-likelihood: -149907.780
+4. Current log-likelihood: -149907.765
+Optimal log-likelihood: -149907.764
+Gamma shape alpha: 2.107
+Parameters optimization took 4 rounds (3.572 sec)
+BEST SCORE FOUND : -149907.764
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Alternative NNI shows better log-likelihood -149907.712 > -149907.764
+4.044 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file 20221122_prots_with_fh2_for_tree.fa.splits.nex
+Total tree length: 189.530
+
+Total number of iterations: 900
+CPU time used for tree search: 7495.584 sec (2h:4m:55s)
+Wall-clock time used for tree search: 7531.709 sec (2h:5m:31s)
+Total CPU time used: 7546.628 sec (2h:5m:46s)
+Total wall-clock time used: 7583.147 sec (2h:6m:23s)
+UFBoot trees printed to 20221122_prots_with_fh2_for_tree.fa.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file 20221122_prots_with_fh2_for_tree.fa.splits.nex...
+315 taxa and 1924 splits.
+Consensus tree written to 20221122_prots_with_fh2_for_tree.fa.contree
+Reading input trees file 20221122_prots_with_fh2_for_tree.fa.contree
+Log-likelihood of consensus tree: -149912.715
+
+Analysis results written to: 
+  IQ-TREE report:                20221122_prots_with_fh2_for_tree.fa.iqtree
+  Maximum-likelihood tree:       20221122_prots_with_fh2_for_tree.fa.treefile
+  Likelihood distances:          20221122_prots_with_fh2_for_tree.fa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          20221122_prots_with_fh2_for_tree.fa.splits.nex
+  Consensus tree:                20221122_prots_with_fh2_for_tree.fa.contree
+  UFBoot trees:                  20221122_prots_with_fh2_for_tree.fa.ufboot
+  Screen log file:               20221122_prots_with_fh2_for_tree.fa.log
+
+Date and Time: Tue Nov 22 22:09:36 2022
