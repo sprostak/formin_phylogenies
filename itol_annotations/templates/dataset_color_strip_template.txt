@@ -8,9 +8,9 @@ DATASET_COLORSTRIP
 #=================================================================#
 #select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file.
 
-#SEPARATOR TAB
+SEPARATOR TAB
 #SEPARATOR COMMA
-SEPARATOR SPACE
+#SEPARATOR SPACE
 
 #label is used in the legend table (can be changed later)
 DATASET_LABEL label1
