@@ -55,7 +55,7 @@ COLOR_BRANCHES	0
 #LEGEND_SHAPE_SCALES 1 1 0.5 1
 
 #width of the colored strip
-#STRIP_WIDTH 25
+STRIP_WIDTH	25
 
 #left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
 #MARGIN 0
@@ -130,6 +130,27 @@ I597	#E03BD4	Mucoromycota
 I29	#E38FFF	Chytridiomycota
 I24	#E38FFF	Blastocladiomycota
 I14	#E03BD4	Aphelida
+
+I49	#E38FFF	Chytridiomycota
+I82	#E38FFF	Blastocladiomycota
+I44	#E03BD4	Aphelida	
+
+I150	#E03BD4	Mucoromycota
+I147	#E03BD4	Zoop
+I157	#E38FFF	Chytridiomycota
+
+I204	#E38FFF	Chytridiomycota
+KAI3661183.1_Amoeboaphelidium_occidentale_728-1127	#E03BD4	Aphelida
+I223	#E38FFF	Blastocladiomycota
+
+I292	#E38FFF	Chytridiomycota
+
+
+Formin-like_protein_S7W8F4_SLOPH_476-807	#E03BD4	Microsporidia
+Formin_like_protein_S7XTS3_SLOPH_411-734	#E03BD4	Microsporidia
+
+
+
 
 
 

@@ -13,10 +13,10 @@ SEPARATOR TAB
 #SEPARATOR SPACE
 
 #label is used in the legend table (can be changed later)
-DATASET_LABEL	Metazoa
+DATASET_LABEL	non-opsithokonts
 
 #dataset color (can be changed later)
-COLOR	#4AD1FF
+COLOR	#FFFF00
 
 #=================================================================#
 #                    OPTIONAL SETTINGS                            #
@@ -70,11 +70,11 @@ STRIP_WIDTH	25
 #COMPLETE_BORDER 0
 
 #always show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
-#SHOW_INTERNAL 0
+SHOW_INTERNAL	1
 
 
 #display or hide the individual label inside each colored strip (when defined in the data below)
-SHOW_STRIP_LABELS	1
+#SHOW_STRIP_LABELS 1
 
 #position of the strip label within the box; 'top', 'center' or 'bottom'
 #STRIP_LABEL_POSITION center
@@ -120,13 +120,81 @@ DATA
 #assign a green, semi-transparent (alpha 0.5) strip to an internal node, without any label. If 'Show internal values' is set to 'No', this will only be displayed if the node is collapsed. 
 #9606|5664 rgba(0,255,0,0.5)
 
+Ankyrin_repeat_containing_protein_L8GIQ3_ACAST_1050-1407	#E3B53D	Amoebozoa
+Formin_domain_containing_protein_L8GTC9_ACAST_141-496	#E3B53D	Amoebozoa
+I455	#E3B53D	Amoebozoa
+I359	#E3B53D	Amoebozoa
+I542	#E3B53D	Amoebozoa
+Formin-H_Q54N00_DDISC_629-990	#E3B53D	Amoebozoa
+I511	#E3B53D	Amoebozoa
+Ankyrin_repeat-containing_protein_L8H732_ACAST_601-748	#E3B53D	Amoebozoa
+Formin_1_2_cappuccino__putative_A0A0A1UFQ3_EINVA_559-913	#E3B53D	Amoebozoa
+FH2_domain-containing_protein_A0A0A1UAJ4_EINVA_427-761	#E3B53D	Amoebozoa
+Formin-J_Q54ER5_DDISC_1112-1469	#E3B53D	Amoebozoa
+Formin_domain_containing_protein_L8GRW6_ACAST_450-824	#E3B53D	Amoebozoa
+FH2_domain-containing_protein_A0A0A1UDL9_EINVA_561-779	#E3B53D	Amoebozoa
 
-I552	#4AD1FF	DIAP
-I90	#4AD1FF	DAAM
-I112	#4AD1FF	FMNL
-I369	#4AD1FF	FHOD
-I398	#4AD1FF	FMN/CPU
-I236	#4AD1FF	INF
-I19	#4AD1FF	Delphillin
+
+I463	#61A505	Class II
+I297	#61A505	Class I
+
+
+Formin-like_protein_A0A2K3DUU3_CREIN_1656-2038	#003000
+Formin-like_protein_A0A2K3DRP0_CREIN_3820-4159	#003000
+Formin-like_protein_A0A2K3DWR9_CREIN_1255-1619	#003000
+FH2_domain-containing_protein_A0A2K3DS02_CREIN_945-1293	#003000
+
+
+FH2_domain-containing_protein_B8C8N4_TPSEU_1-178	#808080	SAR
+I496	#808080	SAR
+I252	#808080	SAR
+I427	#808080	SAR
+I187	#808080	SAR
+
+
+
+Uncharacterized_protein_A0A0L0DLY3_TTRAH_425-787	#808080	Apuzozoa
+Uncharacterized_protein_A0A0L0DMV4_TTRAH_577-959	#808080	Apusozoa
+FH2_domain-containing_protein_A0A0L0D359_TTRAH_682-1049	#808080	Apusozoa
+I446	#808080	Apusozoa
+I336	#808080	Apusozoa
+I282	#808080	Apusozoa
+FH2_domain-containing_protein_A0A0L0DNX9_TTRAH_545-818	#808080	Apusozoa
+Uncharacterized_protein_A0A0L0DCZ2_TTRAH_646-1006	#808080	Apusozoa
+FH2_domain-containing_protein_A0A0L0D6J7_TTRAH_1235-1600	#808080	Apusozoa
+I391	#808080	Apusozoa
+Uncharacterized_protein_A0A0L0DDQ6_TTRAH_672-1009	#808080	Apusozoa
+
+
+
+I505	#73E6B3	Discoba
+Formin_A_Q582D5_TBRUC_619-919	#73E6B3	Discoba
+Formin_B_Q385J4_TBRUC_590-948	#73E6B3	Discoba
+FH2_domain-containing_protein_D2V0M6_NGRUB_783-1137	#73E6B3	Discoba
+I168	#73E6B3	Discoba
+
+Erythrocyte_membrane-associated_giant_protein_antigen_332_containing_protein_A2EA78_TVAGI_2401-2609	#800080	Metamonads
+I433	#800080	Metamonads
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

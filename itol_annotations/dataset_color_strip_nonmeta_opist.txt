@@ -13,10 +13,10 @@ SEPARATOR TAB
 #SEPARATOR SPACE
 
 #label is used in the legend table (can be changed later)
-DATASET_LABEL	Metazoa
+DATASET_LABEL	non-metazoan Opistokonts
 
 #dataset color (can be changed later)
-COLOR	#4AD1FF
+COLOR	#008080
 
 #=================================================================#
 #                    OPTIONAL SETTINGS                            #
@@ -74,7 +74,7 @@ STRIP_WIDTH	25
 
 
 #display or hide the individual label inside each colored strip (when defined in the data below)
-SHOW_STRIP_LABELS	1
+#SHOW_STRIP_LABELS 1
 
 #position of the strip label within the box; 'top', 'center' or 'bottom'
 #STRIP_LABEL_POSITION center
@@ -120,13 +120,26 @@ DATA
 #assign a green, semi-transparent (alpha 0.5) strip to an internal node, without any label. If 'Show internal values' is set to 'No', this will only be displayed if the node is collapsed. 
 #9606|5664 rgba(0,255,0,0.5)
 
+I233	#008080	Choanoflagellates
+I229	#008080	Choanoflagellates
+I395	#008080	Choanoflagellates
+I537	#008080	Choanoflagellates
+I109	#008080	Choanoflagellates
+I105	#008080	Choanoflagellates
+I101	#008080	Choanoflagellates
+Predicted_protein_A9UVG5_MBREV_633-999	#008080	Choanoflagellates
+Uncharacterized_protein_F2UEZ1_SROSE_609-973	#008080	Choanoflagellates
 
-I552	#4AD1FF	DIAP
-I90	#4AD1FF	DAAM
-I112	#4AD1FF	FMNL
-I369	#4AD1FF	FHOD
-I398	#4AD1FF	FMN/CPU
-I236	#4AD1FF	INF
-I19	#4AD1FF	Delphillin
+
+
+
+
+
+I366	#00BFBF	Filasterea
+Uncharacterized_protein_A0A0D2VZG9_COWCZ_454-811	#00BFBF	Filasterea
+Uncharacterized_protein_A0A0D2WWW9_COWCZ_670-1014	#00BFBF	Filasterea
+Uncharacterized_protein_A0A0D2X1Q4_COWCZ_819-1181	#00BFBF	Filasterea
+
+
 
 
