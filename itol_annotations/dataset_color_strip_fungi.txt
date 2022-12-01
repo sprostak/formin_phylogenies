@@ -135,7 +135,9 @@ I49	#E38FFF	Chytridiomycota
 I82	#E38FFF	Blastocladiomycota
 I44	#E03BD4	Aphelida	
 
-I150	#E03BD4	Mucoromycota
+I151	#E03BD4	Mucoromycota
+KFH69528.1_Podila_verticillata_NRRL_6337_1524-1893	#E03BD4	Mucoromycota
+Diaphanous_related_Formin_A0A0D1CXZ5_UMAYD_1599-1966	#F26B54	Dikarya
 I147	#E03BD4	Zoop
 I157	#E38FFF	Chytridiomycota
 
